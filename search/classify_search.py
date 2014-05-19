@@ -105,13 +105,13 @@ if __name__ == '__main__':
     build_features('../data/search_results.json', 'test_data.svm')
 
     #subdivide feature vectors, train model, test model, get metrics
-    run_crossfold(10, 'search_error.txt')
-    for f in glob.glob('crstemp*'):
-        if f.endswith('model'):
-            continue
-        os.remove(f)
+    run_crossfold(10)
+    #===========================================================================
+    # for f in glob.glob('crstemp*'):
+    #     if f.endswith('model'):
+    #         continue
+    #     os.remove(f)
+    #===========================================================================
 
-    #===========================================================================
-    # #ROC curve data
-    # check_call(['python', './liblinear-1.94/python/plotroc.py', '-T', 'crstemptest.txt', '-s', '5', 'crstemptrain.txt'])
-    #===========================================================================
+    #ROC curve data
+    check_call(['python', '../liblinear-roc/python/plotroc.py', '-T', 'crstemptest.txt', '-s', '4', 'crstemptrain.txt'])
