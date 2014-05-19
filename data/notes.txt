@@ -1,0 +1,51 @@
+
+5/16/2014
+
+want to combine venue classifier with search classifier, get end to end rates
+
+-load data file
+
+-for each point
+
+-load sentence
+	-extract venue features
+	-select venue
+	
+
+
+5/15/2014
+
+issue:
+-multiple locations returned by 4 squre
+	- most mismatches for chains
+
+solutions:
+
+	-exact name matching:
+		-trade
+		-za	
+		-Brick and Mortar
+	-edit distance?
+		
+	-more specific lat-long data?
+	-look for secondary location data
+		-street names
+		-if multiple venues, is one unambigous?
+	
+	-look for type data
+		-"drink"
+		-"eat"
+		-"trampolines"
+		
+		
+	
+	
+returns same address multiple times from 4 square
+	-Firebrand saints 
+	-Legal Harborside
+
+issue: not getting hits for some instances
+
+solutions:
+	-backoff on ngrams?
+	
