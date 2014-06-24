@@ -158,8 +158,6 @@ def build_features(inpath, outpath):
             f.write(' '.join(features) + "|\t|" + venue_name + '\n')
 
 
-
 if __name__ == "__main__":
     #test: feature extraction working?
-    path = 'data/test_new.json'
-    build_features(path)
+    build_features('data/test_new.json', 'search_testing.json')

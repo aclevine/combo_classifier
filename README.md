@@ -54,3 +54,7 @@ run searchclassifier.py to get search results classification metrics
 	- Did 4square deem result the most relevant? (first result?)
 	- How relevant did 4square deem the returned venue
 	
+	
+#### ROC graph functionality
+compile a copy of liblinear from the python directory.  place files in liblinear-roc.  Do not overwrite plotroc.py.
+	

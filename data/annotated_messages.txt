@@ -1,0 +1,1906 @@
+rsvp:no	We're crazy busy can't come out
+s:na	:)
+pq:what	Skiing this weekend?
+a:yes	Sure, that's fine.
+s:na	V
+rsvp:no	Nope got friend over
+rsvp:no	I prly won't get off in time
+rsvp:yes	I'm down.
+whq:where	Any place in mind?
+whq:what	Were you thinking dinner or just drinks somewhere?
+whq:when	Tonight?
+rsvp:maybe	I'm not sure.
+s:na	I'll probably let you know tomorrow afternoon?
+s:na	Gonna be a sick pow day I'll call ya, in 15ish
+rsvp:yes	Sounds good to meyes
+s:na	Glad I didn't mi ss out on wings last night.
+s:na	Róisín and I found a GEM near our place you'll have to check out
+whq:who	And is Tom in?
+rsvp:yes	Steven is in.
+s:na	We can just go and try
+rsvp:maybe	Let's play it by ear
+rsvp:maybe	Not sure yet
+s:na	Sweet!
+s:na	My roommate Tim is coming too!
+rsvp:yes	That sounds good
+s:na	Thanks for the invite!
+rsvp:no	But I'm working at 6am tomorrow.
+rsvp:no	Rain check
+whq:when	About what time, I have work and class tomorrow?
+rsvp:no	Sadly no
+pq:gen:when	Is it ok if it's closer to 9pm?
+rsvp:no	Need to be somewhere else at that time
+a:yes	heeeey yes I want that!
+rsvp:no	I might need to renege
+a:yes	Okay.
+rsvp:yes	That'll work.
+s:na	Come celebrate my bday at Baker's for dinner!!!
+whq:when	At 6 or 7?
+s:na	I see your responses as push notifications but nothing show up here
+s:na	When tim is done working on your roommates car we are coming over together
+rsvp:no	Working on Thursday and Friday, good idea though.
+whq:when	How long will you guys be there?
+s:na	Wtf
+s:gen:when	So actually evening
+s:na	Happy Chinese New Year! :-)
+s:na	Excited to celebrate with you
+s:na	P
+rsvp:maybe	Umm I think I can probably do that closer to the 4:30 time, but I'm not certain.
+rsvp:yes	Plan to be there
+rsvp:yes	sure sounds fun
+s:na	Hahaah
+whq:when	Nowish?
+whq:where	The plan is to go to Chinatown.
+s:na	Dan and I will leave shortly from CRV.
+s:na	Joe, let us know when you are on your way.
+s:na	Good times.
+s:na	Have fun Jamie
+rsvp:no	Can't join you
+s:gen:when	Well go now then?
+rsvp:no	Won't make it
+s:gen:when	Going to be in boulder from 330 to about 8ish.
+s:gen:when	Kyle has an interview at 330 and then around 6 we will probs go to hookah or something
+pq:gen:what	Want to get coffee after lunch on Monday,
+rsvp:maybe	I hope to be.
+rsvp:yes	This was just a test, but I'm game!
+rsvp:maybe	I suppose that's a possibility
+rsvp:no	Wish we could but have friend in town so don't think we can :(
+whq:when	When are you going ?
+a:yes	Ok.
+rsvp:no:whencond	I think I'm going to go tomorrow night too, and stay in tonight.
+s:na	Let me know if you want to go with Billy and Ingrid.
+rsvp:yes	Sounds good to me!
+rsvp:maybe	I'll try to make it
+s:na	Glad you can make it!
+rsvp:no	Sadly, unable to celebrate with you
+rsvp:yes	Sounds good to me.
+rsvp:yes	Yeah sure
+s:na	Then my ceiling fell off
+rsvp:no	I need to cancel tonight.
+rsvp:no	pass
+rsvp:yes	I'm up for it.
+s:gen:who	Tom's probably not coming but wanna try Steven and Michael?
+s:na	I invited him over fb.
+whq:when	Does 7 work for you to meet?
+s:gen:where	We could go to the dark horse
+rsvp:yes	Sounds greet.
+s:na	Thanks for the chat today Dave!
+pq:gen:what	Do you like french toast?
+pq:gen	You want me to bring anything?
+s:gen:where	2:00 is great.
+s:na	I know asking fur south end location is selfish but...
+rsvp:yes	I'm in!
+s:gen:when	I'm thinking we're going to leave at 12:00.
+s:na	The tickets are sold XX:00 to Close, and do get cheaper the later in the day you start.
+s:na	I also can get you a discount with my pass, but I'd bet that it would still cost ~$70.
+s:na	Sweet!
+s:na	It does a shit job on places outside of where you are :)
+s:gen:when	6 whenever.
+rsvp:yes:whencond	As long as its before 7
+pq:gen	So you want to?
+rsvp:yes	Got my work schedule for that week so I know I can do Wed or Thurs for 
+rsvp:yes	So whatever everyone decides, I can make it.
+rsvp:yes	I can probably pop by
+s:na	I like bowling!
+s:na	And I'll send I some pics
+s:na	I'm running a touch late, I'll get you in 10-15 minutes
+a:yes	Yeah let's do that it's just south of 88th on wads
+rsvp:yes	I'm in.
+whq:when	What time?
+rsvp:yes	I am in.
+rsvp:yes	Totally
+rsvp:maybe	Can I let you know in a little bit?
+s:na	Firebrand?
+s:na	Liberty?
+s:na	you had me at hello
+s:na	Gash
+s:na	Lot of people on this post.
+s:na	Come on
+s:na	Do you want to go for a walk maybe around 6 if I'm out by then?
+rsvp:no	gotta work
+rsvp:yes	I can do Thursday at whatever time works for everybody :)
+a:yes	sure that works
+s:gen:where	Or at mit's library maybe
+rsvp:maybe	I may be around
+rsvp:no	I can't sorry
+rsvp:no	Sorry, I'm going to an old high school friend's party that night, then I r a midterm.
+s:na	Good idea though, hopefully we can get together another time.
+s:na	What are you up to this weeekend?
+rsvp:no	Sorry.
+s:na	You dug your own grave.
+s:gen:when	Yeah till 9 i think
+rsvp:maybe	I would like to come but not sure
+s:na	Sweet!
+rsvp:yes	Yeah I'm free whenever almost
+rsvp:yes	Absolutely
+rsvp:no	Actually I remember that Jenny has to be up early on saturday morning for g so we probably won't be able to go.
+s:na	Is there way to decline invitation in the app?
+s:na	Sweet.
+s:na	A lot of cool shit going on
+s:na	Cool, see you all then!
+rsvp:yes	Yup.
+s:na	Ok, we will meet you at the train
+whq:when	When do you want to go to a movie?
+s:na	Not much
+s:na	Get out of work in time
+s:na	Haha finally
+rsvp:no	Sorry, can't make it tonight.
+s:na	Do you have michaels number?
+s:na	Does it send notifications when I get invited to a ""plan""?
+s:na	Bdhdh
+s:na	7.50
+s:na	Jeremy is around this day and asked about hanging out
+s:na	The we can jump on the T from there
+whq:what	Yall want to hang out tonight
+whq:what	Backpacking trip in a few weeks?
+rsvp:yes	I am doing absolutely nothing at all lol
+rsvp:no:whencond	I need to be heading home at 10 or 1030, for tomorrow. should we reschedule?
+s:na	Or bleu d'auvergne?
+s:na	Comment from organizer that should not go to non wyth user
+s:gen:what	We are going to grab a drink at Shojo on Tyler street
+s:gen:when	Let us plan on leaving from CRV at 6pm tomorrow.
+rsvp:yes	Sounds good?
+s:na	Just swipe left and delete.
+s:na	Hey.
+s:na	I need to drop off maya in Allston at 12.
+a:choice	How about 12:30 at CRV or cic?
+s:na	Guff
+s:na	This is the only day that worked for everyone.
+whq:where	Who wants to host?
+rsvp:yes	Sounds good.
+whq:when	Hey...do u want to meet tomorrow morning or after class?
+rsvp:yes	I am free tomorrow anyways...
+s:na	I like this thread.
+pq:gen	Can I join in your next adventure?
+rsvp:yes	let's do it
+rsvp:maybe	I don't know.
+s:gen:when	Whenever
+s:na	Oh and does a discount exist for only skiing part of the day?
+pq:gen:what	Do you want to go to a football game sat?
+s:gen:where	We could go to nordstrom Rack
+s:gen:when	I can do next Wednesday if that works
+s:na	I'll let you know, after I talk to dr. mike
+rsvp:no	Yeah I think we're out.
+s:na	I like pancakes.
+rsvp:no	Regrets
+s:gen:when	Either Sunday or Saturday.
+rsvp:yes	Sounds like fun!?????????????
+s:na	No question.
+s:na	I like chocolate
+rsvp:yes	Okay, I'm in Denver right now so I will meet you there?
+rsvp:no	I can't tonight I'm afraid
+rsvp:no	Yeah, 8pm on thurs works for me.
+s:na	I am hiding in Antonio's hedges right now, dressed in a Hugo Chavez costume.
+rsvp:yes	I'm in!
+whq:when	What time?
+rsvp:yes	I'll be over shortly
+pq:gen:what	Night skiing at Keystone?
+s:gen:when	Kayla and I are planning on that for Saturday.
+s:gen:when	Tonight
+rsvp:no	I'm gone until the 30th.
+s:na	Happy holidays!
+rsvp:yes	I'll go and I think Jerry is with Christine this weekend
+s:na	Tessa
+rsvp:no	Sorry, I'm out
+rsvp:yes	See you there
+s:na	?????
+s:na	djdnfn
+rsvp:no	Out
+rsvp:yes	Any time.
+rsvp:yes	Sounds good to me
+s:na	We need to link phone numbers.
+s:na	Add you gmail email via the settings
+s:na	And now I'll name cheeses
+rsvp:yes	I'm down.
+s:na	Hashtag running
+s:na	And I meant dia up there not dis, auto correct is kinda dumb, dia goes to dis and dis to did...
+s:gen:when	I'll pick you all up at 8:15ish.
+rsvp:yes	Looking forward to it!
+rsvp:no	Yeah, I am not gonna be able to make it, there is just too much going on.
+s:na	Hopefully next time it will work out better
+s:na	We are here man!!!
+s:na	This is Erin?
+whq:when	Tonight?
+s:gen:when	7?
+rsvp:no	Yeah I think we're out.
+whq:when	You guys are going to be skiing till close
+rsvp:maybe	Waiting on my schedule
+rsvp:yes	Brilliant idea, count me in.
+rsvp:no	Unable to join
+rsvp:maybe	It's possible
+rsvp:yes	Sure, I'm in
+rsvp:yes	Sure.
+s:na	If it goes a little longer, no worries.
+s:na	Drink
+pq:gen:what	Wanna go to tuk tuk?!
+s:na	Have you eaten there?
+s:na	Lol ok I'll text you on monday then.
+s:na	Btw got my grades from Germany today
+a:yes	Works for me
+rsvp:no	Wish I could come
+pq:gen:what	You guys down for some soccer this evening
+s:gen:when	Fernet O'Clock
+rsvp:yes	Sure, what u guys doing?
+s:na	I was just thinking that could you add her?
+pq:gen:what	You lot want to hang out tonight?
+s:na	(I want to watch the Lions/Saints game, but I'm happy with it just on in the background)
+rsvp:yes	So, we can do lunch for sure.
+rsvp:yes	Yes.
+whq:when	When?
+a:choice	Maybe like 5 or 6pm in Central?
+whq:when	So when are you and Kayla going up?
+rsvp:yes	Yeah man.
+pq:gen:when	Want to meet up around 3pm?
+rsvp:maybe	Put me down as a maybe
+s:gen:what	Lets chill
+rsvp:yes	Cool, I will be there
+a:no	My place and Paul's are out.
+pq:gen:where	Can we hang out at yours?
+rsvp:no	next time
+s:gen:what	We could meet somewhere for dinner again tomorrow night
+rsvp:no	Sorry, we aren't going, Jenni's family isn't coming..
+pq:gen:when	Hey how's tonight looking?
+pq:gen:when	Can we do it tomorrow
+rsvp:no	We're busy
+rsvp:no:whencond	I could do lunch instead
+s:na	Hey guys.
+s:na	Testing out this new app to plan a hike in LA.
+s:gen:what	Could also do a cruiser ride up to Venice or something
+s:na	Sweet
+s:na	Whelp
+rsvp:no	Gonna pass tonight.
+s:na	I have to present tomorrow.
+s:na	Need to go over my ppt one more time and print final document.
+s:gen:when	Yeah, we'll probably stay till close.
+s:na	It sucks that the resorts are so expensive when you don't have a pass...
+rsvp:maybe	Maybe depends on if amber wants to
+rsvp:yes	Cool, I'm down for sure!
+rsvp:maybe	Dunno yet
+a:yes	I approve.
+rsvp:yes	I've been meaning to go there for a while
+rsvp:no	Won't work
+rsvp:yes	Yes get off at 1130
+s:na	Wooooooo!!
+s:na	Coming home it might, that is true.
+rsvp:maybe	I'm not sure when dinner will be for me (it depends on when Kate is done working), so I don't know if I could go with you later.
+rsvp:yes	I can meet after class for about an hour
+rsvp:maybe	I am trying to find out.
+s:na	My daughter is working.
+rsvp:no	I'm at work until 11
+s:gen:when	Okay, I'm open for Thursday. 8-8:30 is fine for me too.
+s:na	I forgot my gear at home.
+whq:when	Tomorrow?
+s:na	What do you think of this thing?
+a:yes	I'm feelin' this.
+rsvp:no	No I am out of town for awhile starting tomorrow
+s:gen:where	I think we want Hayden library.
+pq:gen:where	Do you want to meet outside the legal sea foods in Kendall and find our way from there?
+pq:gen:when	5:30 at dunstan?
+rsvp:maybe	I'll let you know
+rsvp:no	I have the child Tiger so I'm out!
+s:na	Thanks for the invite.
+s:na	Welcome here!
+pq:gen:what	Wanna go bowling
+a:yes	Sure that works there's one of 80th and wads
+pq:gen:when	How about 7:15?
+s:na	I enjoy eating!
+rsvp:no	Ugh, my job just called a meeting for Wednesday night so I'm going to have to be the one that throws a wrench in.
+pq:gen:when	I know everyone else says Wed works for them, but could thursday potentially work too?
+s:na	If not, that's okay.
+s:na	I'll just have to try and make the next one.
+s:gen:what	Of course beer
+rsvp:yes	Should be ready to go anytime after 5-5:15ish.
+s:na	Jsjd
+rsvp:maybe	I might swing by for a few
+rsvp:no	Doesn't look like I'll be able to
+rsvp:yes	I'm there!
+what:when	so when are we going to hang?
+s:na	I'm driving up to dis on Wednesday anyway if you're free.
+s:gen:when	I need to be there at 6 am and then again around 10:30 pm so we could do something in the evening
+s:na	Snark
+s:na	WTF
+pq:gen:what	Blackhawk Friday night?
+s:na	?
+s:na	☺️???
+a:yes	yeah, I am
+s:na	What's this tag line of yours!
+s:na	Mikes of course.
+s:na	Modern Pastry stinks!
+s:gen:when	Ah, okay, so pretty much I can leave whenever.
+whq:when	Any preference, maybe like 3pm just get this over with?
+a:choice	Or 4 or 5 are fine.
+s:na	Sunset is at 19:36
+s:na	Test that
+s:na	How much is a half price ticket?
+rsvp:yes	I'm in
+s:na	You can actually edit the date/time of this by tapping on it and then Edit.
+s:na	Not really super discoverable..
+whq:where	Where should we go?
+rsvp:no	Hey, I may have to cancel for tonight, I just found out that a friend of mine is celebrating his birthday after bob's house and wanted me to come.
+whq:what	What are you doing tomorrow night?
+s:na	Well we are going to bob's house, as soon as that is done we can meetup.
+pq:gen:where	Are you not going to aurora?
+s:na	Heading toward that neck of the woods.
+s:na	Lemme know what vector you are going with.
+whq:when	what time?
+whq:what	What's on the docket for this visit?
+s:na	Of course, I'll write up my thoughts but just wanted to say hi and congrats on the beta
+s:na	Oh I didn't know those exist!
+s:na	I did my 1 mile :)
+s:na	Joe arrived
+rsvp:no	Already made plans sorry
+rsvp:yes	Later this evening could work
+rsvp:maybe	I might be able
+s:gen:when	I'd probably go to Chipotle at like 3:30, but we can meet there whenever.
+rsvp:yes	count me in
+rsvp:maybe	Dunno I'll keep you posted
+rsvp:yes	I'm there
+rsvp:no	I have Melissa's thing, can't meet up on Sunday til 5.
+pq:gen:when	Did you mean Saturday?)
+rsvp:yes	I'll see you there
+s:na	??
+rsvp:maybe	I will update you to confirm
+s:gen:when	I've got something before hand, so I'll be there around...
+rsvp:maybe	Can't commit but hope I can
+s:na	I sent her an invite last night via testflight.
+s:na	Let me know if she has trouble.
+rsvp:yes	Yeah, sure.
+s:na	I'll probably stop for Chipotle before.
+s:gen:when	You're welcome to join, or I'll just meet you at legal sea foods around 4.
+s:na	Frog
+s:na	Is Michael working this evening?
+rsvp:yes	Yeah, sounds like fun
+s:na	I like the folding comments interaction!
+rsvp:no	sorry, can't make it.
+rsvp:yes	Yeah, I might get there closer to 7:45 though
+rsvp:maybe	If I can.
+s:na	Kiddo
+s:na	Er that was a poorly phrased question.
+pq:gen:what	Wanna just go there to bug Hattie?
+rsvp:yes	I can do that
+s:gen:where	No Denver, about 6th and grant
+s:na	Not on the bar?
+rsvp:no	I am officially out
+rsvp:yes	I'm game for whatever
+s:na	Originally it was known as ""gran Colombia"" but my great great uncle didn't like having slaves and his soon to be coke snorting cousins did so we went our own way
+rsvp:maybe	Not sure
+rsvp:yes	Yeah.
+whq:when	What time works for you?
+s:na	Ian I made you 4 eggs
+s:na	Hello!
+s:na	Not really
+rsvp:yes	I was just talking to her about that, but I would be in
+rsvp:yes	I might be up for tomorrow night.
+rsvp:maybe	I'm still trying to figure out how much work I have to get done this weekend.
+rsvp:yes	can't wait
+a:yes	Yeah.
+s:na	All-encompassingly
+rsvp:yes	Sounds good.
+s:na	I'm just going to find a wifi spot, we aren't really sure when Kyles interview will be done, usually they go all day but it's starting kinda late
+s:na	thank you Chris
+s:na	Btw, meter parking on summer st has not been bad to find.
+s:na	Sorry for your loss
+s:na	What's good in your hood?
+s:na	I will let steve know when he gets here, see if he's down (I don't see any reason why not).
+s:na	So long as we can chill outside on deck or in garage s'all kewl
+s:na	G
+a:yes	Okay
+a:yes	sure.
+rsvp:yes	I'd need a few minutes...
+s:gen:when	6 sharpish?
+s:na	I can pick you up
+s:na	And the best part about those drinks was they were on the cheap.
+s:na	Like craft brews for 5-6 bucks.
+rsvp:yes	Totes mcgoats
+rsvp:yes	I am down!
+rsvp:yes	Yeah, I think I'll be free at 9ish
+rsvp:no	sadly
+s:na	That's a good thing.
+s:na	Otherwise you'd be a giant!
+whq:when	Decided on a time yet?
+rsvp:yes	I could
+rsvp:maybe	If I can
+rsvp:yes	alright sounds good
+a:yes	Okay.
+s:gen:when	Chris gets off work at 9:30 so come on over about then, or whenever earlier, it doesn't matter to me.
+s:na	Ok kewl
+s:gen:when	Ok let's meet there at 7 then
+rsvp:yes	Thurs I have plans earlier in the evening, but I'll be free by 8.
+rsvp:no	I can't make it as need to be in Boston.
+s:na	So sorry
+a:no	I don't like veal.
+rsvp:no	Not tonight man.
+s:na	John will let me know when he's out of work, I'll come get you and we'll go to the place by his apartment.
+pq:gen:when	You off tomorrow?
+s:na	(Melissa I know you can't make it/don't want to come but I didn't want you to feel left out!)
+rsvp:yes:whatcond	I believe so, what's the gameplan?
+s:na	Yay
+rsvp:yes	7:30 wynkoop sounds good
+rsvp:no	Can't do it
+pq:gen:what	Would you guys be up for a pre dinner beer around 4:00-4:30 in town today?
+pq:gen:when	You still down to go to black hawk tonight
+rsvp:no	Narp
+s:na	Were hanging out with Jeff Sat night and potentially tmrw night
+rsvp:yes	Cool will try to make it
+s:na	K2
+rsvp:no	I can't make it tonight, sorry.
+rsvp:no	Already made plans.
+s:na	Thanks for the invite tho
+rsvp:no	Yeah, let's do it.
+s:gen:when	I'll be available after 8:00 that day
+s:na	That's fine.
+rsvp:yes	I'm here aaalllll daaaaayyyy.
+pq:gen:when	6 work for you?
+pq:gen:when	Hey, do you still want to meet sometime today to finish our slides for tomorrow?
+a:yes	Sounds good.
+pq:gen:when	How bout Sunday?
+s:gen:when	4:30 is about the earliest I can be in boulder too
+rsvp:yes	I'd be up for it.
+a:choice	Either tonight or tomorrow!
+rsvp:yes	I am there
+a:yes	Yeah, mit library would be cool, if we can get on the wifi there?
+s:na	They probably have a guest network
+rsvp:yes	Yeah, I think I'll be free at 9ish.
+rsvp:yes	I'm down for skiing this Sunday.
+s:na	I'll give you a call tomorrow
+s:na	Welcome!
+s:na	blah blah?
+rsvp:maybe	Possibly.
+s:na	The longer it's on the less likely.
+s:na	Kill it asap.
+s:na	Hmm
+s:na	We are going to the hill, should be there in 10 min or so I'm guessing.
+s:na	Hanging with my friend Byron and he's going to grab a quick shower
+s:na	Ok that's cool
+s:na	Afghan
+s:na	Mozzarella
+pq:gen:what	Wanna rally the troops and go to little India?
+s:na	B
+rsvp:no	Sorry guys, I am fix und fertig
+s:na	Our flight from Raleigh gets in at 5pm on thurs.
+s:na	Paul can we still make it?
+rsvp:no	Can't make it
+s:na	So sad I missed this...
+s:na	blah blah blah
+s:na	I think it's a hibachi restaurant we are going to on Thursday
+s:gen:when	I'm free whenever now
+whq:what	What/when were you thinking?
+rsvp:no	Sorry, it doesn't look like ill be free till later tonight
+s:na	Han, thanks for the new build.
+s:na	Look forward to seeing you Thursday.
+rsvp:maybe	Not sure, gotta see what Alison has planned
+rsvp:no	unfortunately no
+s:gen:when	Saturday night, possibly 5ish people
+s:gen:what	Would you be up for dinner in Denver?
+rsvp:yes	I think I can do next Wed too
+rsvp:yes	Sounds good man!
+pq:gen:where	You wanna meet at my house?
+pq:gen:what	Do you want to go for a run this evening?
+s:na	The rest of the week will be rainy
+rsvp:no	I work days, can't meet in the AM
+pq:gen:what	Anybody want to grab a drink to celebrate my "retirement"?
+s:na	Love that place.
+s:na	Be there in 5
+rsvp:maybe	ugghh not sure if i'll make it now!
+s:na	Sorry!!
+s:na	Have fun :)
+rsvp:yes	Tomorrow is fine.
+s:na	Karen?
+s:na	Karen??
+rsvp:maybe	Sounds cool, let me get back to you.
+s:na	I regret nothing
+rsvp:yes	its a date
+rsvp:yes	I could go for either Thursday or Friday, whatever works best for the most people!
+s:na	Thanks for setting this up btw!
+whq:when	K around 1 or 2?
+s:gen:where	I can come to Cambridge
+s:na	It's going to be tight
+whq:when	Dave, when will you be in boston in the new year?
+s:na	You know yet?
+whq:when	What time?
+pq:gen:what	Anybody want to go to Old Chicago and grab a beer or two?
+s:na	Ok is that in boulder?
+s:na	Coolio
+rsvp:no	Unfortunately I can't join
+s:na	You know it.
+rsvp:yes	Yes lunch would be great!
+s:na	Whoops this is about shopping.
+rsvp:no	Dude, I'd totally take you up on that, but I am going to bbq in cp around 4, but another night for sure!
+rsvp:yes	Wouldn't miss it for the world!
+s:na	I'm not injured...?
+pq:gen:what	Do yall wanna go out to the bars tonight
+rsvp:no	Dinner plans sorry
+whq:what	What do you feel like eating?
+rsvp:maybe	Game time decision
+rsvp:no	We will be away
+s:na	Ah, now that I wrote again, it refreshed this view!
+rsvp:maybe	Dunno yet, we'll see
+s:na	There's a sheepshearing festival in Waltham on April 27.
+s:na	We should probably go.
+s:na	Some crazy hippie came up behind me and kissed me on the cheek and was hugging my head...
+s:na	And Steve didn't do anything...
+s:na	What a bystander!
+s:na	M
+rsvp:no	Ah, I'd love to go, but I'm going home this weekend to visit my parents.
+s:na	Will hang out with everyone soon.
+rsvp:no	No going to a party
+rsvp:yes	I could do lunch on friday!
+a:yes	Okay.
+s:na	Let me know when you're ready.
+s:na	Tom and Kayla are probably on their way down now.
+pq:gen:what	Want to get some drinks?
+s:na	Do you like tv?
+s:na	Hello hello.
+s:na	want back in
+s:na	we'll pick you up at about 6:50
+a:choice	Go with early.
+s:na	I have things to do as well.
+s:gen:what	We will probably go to east ocean or gourmet dumpling.
+s:na	Okay, I'll announce it to all.
+rsvp:yes	I've got to do something real quick, I'll be free in about 30 minutes.
+rsvp:yes	Just to let you know again, yes we are still down for sandtrap mines.
+s:na	My msgs haven't been going through
+s:na	Ususus
+pq:gen:what	Anybody interested in skiing this weekend?
+s:na	Also Jerry is invited but I don't have his number
+s:na	High
+rsvp:no	Sounds like she has a cold so no beer tonight :(
+a:yes	definitely
+s:na	We need a foosbal reprise
+rsvp:no	No, sorry
+rsvp:yes	Sure, when were you headed there?
+rsvp:no	I'm in the middle of working on the program right now
+rsvp:no:whencond	Not till later tonight
+rsvp:maybe	Gonna try
+s:na	Single berry
+s:na	Mass night at my place at 8.
+s:na	Mike, bring your mug, Sean, you can borrow one of ours.
+rsvp:yes	Yeah that sounds good
+rsvp:yes	like really can't wait!
+s:na	Beautiful.
+s:na	Chops style?
+s:na	I may a tad late, if so I'll ping you
+rsvp:maybe	Yeah I think so, gotta check budget thoough. birthday weekend, so it's tight
+whq:what	Which one?
+s:na	I make many Paul comments.
+s:na	Most of them derogatory.
+rsvp:no	I wish I can do it!
+rsvp:no	Another time.
+s:na	Your app is coming to you.
+rsvp:no	No not tonight
+s:na	The witty message was on a plan.
+s:na	Not an event.
+whq:what	Also what are you doing tomorrow evening?
+s:na	i'm not sure where to find this in the app?
+rsvp:yes	I wil be there
+rsvp:no	busy
+s:na	who is this?
+s:na	On the lees
+s:na	Gruyere
+rsvp:no	I'd totally go tomorrow, but I'm heading out of town on Saturday too.
+s:na	Blort
+s:na	Already!!?
+s:na	What was the message?
+rsvp:maybe	Okay, I'm working in Kendall, just have to double-check I can get out early, I'll let you know asap.
+rsvp:yes	I'm excited!
+s:na	Testing notification
+s:na	onthebench
+a:yes	Yeah I'd be ok with that
+a:yes	Great.
+whq:where	Do you know of anywhere in particular?
+s:gen:where	I know there's a Starbucks in Central, that could work.
+s:gen:where	Or Idk if there's a library somewhere.
+s:na	It was amazing
+s:gen:when	Maybe beer tomorrow is a better idea.
+whq:when	When in the evening do you think you would be free?
+s:na	Like...
+s:na	A moving cab?
+rsvp:no	Im not home.
+s:na	Call you later
+s:na	Cool.
+s:na	Babies.
+s:na	Can you respond to this email?
+s:na	??????
+s:na	Yelp
+s:na	I didn't get anything witty on my new event and in fact can only message you via email
+s:na	The book will be ""the Art of writing fake Wyth posts"" by Bonnie Lipton
+rsvp:yes	I can meet you at 4:30 wherever or at the hookah place later
+rsvp:no	Have to miss it
+s:na	Alright.
+s:na	Head out?
+s:na	Ah, the downside of commuting.
+s:na	I think I'll just have to plan on having a car the next time we do this.
+rsvp:no	I won't make it today unfortunately.
+s:na	What happens to links?
+s:na	Ok sweet thanks - I also got a notification for this msg, awesome
+rsvp:maybe	I might be down
+s:na	I'll get you a ticket tomorrow.
+s:na	I can pick you up at about 12:15 on Saturday do we have time to grab two of my other friends on the way.
+rsvp:no	Looks like I cannot go tonight.
+s:na	They are running more tests on mom today.
+s:na	I will write you when I know we can get together.
+s:na	What nights do you have classes?
+rsvp:yes	I will be late but I'll be there
+rsvp:no	Unfortunately already made plans
+s:na	Thx!
+s:na	10 minutes!
+s:gen:when	Not right now I think
+s:na	Ugh, Zaftigs!
+a:no	No thanks.
+pq:gen:where	How about Daily Catch?
+s:na	What is OTb?
+rsvp:yes	opt me in 2!
+rsvp:no	Sorry, out
+s:na	So much fun.
+rsvp:yes	Count me in for food today
+whq:what	What are you doing sunday
+s:na	Yes swipe
+s:na	No photo Jon?
+s:na	WTF
+s:na	testing
+s:na	You want to do another beer tasting night soon?
+rsvp:no	I'm out
+pq:gen:what	Wanna hang out Saturday?
+rsvp:yes	I need to be in Boston anyway we can grab lunch or something
+s:na	Like now
+s:na	Add a comment
+rsvp:maybe	Hopefully
+rsvp:maybe	Probably can, just not sure yet
+pq:gen:where	Hey would you rather meet at the old Chicago in broomfield?
+s:na	what the heck happened last night?
+s:na	So where should I go?
+rsvp:yes	works for me!
+rsvp:maybe	I'll check my schedule and get back to everyone
+s:na	Bloke
+s:na	Pickle back.
+rsvp:yes	I will be here
+s:na	fromage d'affinois?
+s:na	3
+whq:when	Sweet what time is res, 12?
+s:na	Steve left me hanging while some hippie woman molested me.
+a:yes	My place is definitely fine.
+s:na	Give me some time to get dinner, then I'd say come on over.
+a:yes	Yup
+s:na	Theres always chipotle :)
+s:gen:what	cool, how about chevre?
+rsvp:no	I have to work tonight, then tomorrow at seven in the morning, and I have a ton of homework to do.
+rsvp:no	Sorry!
+s:na	That's what she said.
+s:na	Awesome.
+s:na	I'm wrapping up errands.
+s:gen:when	Can meet you guys in about 20-25.
+s:na	Lemme know what you decide on.
+s:na	C
+rsvp:yes	see you then.
+s:na	Hey Garrett!
+rsvp:no	Sorry, I'm heading out of town this weekend.
+s:na	I'll try to make it another time though!
+s:na	Eating the pepper...
+s:na	Dude drives a Beemer
+rsvp:no	All: So, Mass night is out for tonight...
+s:gen:where	And Nathan came home and has to work tomorrow, so my place is out.
+rsvp:yes	Hmm that sounds good
+s:na	Have fun!
+s:na	Get some Yax Trax to keep you from slipping!
+s:na	should I bring something
+s:na	Cool!
+rsvp:yes	Definitely.
+rsvp:yes	Count me in.
+a:yes	K.
+s:na	Let us be in touch again when you know or late Jan.
+s:na	Hopefully you will know then.
+s:na	Maybe we can do dinner this time too!
+rsvp:no	Sorry George, I'm gonna have to take a pass too.
+s:na	Have fun though.
+pq:gen:where	Would you all be interested in going to Westminster tonight?
+rsvp:no	Won't be there
+whq:what	And what is a sheep shearing festival exactly?
+rsvp:maybe	Lol it depends on how busy we are
+s:na	I am sleepy
+pq:gen:what	Any interest in going to visit Kayla tonight?
+s:gen:where	(Rock Bottom Brewery at 104th and 36?)
+s:na	K.
+s:na	Another time.
+pq:gen:when	Hey Kyles interview was changed to Monday so I won't be up in Denver tonight, are you busy Monday?
+rsvp:yes	Totes
+s:na	Yoyoyo
+s:na	na na na na na na
+a:yes	Reservation made
+pq:gen:what	Yall wanna hang out
+pq:gen:what	You doing anything for the game tonight?
+a:yes	Yep
+a:yes	Yes
+rsvp:yes	Um, yes!
+pq:gen:what	Wanna play soccer in a bit?
+s:na	Harp
+s:na	You guys can try.
+s:na	However my family imports those motion sensing Colombian machine guns that mow down anything that moves & I am tired of picking up Lesbian carcasses amidst Prius rubble so please oh please come make my day
+pq:gen:when	So a trip to davidsons today?
+s:na	Great to hear the kid is doing a lot better.
+s:na	I am the only one around.
+pq:gen:where	Want to grab lunch at Mulan?
+rsvp:no	Wish I could
+s:na	sweet
+rsvp:maybe	I don't know if I can go to a football game.
+rsvp:yes:whencond	But I'd be free a bit later tomorrow evening
+rsvp:no	Isn't going to work
+a:yes	Alright
+a:yes	Okay, great
+s:na	Launch feature / delete, reinstall and add photo then!
+rsvp:maybe	That day should be good for me, but you never know with my job!
+rsvp:maybe	I'll try.
+rsvp:yes	Oh gawd yes.
+s:na	But only goose eggs
+rsvp:yes	Sounds good.
+rsvp:yes	Thurs is usually an early day for me so I can get home and switch cars.
+a:yes	Yeah I just have to finish dinner first
+whq:when	When?
+rsvp:yes	Sure
+s:gen:when	We were thinking 5:30.
+pq:gen:when	Does that work for you?
+pq:gen:what	Mmkay want to grab dinner or something?
+rsvp:yes	I'm game.
+rsvp:yes	Should work
+pq:gen:when	Do you still want to meet up tonight?
+rsvp:no	sorry, I can't go tonight
+rsvp:no	I'm sick... and I have to work tomorrow morning... so no go for me.
+rsvp:maybe	Not sure yet but I'm sure I will be there sometime in Q1.
+s:na	We are on the t now.
+s:gen:when	After 9pm
+s:gen:when	615!
+s:gen:when	ASAP!
+s:na	Hungry!!!!
+s:na	I have gotten on there before, so I don't think it should be a problem
+s:na	We'll forgive you if you upload a photo.
+rsvp:maybe	I may be around
+rsvp:maybe	Waiting on my schedule
+whq:where	Dan, any thoughts on where?
+s:na	Joe would be coming from boston side, I am at CRV.
+pq:gen:what	How about a crazy meal in Chinatown?
+pq:gen:what	Are u into Chinese food?
+s:na	I can do some crazy ordering :)
+s:gen:when	Maybe 7:30
+a:yes	Cool ill be coming back from indy so that will work great
+s:na	Head count for who wants to go to Rock Bottom in Westminster!
+s:na	I'll drive and take the Saturn, so there's more room.
+s:gen:when	We should leave at 8:30-8:45.
+s:gen:where	I think 3 brothers will work on thurs
+s:na	Activity items now limited to 20 server side
+rsvp:yes	I will bee running a little late but I will be there as soon as I can make it
+rsvp:no	Can't till late
+pq:gen:what	Soccer tonight?
+s:na	CP
+s:na	Forgive dan's potty mouth.
+a:yes	Sure.
+pq:gen:when	Leave now?
+rsvp:no	Can't
+s:na	Hooray.
+rsvp:maybe	Maybe
+s:gen:when	Night
+rsvp:no	No hanging out
+pq:gen:what	1:30 lunchtail?
+pq:gen:where	Chops?
+rsvp:yes	Totes magotes
+rsvp:yes	Be there
+s:na	We're starting to think that NLU shouldn't strip anything out of the plan titles.
+s:na	Curious to hear your thoughts.
+pq:gen:what	Anybody interested in going to the state championship football game to watch Lakewood tomorrow?
+s:gen:when	The game is at 2:30 at Sports Authority Field.
+s:na	Tickets are $12
+s:na	That's cool.
+s:na	It's been fun!
+s:na	Hopefully it won't be too long till next time
+s:na	And then some more
+rsvp:yes	Wouldn't miss it!
+rsvp:no	Maybe next time
+rsvp:no	Have other engagements
+rsvp:no	gotta skip it this time
+s:na	And then you are white rice with your bare hands
+whq:when	Luke is wondering if we want to hang this weekend or next, does either work for you?
+s:na	Teat1
+s:na	I didn't think Venezuelans bought anything from Colombians.
+rsvp:yes	Dinner would be great.
+rsvp:maybe	Have to get back to you on night and time.
+rsvp:no	Can't.
+rsvp:no	Got the Kid.
+s:na	Goin to get pizza.
+s:na	Thanks for thinking of me...the day before the world ends!
+s:na	Ha!
+pq:gen:what	Cross country skiing tomorrow at keystone?
+pq:gen:when	Leave at 11ish?
+rsvp:yes	I would also be up for doing something Friday, though I'm not sure I will be standing.
+rsvp:no	My dad and I are hiking mount Elbert.
+s:na	Mike and I are using it exclusively now. :-)
+rsvp:maybe	We'll see
+whq:where	where?
+pq:gen:when	You free tomorrow night?
+rsvp:no	I'll be out of town and just getting home at 10pm that day.
+rsvp:no	Next time though, I'd love to catch up with all of you.
+a:no	Nay
+rsvp:yes	see you there
+a:yes	Alright.
+rsvp:yes	That works for me!
+rsvp:yes	Can't wait!
+s:gen:where	There is a library in central square but it's closed today.
+pq:gen:where	Maybe a cafe with free wifi?
+rsvp:yes	Sounds like fun!
+rsvp:maybe	perhaps
+pq:gen:when	On a Thursday!?
+rsvp:yes	Sure, what time?
+rsvp:no	Thanks for the invite, but no
+rsvp:no	I don't think so, I've got a lot of stuff I need to try to get done this weekend.
+rsvp:yes:whencond	Anytime after 7
+rsvp:yes	Dave, looking forward to see you!
+rsvp:yes	amber no, but I am prob down for sumthin in a lil bit
+s:gen:when	6 works too if it's too much hassle
+rsvp:yes	See you there.
+rsvp:no	I'm not going to make it couldn't get ahold of anyone just my luck sorry.
+s:na	Awesome.
+rsvp:maybe	Maybe
+s:gen:when	Kayla wants us to meet her there at 6:15
+s:na	Yo!
+rsvp:yes	Totes mcgotes
+rsvp:maybe	let me check with Steve
+a:yes	Okay.
+pq:gen:what	Either way, hang out tonight (especially since Jane is down here)?
+s:na	Doesn't work
+s:na	Yeah guess it's just about the time shows get out and people seeing the tree are heading back to jersey.
+a:yes	I agree.
+s:na	You should be able to message on an event.
+s:na	The message they sent when you liked this was witty.
+s:na	Send me an event.
+rsvp:yes	That would probably work out.
+s:gen:what	Like 6:30 or so at wynkoop or osteria Marco?
+rsvp:no	Nah thanks
+pq:gen:where	In Westminster?
+a:yes	That'd work too
+rsvp:yes	Sure.
+pq:gen:when	Shall I be over at your place in 10?
+whq:what	Is this a restaurant or a concert?
+s:na	We can get half price tickets.
+rsvp:yes	A bit late in replying but I'd be down
+s:na	Bunny comes out of the hole.
+s:na	Goes round the tree.
+s:na	Goes back in the hole.
+s:na	Ok I'll call when I'm up there
+rsvp:yes	Can't wait.
+pq:gen:when	How about we leave now and stop by his office and see if he wants to come with?
+s:na	Mike got notifications, but I'm not.
+s:na	Strange bc I see it in notifications center.
+s:gen:when	Yep, Wednesday I'm done after 7
+s:na	I also like chicken.
+a:no	Sorry not really.
+rsvp:no	Too active for me.
+s:na	Ok dummy
+rsvp:no	Sorry to miss this
+pq:gen:when	Can we do 6pm?
+s:gen:when	Come on over whenever!
+s:na	He's hungry so going to grab some food for homo
+a:no	Nope
+rsvp:yes	Sure!
+pq:gen:what	Pub X, 8pm, Thurs?
+pq:gen:when	Leave for Meadhall at 5:30?
+s:na	Maybe the crowd will be smaller on a frigid Wednesday...
+rsvp:yes	Sounds great, see you friday
+rsvp:yes	That should work
+s:gen:when	No, tue-thur is better next two weeks
+rsvp:no	I'll pass but thanks
+rsvp:no	Not able to come
+a:yes	Yeesss
+s:na	Hi!
+s:na	I really like that it knows places, like, I'm in SF and I make a plan to go to zoo and it knows which zoo
+s:na	Kayla wants to try to go to little India for dinner
+s:na	Nice!
+s:na	Those drinks looked fucking awesome.
+s:na	Why did this email come
+s:na	Dinner is yummy.
+s:na	It is fun to eat food.
+s:gen:when	I can possibly do Wednesday too.
+rsvp:yes	I get back from a trip on Sunday so as long as i am up to date on everything, I am good to go and would love to see y'all.
+rsvp:yes	Let's go! :)
+rsvp:no	you can sub in for me, Jamie.
+rsvp:no	Have a prior committment
+rsvp:no	I have some work to get caught up on today, next week for sure.
+s:na	When do u go back to school?
+s:na	D
+rsvp:maybe	I'll pencil it in
+rsvp:yes	Be there around 9:30, leaving soon
+s:na	We are heading for the harbor.
+s:na	Care to join us?
+s:na	jilly has left the convo
+rsvp:no	I am out of town this weekend actually lol
+s:na	Holla!!!!
+whq:when	When are you available?
+a:yes	Definitely
+s:na	Ok see you then #SuperFun
+a:yes	Sounds good!
+whq:where	Where?
+s:na	Again
+s:na	Or H&M
+s:na	Want me to come pick you up?
+a:yes	Sounds good!
+s:na	Just let me know when you get back.
+s:na	helpful
+s:na	All: I'm waiting to hear back from her about what time she gets off.
+s:na	I'll definitely drive, but we might need two cars.
+s:na	Coffee is stunting my growth
+s:na	Have a conflict
+rsvp:yes	Cool, we're down :)
+rsvp:no	We aren't planning to come out tonight.
+a:yes	Ok that's fine with me
+whq:when	If not now, then when?
+rsvp:yes	If u come out this way sure
+s:na	Hopefully that won't stop us
+s:na	Could I let you know at about 330-4 or do you need more notice?
+rsvp:yes	Ok I will come then
+s:na	I think that could be the best place to start as you learn how people are using it.
+rsvp:no	I'm having dinner with my dad tonight.
+rsvp:maybe	I'm not sure when I'll be done
+rsvp:maybe	Let's see
+s:na	Isussh
+rsvp:no	No man sorry got a final on mon
+rsvp:no	Won't make it tonight
+whq:when	When would you want to go?
+pq:gen:what	Anybody interested in going to the great divide tap room tonight?
+s:na	It's open till 10
+rsvp:yes	Lol, sounds good, i'll bring some pils
+s:na	comment came through on the same chain.
+rsvp:maybe	Sorry, can't commit definitively
+rsvp:yes	Yea I'm down
+a:yes	Great!
+rsvp:yes	Works for me, see you all there!
+s:na	Hmm trick question right?
+s:na	I live in Boston.
+rsvp:no	don't think I can
+s:na	How do I add a foto?
+s:na	Wtf?
+pq:gen:what	Do you want to go for a short jog tonight?
+s:na	Misha/Claudia, happy new year!
+s:na	We had a rough night sleep training Kiran.
+s:na	We are running a bit late.
+s:na	Sorry!
+whq:when	K what time?
+rsvp:yes	I'm free tomorrow if you guys want to meet
+rsvp:yes	I'm open now.
+s:gen:what	Eat food now.
+s:na	Could you swing by my place for the beer?
+s:na	It'll be $30 for ticket and rental
+pq:gen:what	Interested in going for a hike tomorrow?
+rsvp:no	Out of town
+rsvp:maybe	I'd really like to
+rsvp:yes	Ok, might be a little early if that's ok
+s:gen:when	Anytime before 3
+s:na	Snatch
+s:na	I don't know if we can get a table
+s:na	Hey what do you think Han?
+rsvp:yes	I can probably drop in
+s:na	Oh darn, why?
+s:na	Nothing
+s:na	Demonstrations of traditional crafts, sheepshearing, and herding dogs, 18th century war reenactors, bluegrass, dancing of the Morris men,  farm animals
+rsvp:yes	Want back in!
+rsvp:no	Out, in maryland
+s:na	Movember is soooo over Jon.
+s:na	You're going to be too conspicuous.
+rsvp:yes	I would go...
+s:na	Hahahahahaha, I'm a little obsessed with that place.
+s:na	I blame Hank for getting me hooked on it.
+rsvp:maybe	I'm not 100% sure about Friday, but I'll check back in.
+a:yes	Yes.
+rsvp:no	Sadly can't make it
+s:gen:when	If we wanted to go before dinner, I'd say we go now.
+a:yes	that sounds good
+s:gen:where	Maybe at Regal Beagle?
+s:na	Good stuff
+s:gen:when	Let's do 4
+whq:when	Yeah, when's good?
+s:na	Hello
+s:na	Comment
+s:na	I see one on Google maps, mass ave / vassar st.
+s:na	Assuming that's it
+s:gen:when	I think I'll be back home around 6:20
+whq:what	Hey what are you guys up to tomorrow?
+s:gen:when	I'll be in boulder in the afternoon.
+s:na	And Kyle got a job in California so we might be moving next week
+s:na	???
+s:na	Me too!
+rsvp:yes	opt me in!
+rsvp:maybe	let me get back to you
+rsvp:no	We have father's day with my dad sorry, and am in training tue-thur evenings lol
+rsvp:no	No we got hanging out tonight, you can come if you want
+s:na	Why not?
+s:na	Lame.
+rsvp:no	We're in training.
+s:na	You tell me when.
+s:na	If it is last minute and burger king.
+s:na	I don't care.
+s:na	Just want to see you.
+a:yes	That will work
+rsvp:yes	I wouldn't miss it.
+a:no	No but I've already eaten
+s:na	That's better
+s:na	?????
+rsvp:no	No
+a:yes	Yeah that should work
+s:gen:when	See ya at 0645
+rsvp:no	don't think I'll make it
+pq:gen:when	Can we do Thursday or Friday instead?
+rsvp:no	Sorry forgot dad will leave town wed.
+a:yes	Okay, sounds good.
+whq:where	Where exactly is that?
+s:na	Sharp cheddar
+s:na	I enjoy eating breakfast!
+rsvp:yes	5 works for me
+rsvp:yes	I am, as ever, willing to partake in such activities.
+s:na	Let's always eat breakfast!
+rsvp:yes	Yeah I'm down
+s:na	Testing this feature out
+rsvp:maybe	Dunno, prob ambers family has sumthin not sure
+s:na	I can call them if I know who's in
+s:na	Also beef
+s:gen:when	So we will leave when you get home at 6:20
+rsvp:yes	I like hamburgers.
+rsvp:no	I would go...
+rsvp:no:whencond	I've got dinner plans but could go before hand!
+s:na	Bowline bitch
+rsvp:yes	wouldn't miss it
+rsvp:no	Sorry to miss the celebration
+pq:gen:what	Final weekend at copper this weekend?
+pq:gen:what	Hey you want to get dinner tonight?
+s:na	I love that club!
+s:na	Retro Night is the best night to go to.
+rsvp:no	I've got a friend coming into town tonight though, and the rest of the weekend I have school work.
+rsvp:no	Another time though!
+s:na	Follow up comment
+rsvp:maybe	Perhaps a short one
+s:na	But we love boozy Ian!
+s:na	Yeah this agenda view only refreshes when you leave the app and come back.
+s:na	A bug we'll fix before launch :)
+pq:gen:what	Mass night tonight?
+s:na	I am sleepy too!
+rsvp:maybe	eeeh..
+s:na	I am out of class at 6:15 if you want to get a beer downtown.
+pq:gen:when	Do you have plans Friday evening or Sunday?
+s:na	if only
+s:na	Headed to beach now, sorry no app review yet!
+a:yes	Will get on that!
+rsvp:maybe	Possibly.
+a:yes	works for me
+s:na	can I get a ride
+s:na	I was just testing the app.
+s:na	This isn't a real plan.
+rsvp:yes	I'd be down
+rsvp:maybe	Let me check, get back to you in a few.
+s:na	I need to catch up on email, I know I got one from u yesterday
+s:na	More comments!
+a:yes	of course
+s:na	Seriously email bomb away.
+s:na	If it means you're playing around w it :)
+s:gen:when	Sunday afternoon is good, 2pmish?
+pq:gen:when	Too early?
+rsvp:yes	Any of those times work for me.
+rsvp:yes	Ok  count me in
+rsvp:no	Already have plans
+rsvp:no	Can't .
+s:na	Tries to delete and reload but no dice
+pq:gen:where	Do you want to meet in boulder?
+s:na	Maybe we can get Jon to join us
+s:na	Dugan.
+s:na	DUGAN?
+rsvp:yes	Sunday afternoon would be good
+rsvp:yes	Loving the plan xoncept
+a:yes	Ohhhhhhh yeah.
+a:yes	Okay.
+s:na	On my way
+s:na	I like french toast!
+rsvp:yes	Oh, I'm going
+rsvp:no	Dont have much money
+s:na	Want a ride?
+s:na	not until I ship otb3.1
+s:gen:what	Let's do Swiss bakery.
+s:na	Works?
+s:na	I don't remember and I can't see it any more!
+s:na	But I liked it.
+s:na	It showed a little personality.
+a:yes	Okay.
+s:gen:when	I have class at 630, but 430-445 is kinda when I was thinking.
+pq:gen:when	Orrrr after 745?
+s:na	We're going have a drink at piratenhohle at around 10 if you want to come
+s:na	Ty
+rsvp:maybe	Perhaps
+s:na	Sounds amazing
+s:na	hey!
+rsvp:no	i really want to come, but i have way too much work to do :( thanks for setting it up John, and hopefully there can be tons more!
+s:gen:when	Now or whenever works for you
+rsvp:maybe	Potentially
+rsvp:yes	I want to go to there
+s:na	I also like bowling!
+rsvp:no	Won't be able to join you
+rsvp:no	Sorry!
+rsvp:no	Going home for the weekend.
+s:na	I enjoy eating food.
+whq:where	Where are we doing this?
+rsvp:yes	Sounds like a plan
+rsvp:yes	I'm down to do something
+s:na	Four of us in a clown car.
+s:na	I'm on my way.
+a:yes	Ok sounds good
+s:na	Luau!
+a:no	No I'll come to you
+rsvp:maybe	Possibly
+s:na	Traffic might be pretty terrible right now
+rsvp:no	Have a meeting at noon:30.
+s:gen:when	Could do anytime after 2 and before 4:30.
+s:na	Over
+s:gen:when	Thursday it is.
+rsvp:yes	Looking forward to seeing you.
+rsvp:yes	Ok sweet, I should be done with my rehearsal by then!
+a:yes	That is fine with me.
+s:na	Gives you time to relax a bit.
+pq:gen:when	If you want it can even be a later on as well.
+s:na	blah?
+s:na	Thanks for playing w it.
+s:na	I know it's less fun without other friends on it.
+pq:gen:what	Hang out tonight?
+a:yes	Before sunset
+a:yes	Yeah I think so
+rsvp:yes	Totes magoats
+rsvp:yes	Sounds good!
+s:na	Thanks for putting the word on the street!
+rsvp:maybe	Hope to make it
+rsvp:no	Not going to be make it
+rsvp:yes	I'm free most of the day too
+s:gen:when	We'll be at the weissbrauhaus at about 7:30
+rsvp:yes	Most likely yes
+rsvp:no	Hmmm I think I am going to stay home I'm already in pajamas and comfortable thank you though
+rsvp:yes	Will be there
+rsvp:yes	I am free all day tomorrow
+rsvp:no	sorry I'll miss it
+pq:gen:what	You all want to hang out tonight?
+s:na	Unclear
+pq:gen:where	Want to try for little India?
+s:na	Bring chocolate!
+rsvp:no:whencond	Cannot be tomorrow, maybe Wednesday or Friday.
+s:gen:when	Friday would probably be best cause mom should be better by then
+s:na	You coming?
+rsvp:no	Unfortunately, I'm seconding Kate.... way too much to do today.
+s:na	Great idea though!
+s:na	Enjoy lunch
+a:yes	Yeah
+pq:gen:what	Yall wanna hang out tonight
+s:na	I have something else but
+rsvp:no	Too cold!
+pq:gen:when	Sooo wanna come over at 6ish?
+rsvp:maybe	On the fence
+s:na	Ha ha, I was actually planning on going there tomorrow night!
+rsvp:no	Tonight I gotta work on a paper.
+s:gen:when	Either day works for me.
+s:gen:where	I'm open to any place.
+pq:gen:what	Wanna get a quick drink?
+s:na	I will be in portland for the week until friday night.
+s:na	Ready for visitors?
+s:na	Holy cow dude, are you in town already?
+s:na	Are you here on biz?
+s:na	Let's get together for dinner and/or drinks.
+s:na	Not yet.flying in late tonight.
+s:na	Staying at the kimpton downtown for a conference.
+whq:when	Let me know which days might work for you...
+s:na	Cool!
+a:choice	Today and tomorrow are tough for me but I'm good starting Tuesday.
+pq:gen:what	If you're up for it, how about stopping by the house late afternoon, meet the kids, and we can go out for dinner and/or drinks?
+s:gen:where	We're at 1234 N 5th Ave which you can get to via 21 Bus
+rsvp:yes	I can tue or wed.
+rsvp:yes	I can probably be at your place at 6:30pm.
+s:na	You pick...
+s:gen:when	Let's do Tuesday; my birthday is tomorrow.
+s:na	Do you need a lift or would bus be okay?
+s:na	I can definitely drop you off afterwards.
+s:gen:when	Monday, 4/2 through Thursday.
+s:na	The usual "visiting managers" although not Fliru this time!
+rsvp:yes	Anyhoo, I'd love to get together for dinner or something, whatever works for most of you.
+s:na	I also don't know who lives in Boston these days.
+s:na	Chuck moved to MT, correct?
+rsvp:yes:whencond	Any of those days work for me except Wednesday - but you should consider having dinner at the house on Wednesday, it's alumni night (I have other commitments, can't be there sadly).
+rsvp:no	I'm in North Carolina next week for a conference, Sun-Fri, so I'll have to miss out on dinner.
+s:na	Have a good trip, and hopefully see you soon...
+rsvp:maybe	I don't know my schedule yet for next week.
+rsvp:yes	Go ahead arrange something.
+rsvp:maybe	I will try to make it.
+rsvp:yes:whencond	At least I should be able to grab a drink after Maya goes to sleep (9:30pm).
+pq:gen:when	How about Monday since that works for the most # of people.
+whq:where	Would somewhere in Boston work best as a meeting place or somewhere N/W of Boston (Somerville?)
+s:na	I don't know what's a good location in general for you folks.
+pq:gen:when	Maybe we can meet for dinner ~7 if that works and/or drinks later for those who can't make it to dinner, e.g., Han?
+s:na	I'll land in Boston tomorrow ~4 - 5 PM and will be staying at the Omni near Faneuil Hall.
+whq:where	If tomorrow is a good day to catch up, let me know what place would work best for you.
+s:na	Otherwise, maybe we'll catch up next time.
+rsvp:no	I won't make for dinner.
+rsvp:maybe:whencond	But I can probably do drink after 9pm.
+rsvp:no	Misha can't make it and I'm meeting John for drinks near the hotel and his office.
+pq:gen:when	Maybe we can catch up for drinks then ~9 PM near Nick and Han?
+s:na	I realize it's tough to leave the house with kids at home.
+rsvp:no	Sorry to cancel at the last minute.
+s:na	My grandfather just passed away and I'm cutting my trip short to return home this afternoon.
+s:na	I'll be back to Boston later this year.
+whq:when	Want to schedule a time to get together for lunch?
+s:gen:when	I'm still free most days
+pq:gen:when	how about next week?
+pq:gen:when	How about wed at noon somewhere?
+a:yes	Sounds like a plan - what area is easiest for you?
+whq:where	Also, I'm toying with the idea of going to Foxwood's on Tuesday to play in a tournament at 6pm (my girlfriend is out of town).
+pq:gen	Would you be interested?
+whq:where	Heya - any thoughts about Foxwood's next Tuesday?
+rsvp:maybe	I'm now thinking of punting on my own plans, but if you were excited about it I'd still be up to go.
+pq:gen	And, if no Foxwood's, lunch on Wed, right?
+rsvp:no	I got a cold from daughter, so I will have to skip Tuesday.
+a:yes	Yes.
+rsvp:yes	Let us do wed lunch.
+pq:gen:where	Can you come to brookline village?
+s:na	Otherwise, anywhere is fine.
+s:gen:when	Noon would be good.
+s:na	I have a meeting in Kendall Square until about 11:30am.
+whq:when	Want to do lunch around Kendall say around noon tomorrow?
+a:yes	Sounds great - want to say 11:45 with the understanding that you might be a little late, or plan for noon?
+whq:where	Got a favorite place?
+s:gen:where	I had a pretty nice meal at Firebrand Saints, and also at Za.
+s:gen:when	11:45 sounds reasonable.
+pq:gen:where	How about Mulan?
+s:na	http://www.urbanspoon.com/m/u/mrmapn?
+s:where	dlat=0.01&dlon=0.01&raddress=228+Broadway&rcity=Cambridge&rlat=42.366496&rlon=-71.094222&rname=Mulan+Taiwanese+Cuisine&rstate=MA&rsubtitle=85%25+like+it+out+of+107+votes&rzip=02139 Pretty good Chinese place.
+s:na	If you don't like Chinese, please pick one of yours.
+a:yes	Done - looks good.
+s:na	The link won't work for me, but I'm seeing the restaurant at 228 Broadway in Cambridge.
+s:na	If that's not right, let me know, but otherwise I'll see you there tomorrow.
+s:na	I'll be in Boston from 10/15 - 10/17. 10/15 will be on the back end of a long two days of travels and Han said he'd only be able to do 10/16 anyway.
+s:na	I'll be visiting John Chow's offices (in Boston) on 10/16 and leaving after a couple of meetings on 10/17.
+pq:gen:what	Any interest/availability in getting together for dinner or drinks?
+s:na	I hope to see some of you then!
+rsvp:yes	I'm in, for anything.
+pq:gen:what	Dinner on the 16th?
+whq:where	What area works best for you, Karl?
+s:na	Cool.
+s:gen:where	I'm staying at a hotel near South Station.
+pq:gen:when	Not sure what's a good spot or time to meet but how about 7 PM <somewhere>?
+rsvp:yes	I'm in!
+s:gen:where	Places around South Station that I suggest for business lunches: - Les Zygomates (between South Station and Chinatown) - Good Life (between South Station and Downtown Crossing) - Kingston Station (between South Station and Downtown Crossing) -Lucky's (Congress Street, Fort Point Channel) - Cafe 300 / Channel Cafe (Summer Street, Fort Point Channel) - Papagayo, Mexican (Summer Street, Fort Point Channel) - Hai La Moon for dim sum (between bus station and Chinatown) Plus some other options, generally more expensive than the above: - Trade, probably would require reservation (one block from South Station) - Papagayo, Mexican (about three blocks from South Station, away from downtown) - Empire, haven't been there but sounds interesting (by the Courthouse) - Strega - Waterfront (by the Courthouse) - Legal Harborside (past the World Trade Center) - Legal Test Kitchen (past the World Trade Center)
+s:na	THanks for the suggestions!
+s:gen:where	The Mexican place (Papagayo) looks good.
+s:gen:when	See you guys there on Tuesday at 7!
+s:na	Karl -- Papagayo can get surprisingly busy, so I recommend a reservation.
+s:na	All -- If you need parking recommendations, let me know.
+s:na	But the T is pretty handy, if you can do that.
+s:na	See you soon!
+rsvp:yes	I am coming for Tuesday night.
+s:na	But I might be a little late.
+s:na	Soundhari has something at work.
+rsvp:yes	I should be there by 8pm certainly.
+s:na	Go ahead drink and order without me please.
+s:na	Cool!
+s:na	See you then.
+s:na	Hi Jonathan, I am pretty sure Karl did not realize that you are in the city as well.
+s:na	No prob!
+s:na	I've got something else going on tonight; have a great dinner!
+pq:gen	Are we still on for lunch to day at noon at Stephi's?
+s:na	We had originally plan for November 12 at noon at Stephi's.
+pq:gen:when	But if you can do it today, I'd rather do it today.
+pq:gen:when	But can we do at 12:30 instead of noon?
+s:na	Ah.
+s:na	So that's what that mysterious calendar entry is.
+a:yes	Today at 12:30pm works.
+s:when	(The 12th doesn't.) let's meet today. 12:15 is better as I need to be back at my desk by 1:30 but either is fine.
+s:na	Lemme know.
+s:gen:when	12:15 it is.
+s:na	See you then!
+s:na	Ok
+s:na	I have been thinking about doing some outsourced ios/java dev for my startup.
+whq:when	Can we schedule a time to chat and see if and what your firm can offer us?
+s:na	Hell Han - great to hear from you.
+a:yes	Sure thing.
+pq:gen:when	Can we talk Tuesday?
+pq:gen:when	Pretty flexible anytime - shall we say 10am ET?
+s:na	If that does not work, feel free to suggest alternatives.
+s:na	Please let me know.
+pq:gen:when	How about 4pm Tuesday?
+pq:gen	Is 917-763-7529 the best number to reach you still?
+pq:gen	BTW, do you have an iPhone with iOS 7?
+s:na	If you do, I can testflight our beta to you.
+s:na	So you have a better idea what we are working on.
+a:yes	That time works and that is the best way to reach me.
+a:yes	I also have iOS 7 on my iPhone.
+s:na	Look forward to it.
+s:na	Thanks!
+s:na	As Steve probably told you, I am working on a venture backed startup named Wyth (previously Pencil Labs).
+s:na	We are creating a mobile app to help people coordinate better with  natural language processing powered calendar.
+s:na	I would like to explore whether you would like to help us as an advisor.
+whq:when	How about coffee sometime?
+s:gen:where	I now work near South Station, but I can easily meet in Brookline, Cambridge, or near South Station
+s:na	Nice to connect.
+a:yes	Happy to meet and chat more - scheduling is a near and dear topic to my heart given how much time I have wasted on it :) Want to meet at the starbucks across from Sout Station next Mon at 130pm?
+s:na	Things are good at Wyth (Pencil Labs).
+s:na	We released a stripe down version of our app recently, and a full version should be out in a few weeks.
+s:na	Exciting times!
+pq:gen	Would you be open to a quick call for 15 mins?
+s:na	I would like to give you an update.
+s:na	Good to hear from you.
+s:na	Congrats on the release!
+a:yes	I could probably talk for a few minutes sometime this week.
+s:gen:when	I am working pretty long hours at the moment... so the best times for me would either be earlier in the morning (before 8:30) or later at night (probably after 7).
+whq:when	What works best for you?
+s:na	Let's see if we can figure something out...
+pq:gen:when	Would tomorrow (Tuesday) night work?
+s:gen:when	Any time after 7pm tomorrow would be fine.
+a:yes	Sounds good.
+s:na	I'll plan to give you a call when I get out of work tonight.
+s:gen:where	We are now working out of 250 Summer St., Boston (near South Station).
+whq:what	Since I am working late tonight anyway, if you want to grab a drink near 250 Summer or Cambridge, let me know.
+s:na	Otherwise, let's do a call.
+s:na	Congrats on the new office!
+s:gen:what	Given the snowstorm tonight it might be better just to do a phone call.
+s:na	I'll let you know if I change my mind.
+s:na	Dan, it's nice to meet you.
+s:na	I've heard a lot about you and some of the industrious things you've been up to these past couple of summers.
+pq:gen	Want to meet for a coffee sometime in the next week or so?
+rsvp:yes	Next week is a bit busy, but Wednesday could work.
+rsvp:yes	The following week is very open for me.
+s:gen:when	Wednesday would be a great time for me.
+whq:where	What would be a good place to meet?
+s:gen:when	The best time for me to meet would be after 2:30.
+pq:gen	Just to confirm, are we meeting tomorrow?
+s:na	Sorry for the slow reply.
+a:yes	Yes let's meet tomorrow.
+s:na	You'll actually meet with my partner Han who is cc'ed here.
+pq:gen:when	How's 2:30 at barrington coffee roasters on congress street?
+a:yes	That works for me.
+pq:gen:when	Can we make it 2:35 just to be safe?
+s:na	I get out of class at 2.
+pq:gen	We've had a rough few nights, can we talk with you today?
+s:na	I'm sorry you're having a rough time, but I'm glad you have contacted me.
+rsvp:yes	I would be happy to talk with you.
+s:gen:when	My schedule is a little tight today.
+s:na	I am giving a talk this morning and then our new grandchild is visiting (with parents of course!).
+s:na	I could call you during travel times, though.
+pq:gen:when	What does around 1:00 look like for you?
+a:yes	Sounds perfect!
+s:na	Thank you!
+s:na	I was excited to hear from Katin about wyth -- I share your interest in improving calendar / event planning, and have some existing exploration and components I'd love to share.
+pq:gen	Do you want to grab a coffee or drink?
+s:gen:when	I'm expecting to be in Kendall Mon + Tues next week, and possibly another day later in the week.
+s:na	Let me know!
+s:na	I apologize for the slow reply.
+rsvp:yes	It'd be great to meet up and chat about calendars and event planning.
+whq:when	If you happen to still have time today, I could meet for coffee or a drink at the end of the day.
+s:gen:where	Kendall or Central would both work for me.
+s:gen:when	Alternatively, both tomorrow and Thursday morning could work for breakfast or coffee.
+s:gen:when	I have a meeting tonight from 5-6 in Kendall, but I'm free after that.
+pq:gen	Does that work for you?
+whq:where	If so, do you have a place in mind?
+s:gen:when	6ish works well.
+s:gen:where	I'm open as to where.
+s:gen:where	In Kendall, I could do Firebrand Saints or maybe the bar at Evoo.
+pq:gen:where	If Central Square is an option, maybe Brick and Mortar or Green Street Grill?
+s:gen:where	I'll be right near Firebrand Saints - let's plan for a bit after 6.
+s:na	See you then!
+a:yes	Sounds good.
+s:na	My mobile is 555-555-5555 if you need to be in touch.
+pq:gen:where	Any chance you can meet somewhere downtown instead of Kendall, say Petit Robert Central (same building as the downtown crossing T) or Trade (nearby to South Station)?
+s:na	It looks like I'm going to head back to work after we meet, so seeing if I can skip the side trip to Cambridge.
+pq:gen:when	Can you come in to meet with my partner Han tomorrow or Friday?
+rsvp:yes	I'd love to meet with Han to talk next steps.
+s:gen:when	I have previous commitments after work tomorrow + Friday, but I might be able to stop by in the morning if you're available before 9.
+whq:when	Does 8:00 or 8:30 work either day?
+s:na	If not, I definitely have some availability Mon + Tues evenings.
+s:na	I'm adding in Han so you two can figure out a good time to meet.
+s:na	Looking forward to meet up!
+whq:where	Can you do somewhere in Brookline before 9am tomorrow?
+s:na	Thanks for getting in touch.
+a:no	Brookline is a bit tough for me, as I'll be coming from Davis Square (to Kendall).
+pq:gen:when	Would it be possible to meet up downtown before 9?
+pq:gen:when	If not, perhaps around lunchtime?
+s:na	I did not realize that you are coming from Davis.
+s:gen:when	I have a meeting in Central at 10:30am until about 11:30.
+s:gen:when	I can either meet before 10:30 near central or around 12:30 near 250 summer.
+s:na	Hopefully we can find a time that works for both of us.
+s:na	Thanks for being accommodating.
+a:yes	I can definitely meet you in central anytime before 10:30.
+whq:when	What time works best for you?
+s:gen:when	How about 9:15am at the Starbucks at the corner of prospect and mass ave.?
+a:yes	Sounds good - see you tomorrow!
+s:na	Han mentioned that you'll be in DC after Christmas.
+s:na	I'll be down there too, from the afternoon of the 26th through the evening of the 28th.
+s:na	If there's any chance that you're free to meet in person, that'd be great.
+s:na	Let me know if that seems possible.
+rsvp:yes	Yeah....
+rsvp:yes	I'm there from the 24-29th and can make time when it works for you.
+s:na	Not exactly sure where we are staying, but somewhere in northern VA close in.
+s:na	My wife's youngest sister lives in Arlington and I think we're in Falls Church, but no problem getting anywhere.
+s:na	Let me know what your schedule looks like and we'll figure out a place to meet for coffee or a drink.
+s:na	Happy Holidays to you as well!!
+s:na	Great.
+s:na	I'm staying in Bethesda and will have a car, so likewise, it's easy enough to get anywhere in that DC/northern VA area.
+s:gen:when	My schedule right now is very open.
+whq:when	I get in sometime in the early afternoon on the 26th, so some options are 26th: late afternoon or early evening 27th: anytime 28th: anytime Let me know what works well for you.
+s:na	Smooth travels east.
+s:gen:when	Hi Carla,  tomorrow would be great if it works for you.
+s:gen:where	I'm staying in Falls Church close to metro.
+whq:where	I'd rather not drive into DC-parking a nightmare, but we could meet close to a stop somewhere, maybe Georgetown?
+s:na	Let me know what works for you.
+s:na	Look forward to chatting.
+a:yes	Tomorrow does indeed work.
+s:na	I'm driving down to Maryland now but will email when I get in (a few hours) to confirm a time and place.
+s:gen:where	Sure, somewhere near Georgetown sounds good.
+s:na	I'm happy to get recommendations or go with something you choose.
+pq:gen:when	Is around 5ish tomorrow ok?
+s:na	I just looked at the Metro map.
+s:na	I'll be using it instead of car.and there is no service to Georgetown proper.
+s:gen:where	If getting a rec for a place is easy for you, see if you can find a place walking distance from a Metro stop and I'll be happy to meet you there around 5.
+s:na	My crew is still new to the area so they don't have a lot of ideas about what might be good.
+s:gen:where	I just looked at Yelp and saw a place called the Red Derby. a bar that is closer to where you are and outside the city center.
+a:yes	Looks like it world work for me on the Orange Line.
+s:na	Red Derby is definitely easy for me, but something potentially more convenient for you is this place in Arlington VA: http://www.yelp.com/biz/screwtop-wine-bar-arlington-2 It's right on the orange line metro and I can get to where I'm going afterward in DC from either place easily.
+s:na	Let me know what you prefer.
+s:gen:where	Screw top is great, thanks.
+a:yes	See you there at  5
+s:na	Perfect.
+s:na	See you soon.
+s:na	Carlaaa!
+s:na	It's been way too long, let's actually catch up soon?
+whq:when	I'm around until the 29th and pretty flexible, let me know if you have any free time before then, maybe this weekend, or Monday/Tuesday?
+s:when	Otherwise anytime after the 2nd.
+s:na	In between, I'm taking a short trip to New Orleans for New Years (woohoo) -Z
+s:na	Sorry for the slow reply.
+s:na	It was a crazy end of the work week before the holidays.
+rsvp:no	And unfortunately, I'm going to miss you in Boston before the new year.
+s:na	Joe and I came down to NYC yesterday and are also going away for New years (Nicaragua)!
+s:na	I'd love to catch up after the holidays though.
+whq:when	How about lunch sometime the week of the 6th?
+rsvp:no:whencond	I'm not actually back until the 6th, so a bit later in the week would be better for me.
+s:na	Enjoy the holidays and your well earned vacation and talk soon!
+rsvp:yes	The week of the 6th sounds good, let me know what works for you.
+s:na	I'm flexible.
+s:na	Have fun in Nicaragua!
+s:na	Sounds like a great trip.
+s:na	I'm going to New Orleans for 4 days for New Years.
+s:na	We can debrief on the trips in January :) See you soon.
+s:na	Happy new year!
+s:na	I'm back - when can we hang out?
+pq:when	Maybe Tuesday or Wednesday evening next week?
+s:na	We can do a little belated birthday celebrating :)
+s:when	Next week on Tuesday or Wednesday works for me, just let me know where and when.
+s:na	See you soon!
+whq:what	How about getting dinner at Oleana next Tuesday night at 7:30pm?
+s:na	I'm open to other times and places as well.
+s:na	Looking forward to catching up!
+rsvp:yes	It's been a little bit since we bumped into each other, but I'd love to grab a drink and catch up.
+s:na	(After 4.5 months of 70 hr weeks of managing at Craigie, I decided to move on - and that restaurants might not be for me.)
+s:na	Happy new year!
+s:na	Good for you for having the courage to try out a new career and also the courage to move on when you realized it wasn't a good fit.
+s:na	My sister managed several high profile restaurants in NYC and DC for years before moving on and while a great learning experience, it took quite a toll on her.
+rsvp:yes	It'd be nice to catch up more in person sometime soon.
+pq:when	I'm in Nicaragua on vacation until Sunday and anticipate a busy catch up week ahead, but how about some evening the week of the 13th?
+s:na	If you let me know a few dates/times that work for you, I can confirm early this week when I get back.
+s:na	Hope Nicaragua was amazing!
+s:na	I'm not sure I knew your sister's story, but the more I talk to the industry professionals, the more it seems that management isn't a long-term sustainable option.
+s:when	As to next week, my evenings except for Monday are all completely open right now, so you can choose the one that works the best for you.
+s:na	My Nicaragua trip was exactly the vacation I needed!
+s:na	I am back and feeling refreshed.
+pq:when	How about drinks next Thursday evening around say 7:30-8pm?
+s:na	You're so much more in the know about good spots, so why don't you choose a place?
+pq:where	If Kendall area is okay, how about State Park or Belly?
+s:na	If another area would be better, I'll make another rec.
+pq:where	Actually, would you be up for something closer to Central or Inman?
+s:where	Starting Monday, we're working from Fort Point, so something nearer to the T would be a bit easier.
+s:na	I'm already anticipating the time-loss effects of a tripled commute :(
+pq:where	For sure, how about Oleana's bar?
+pq:where	Or Trina's?
+s:na	ooh, both good choices.
+s:where	Let's go to Trina's, because there's a small chance I'm going to the bar at Oleana this weekend.
+s:na	See you there on Thursday.
+rsvp:yes	Let's confirm on time next week.
+a:yes	Sound good!
+s:na	I realize we never confirmed on timing for tonight at Trina's.
+whq:when	I'm shooting for between 7:30-8 but just let me know if you want to do later or not at all.
+s:na	Text might be best - 555-123-4678.
+s:na	Carla - It'd be great to connect.
+pq:gen	Any chance we could go for breakfast or lunch tomorrow or Monday?
+s:na	Happy New Year to you both!
+s:na	Hi Nathan, it's nice to be introduced.
+s:when	I'm in Nicaragua until Sunday and will  likely be playing catch up early next week.
+pq:when	How about breakfast on Wednesday or Thursday?
+a:no	Hi Carla - I'm at CES next week (leaving Monday night).
+whq:when	Perhaps the week after?
+s:when	The following week should work.
+pq:when	How about Tuesday morning, the 14th?
+pq:where	Are you in Kendall?
+s:when	I'm afraid Tuesday morning won't work.
+s:where	We're in the Back Bay, across from the Pru...
+whq:when	Are there any mornings that week that work for you?
+s:when	Alternatively, I could meet after work on the 15th or 16th.
+s:when	How about breakfast at City Table in the Lenox on Thursday the 16th?
+s:na	I should be able to make it anytime that is convenient for you.
+rsvp:yes	City Table on Thursday the 16th works.
+pq:when	Say 7:45am?
+a:yes	Great!
+s:na	See you then.
+s:na	Great, see you soon.
+s:na	Great to meet you Carla.
+s:na	It would be great to meet up and learn more about what you're working on.
+s:when	If you're available, Friday anytime before 1pm works for us, otherwise let me know some times that work for you next week.
+s:where	Our office is in the Fenway area -- happy to meet wherever is convenient for you.
+s:na	Patrick, Josh and Matt - it's nice to meet you and I look forward to chatting in person soon.
+s:when	The end of this week is looking a bit hectic.
+whq:when	Can we plan to meet on Monday or Tuesday of next week?
+s:na	Both days are currently wide open for me.
+pq:when	Perfect, how about Tuesday at 3pm?
+a:yes	Tomorrow at 3pm should work.
+s:na	I'll confirm later today.
+s:na	Let me know if that time is no longer good for you guys.
+rsvp:yes	Perfect, that works for us.
+s:na	We would be happy to stop by your office or meet wherever is convenient for you.
+rsvp:yes	3pm tomorrow works for me.
+whq:where	Can you come to my neck of the woods, say Sorelle on Congress street?
+s:na	It's a block from South Station.
+rsvp:yes	That works for us, see you there.
+s:na	Great, see you soon.
+s:na	Happy new year!
+s:na	Hope your year is off to a great start.
+whq:when	Did you have time to grab coffee in the next week or two?
+s:na	Would love to catch up and hear how your product is doing.
+rsvp:yes	I'd love to get coffee sometime soon.
+whq:where	Maybe somewhere in Central Square next Wednesday or Friday before work?
+whq:when	What time works well for you?
+s:na	As it happens, I no longer work at Hadapt (not too long a story but certainly interesting, happy to tell) and I was talking to some folks who are camping out at Highland Capital on 16.
+s:where	Central is fine but I typically do school drop off which means I can't meet up before 9 or 9:15 typically.
+s:when	So depends on what you think of as "before" work :-) Both Wednesday or Friday at that time are open for me currently.
+whq:where	How about 1369 or Life Alive?
+s:na	ooh, very exciting.
+s:na	I look forward to hearing your updates soon!
+rsvp:no:whencond	9-9:15 is fine, but next week is suddenly looking a bit dense.
+pq:when	Can we do the following week instead?
+s:when	Right now, Wednesday, Thursday and Friday (22-24) all look good.
+a:yes	And Life Alive or 1369 would be perfect.
+s:when	Let's do Wednesday the 22nd at life alive, 9:15.
+pq:gen	Cool?
+rsvp:yes	Perfect.
+rsvp:yes	See you then!
+s:na	It's a snow day from school tomorrow.
+pq:when	You're welcome to come over to my place and hang out (it's just around the corner from Tatte where we met last time), or maybe we could reschedule for some other time?
+s:when	If rescheduling is easier, my Thursday is pretty open esp in the afternoon and I'm pretty open next week too.
+s:when	I'm leaning toward working from home tomorrow and would love to avoid going outside :) So let's reschedule for Thursday.
+pq:when	Would the same plan work for you of 9:15am at Life Alive on Thursday?
+s:na	Working from home tomorrow sounds like a good idea.
+s:na	I have a meeting downtown 10-11 on Thursday; meeting with Brightcove, if you know them.
+pq:when	How about in the afternoon?
+s:na	(Closer to the end of your day?)
+s:na	We are looking forward to shoveling, hot chocolate, and maybe snowmen. :-)
+s:na	Cool about your Brightcove meeting.
+s:na	I look forward to catching up on more of your stuff soon.
+s:na	I don't know if I mentioned, but we moved downtown to 250 Summer Street.
+s:when	If you're up for coming toward me, I could meet up pretty much anytime after your meeting until say 5.
+whq:when	Otherwise, let's look at what works next week.
+s:na	Oh, that's right around the corner from Brightcove.
+s:na	I don't expect my meeting to run too long though I never know with these things.
+pq:gen	How about I ping you after and depending on timing we can grab lunch or coffee in the area?
+s:na	Oh great.
+rsvp:yes	Coffee or lunch when you're finished sounds perfect.
+rsvp:yes	I'll keep my schedule open.
+s:na	We are definitely overdue for a catch up!
+s:na	Work, life, etc...
+s:na	Also would be great to trade notes on all things startup.
+s:na	I'm (finally) done coding a demo of my product and am super-excited about the reception so far.
+s:what	Let's put a call on the calendar.
+s:when	Right now Tuesday 28th am, Thurs 30th early pm, and Friday 31 early pm (all PST) look good for me.
+s:na	Agreed on being overdue.
+s:na	I'm thrilled to hear about the exciting early feedback on your new product.
+s:na	I can't wait to hear more about it.
+s:na	I would love to catch up sometime soon.
+s:na	Things are the most insane they have ever been at work for me right now.
+s:when	I can likely chat Friday late afternoon your time though.
+pq:when	How about 5:30pm EST?
+rsvp:yes	5:30 EST Friday it is.
+s:na	Will give you a call then.
+s:na	Have a great week!
+s:na	Sounds good.
+s:na	If I'm home by then, we can even Skype/FaceTime!
+s:na	Happy new year!
+s:na	I just wanted to drop you a quick note to say hello and wonderful about your taking the role of VP marketing at Fiksu.
+pq:gen	At some point, I'd love to get a glass of wine and hear about how you decided to make the commitment, since I'm sure Fiksu isn't the only company that's been clambering to have you full time for as long as you've been consulting.
+s:na	I'm sure part of the answer is a compelling and hard selling Craig Palli :)
+s:na	So nice to hear from you.
+s:na	Thanks for reaching out.
+s:na	Would love to catch up and hear what you're up to as well.
+s:na	As for what compelled me to take the plunge, it really was a confluence of multiple factors both on my side and Fiksu's side, and of course a hard-selling Craig Palli.
+s:na	Let me know what your schedule is like to find a time to get together.
+s:na	It'd be great to get together soon.
+s:na	My team and I are actually moving into Boston next Monday, so the timing is good.
+s:when	Next week, I could do lunch on Wednesday or Friday.
+s:when	And the following week (the week of the 20th) is wide open for lunch or after work drinks.
+s:na	Let me know what works for you.
+s:na	Hi again.
+s:na	I dropped the ball on this thread.
+s:na	Sorry 'bout that.
+pq:when	Does Tues Jan 28th for lunch work for you?
+s:na	No worries.
+a:no	Next week is tough, but the following one is wide open.
+s:when	The 3rd, 5th and 6th are best for me.
+pq:gen	Any of those work for you?
+s:when	Let's shoot for Monday the 3rd.
+whq:where	Where are your new offices?
+whq:where	What's a convenient place to meet up?
+rsvp:yes	Monday the 3rd is good.
+s:where	I'm in fort point at 250 Summer Street about 5 minute walk from south station.
+pq:gen	Is downtown crossing somewhat middle ground?
+pq:where	If so, maybe JM Curley?
+rsvp:no	I realized that we never confirmed for lunch today, but unfortunately, I need to reschedule.
+whq:when	Would Monday, Tuesday or Thursday next week work for you for lunch?
+s:na	We're going to make it happen at some point!
+s:na	You're correct.
+s:na	We never did confirm.
+s:na	Somehow I missed the email from the 23rd.
+s:na	So, Reset.
+pq:when	How about Tuesday Feb 11th at noon at JM Curley?
+rsvp:yes	Tuesday, Feb 11th 12pm at JM Curley it is.
+s:na	It was nice meeting you at the Girl Geek event last night.
+s:na	I think that what you've built in Roomzilla is really great and I'd love to chat about it (and startup life) with you some time.
+pq:gen	Let me know if you'd like to grab coffee or lunch sometime in the next couple of weeks.
+rsvp:yes	I would love to get together.
+s:na	I am usually fairly flexible schedule wise, if there is a day that works best for you - let me know and we'll find time.
+s:when	The next couple of weeks are a bit packed for me.
+pq:when	Would you be up for coming downtown for coffee or lunch on either the 20th or 21st?
+s:when	The following week is also looking pretty clear for me.
+s:when	No problem at all, I can do the 20th for coffee or lunch.
+whq:where	Do you know a good spot downtown?
+s:na	Happy to head that way, I am just not as familiar with it.
+pq:where	Great, how about coffee at 2pm on the 20th at Barrington Roasters on Congress Street in Fort Point Channel?
+rsvp:yes	Perfect - I actually know the place.
+s:na	I hope you're doing well Angie!
+s:na	I want to get some updates on Mamajamas sometime soon.
+pq:gen	Not sure what your schedule looks like, but maybe we can get coffee before work some morning?
+rsvp:yes	That would be great!
+whq:when	What is your schedule like?
+s:when	I tend to have more flexibility between the hours of 10 and 5 but I'm sure we can figure something out.
+s:na	Hey.
+s:where	So we just moved offices to 250 Summer Street downtown.
+rsvp:yes	I can definitely meet up during the day if you can come into Boston.
+s:what	I'm also happy to do a tea/glass of wine at your place or mine post Dario going to sleep some night.
+whq:what	What works for you?
+s:when	The workday is pretty nuts for the next couple weeks because I transition D into preschool in the mornings then sprint to catch up on mamajamas stuff in the afternoons.
+s:when	So I'm thinking either a glass of wine post bedtime next Thursday or I could come to Boston the following week.
+whq:when	What do you think?
+s:na	oh exciting about Dario in preschool.
+s:na	I look forward to hearing more about that.
+s:na	I hope the transition is going smoothly.
+rsvp:no	Unfortunately, next Thursday evening doesn't work.
+s:when	The following week, both Wednesday and Thursday evening are good.
+s:when	And just about any day except Monday works for coffee or lunch.
+whq:when	What works for you?
+s:na	Hey sorry I dropped the ball on this.
+pq:when	How about I come to you next Tuesday afternoon (the 11th)?
+pq:when	Does that work?
+s:when	shoot, i made a mistake and the 11th actually won't work.
+pq:when	How about next Friday lunch (the 7th)?
+a:no	Hey, I've got a work lunch on Friday the 7th.
+s:when	This week, Wednesday or Thursday afternoon for lunch or coffee works.
+s:when	And both of those evenings are good too.
+s:when	The following week is a bit hectic except Thursday.
+s:when	Pretty much anything on Thursday the 13th works.
+pq:when	How about Thursday evening?
+pq:when	Would you be open to coming my way for a glass of wine around 8:30?
+rsvp:yes	8:30pm on Thursday at your place sounds great.
+whq:where	What's your address?
+s:na	And also, what's your phone number?
+s:na	I'm at 917-494-8535 in case anything comes up last minute.
+s:where	2 Ellsworth Park #2 (dead end off of Ellsworth Ave. between cambridge and broadway).
+s:na	My number is (415) 680-0958.
+pq:gen	Want to grab a coffee or drink so you can catch me up on all the exciting things in your life?
+rsvp:yes	Yes!
+s:where	I'm actually working two blocks from the Eze/FEATS building now.
+s:na	It would be great to see you.
+pq:when	I am totally hosed with work (which I'll catch you up on), but I can break for a drink on Thursday night around 7 if that works for you?
+a:no	Ugh I am on a 6:55P home on Thurs.
+pq:when	No time for a quick pop tonight?
+pq:where	Are you remote because of the storm?
+s:where	yeah, I'm working from home today :( Breakfast tomorrow?
+s:when	I can meet you however early.
+s:when	I have to meet Steve Volk at 8:15 and the Millennium Bostonian.
+s:na	They have a full day of client visits.
+s:na	Hate to force you out of bed earlier than you have to be but I am definitely up for it if you are.
+s:where	Somewhere close to the Bostonian would be best.
+s:na	For you, no question.
+whq:where	Where are you staying?
+s:where	Nine Zero on Tremont
+pq:gen	So did you want to try to get together for breakfast?
+whq:where	If so, where?
+a:yes	Yes sorry for the pause, got caught up in conf calls.
+pq:when	How about breakfast/coffee tomorrow at 7am at the Nine Zero?
+rsvp:yes	That works.
+s:na	See you then
+s:na	Great.
+s:na	See you soon.
+s:na	I'm going to head back to work after we meet tonight and our offices are over by South Station now.
+pq:where	Any chance you're heading home this way and can meet nearby to hear, say Tavern Road?
+s:where	If not, I can still do Firebrand.
+s:na	Just let me know
+pq:where	Perhaps I can just swing by your office?
+pq:when	Any chance you're available if I were to leave Tank now?
+a:yes	yep, I'm free the rest of the day so come by whenever.
+s:where	We're at 250 Summer Street on the 1st floor.
+s:na	There is usually metered parking available on Summer Street out front.
+rsvp:yes	Great.
+s:na	See you soon.
+s:na	Hi Nate, I'm happy to chat more about what you're looking to do this summer and see if there are some useful introductions I can make.
+s:what	Let's find time for either a phone call or a coffee later this week.
+s:where	My office is nearby South Station if you want to come by here.
+s:what	FaceTime/Skype/phone is also fine.
+whq:when	Let me know some times that work for you.
+rsvp:yes	I'm always up for coffee if you're around at the end of the week.
+s:when	I have class until noon on thursday so it would have to be after then, or alternatively my entire Friday is free if that works better.
+s:when	Thursday afternoon is good.
+s:when	I've got a meeting from 2-3pm.
+pq:when	How about 3:30pm at Barrington Coffee Roasters?
+rsvp:yes	Sounds good to me!
+rsvp:yes	Thursday at 3:30 it is
+s:na	Perfect.
+s:na	What's your mobile number in case I need to be in touch last minute?
+s:na	good idea 1235554567
+s:what	Hey, I'll stay for a while longer at work, but would be up for a drink later.
+whq:what	What time do you think you'll leave work?
+pq:when	I could defn be here for a while Need to catch up on some stuff I could meet up anytime after 7 lets say?
+s:when	Perhaps even later if you need to stay late
+a:yes	Sounds like we're on the page.
+rsvp:yes	Let's check in around 7.
+rsvp:yes	Ok sounds good
+s:na	Just saw this and thought of you.
+s:na	We're overdue for a catch up.
+s:na	I'd love to hear how things are going with you soon.
+s:when	I'm a bit hosed at the moment but end of February is looking clearer.
+pq:when	Maybe Feb 22 for national margarita day?!
+rsvp:yes	Happy to get together on the 22nd, though tequila and I have a strained relationship.
+s:what	I'd be delighted to have you over for dinner any time, too.
+s:na	Let me know.
+s:na	Say hi to Joe!
+rsvp:yes	Let's plan on the 22nd for sure.
+s:what	I'm always up for dinner at your place, but also open to going out.
+s:na	Totally your call.
+whq:when	So... can we reschedule?
+s:na	Brian just booked us tickets to Puerto Rico for that weekend.
+s:na	Sorry to do this to you!
+s:when	We're back the 26th, and around for a while after that -- I do really want to get together.
+s:na	Oh that sounds awesome!
+s:na	I'm craving being somewhere warm right now!
+s:when	I'm away three weekends in March, but the weekend of the 22nd works.
+s:na	I know that's more than a month away, sorry to be so difficult.
+s:na	If we're looking beyond weekends I could do something sooner!
+rsvp:maybe	Okay, I'll pencil you in for 3/22, but I think we should grab a drink on some earlier weeknight, too!
+s:when	My schedule's pretty open after Feb 26.
+s:na	definitely we should get a drink sooner.
+s:when	I'm away from the 27th through March 2nd.
+whq:when	Any night the week of the 3rd work for you?
+s:when	I could do any night that week but Tuesday.
+s:when	Let's do the 3rd!
+rsvp:yes	Alrighty.
+s:na	We can figure out a place as we get closer.
+s:na	Looking forward to seeing you!
+pq:gen	Let me know if you're up for getting a drink/coffee/lunch sometime in the next couple of weeks.
+s:na	Would love to catch up and to hear the news, it's been long time.
+s:when	I can do drinks Tuesday or Thursday next week, or Monday-Thursday the week after.
+s:what	Or coffee/lunch/breakfast most of the time.
+s:when	I'm going away for the president's day long weekend, so next week is going to be insane.
+s:when	Let's do Thursday the 20th for drinks.
+whq:where	Maybe somewhere nearby to Central?
+whq:where	Is there a spot you like these days?
+s:na	That's pretty long term planning on my scale.
+rsvp:yes	Sure, let's do the 20th.
+s:where	These days I like Belly Wine Bar at One Kendall.
+s:na	If that's too far from Central, propose something else.
+s:na	I know, I'm not fun to plan with these days.
+s:na	I'll be easier to coordinate with once I'm not doing long distance anymore!
+a:yes	Belly is great.
+pq:when	Let's go there. 7pm ok?
+rsvp:yes	Awesome, 7pm on Thursday the 20th.
+s:na	See you there!
+pq:gen	Just checking: are we still on for tonight?
+a:yes	Yes, we're still on for tonight and I'm looking forward to it!
+s:na	See you at 7p at Belly.
+s:na	Perhaps we can connect soon?
+s:when	I am a bit packed this week but week after is looking good if you are interested in chatting!
+s:na	I was just writing you.
+s:na	It's nice to meet you too.
+s:when	The week of the 24th is wide open for me except for Monday afternoon.
+whq:when	What works for you?
+pq:when	Interested in kicking off the day with a coffee or something on 2/26?
+pq:when	9AM?
+rsvp:yes	9am coffee on the 26th sounds great.
+whq:where	Where works?
+s:where	I'll be coming from Cambridge and headed to fort point, so pretty much anything on the redline is easy for me.
+s:na	Ok cool.
+pq:where	How about Boston Common Coffee on High Street, just 2 blocks from South Station.
+s:na	Does that work?
+a:yes	That works well.
+rsvp:no	i'm sorry to do this, but last minute a friend offered me an extra ticket to see Paul Simon tomorrow night.
+pq:when	Is there any chance you can hang out Tuesday night instead?
+pq:what	And if not, can I woo you downtown to have lunch sometime this week?
+s:na	It's been too long!
+s:na	Hmm.
+a:no	Tuesday's kind of tight -- I've got a haircut appointment at 6 in Copley, then mother-in-law-dinner-duty.
+pq:when	If you could meet at like 5 for a drink, that would be great.
+a:yes	Otherwise, lunch sounds good.
+rsvp:yes	Yes!
+s:na	Apparently at TD garden.
+s:na	I'm not sure about that as a venue, but I'm sure it will be great music.
+rsvp:maybe	Tomorrow at 5 could work, but I'd need to go somewhere close by to here (fort point).
+s:when	If that's not good for you, lunch Wed, Thurs or Friday is good.
+s:when	Lunch is probably a better idea.
+pq:when	I can do any of those days -- shall we say Weds Where?
+pq:where	Fort Point?
+a:yes	If you can do fort point that'd be great.
+s:na	I'm open as to where.
+whq:where	Options: Row 34, Blue Ginger, Bee's Knee's, Flour
+pq:gen	Have you been to Row 34?
+s:na	I'm curious about that place.
+s:na	I don't know anything about Bee's Knees.
+s:na	Fort Point is great, but parking's been tight there lately.
+s:na	I'll txt you if I have trouble finding a place.
+s:na	I went there last week for a couple of drinks and appetizers.
+s:na	It's good.
+s:na	I haven't been for lunch, but I know they do it.
+s:na	And there is usually decent metered parking during the day around here.
+s:na	My partner Han drives to work and often parks at meters.
+s:na	Summer street is a way better bet for metered parking than anywhere else.
+s:na	But yes, just give me a ring if you have trouble finding a spot and we'll figure something out.
+s:when	Available reservations are 12:15 or 1:30.
+whq:when	Which is better for you?
+pq:when	How about 12:15?
+a:yes	done!
+rsvp:yes	See you at 12:15 tomorrow.
+s:na	Miss u girls.
+s:na	Lets go out.
+whq:when	How about Thursday or Friday next week?
+whq:what	So here are some ideas - dinner and/or drinks Or maybe.... - trampolines pizza and music (Saturdays at skyzone.
+s:na	Never been.
+s:what	Been wanting to go since I heard about it) Or some old school dancing and bubbly.
+whq:where	Where?
+s:na	I'm sure Carla can recommend :)
+s:na	I miss you girls too!
+s:when	Next Thursday would work for me and I can't even remember the last time I went dancing on a school night.
+s:na	How daring?!
+rsvp:yes	So there!
+rsvp:yes	Can't wait to see you guys!!
+rsvp:yes	Yeah!!
+rsvp:yes	I'm in.
+rsvp:maybe	We'll do our best to get Jibran to take the bottle so I can leave him with Omar, but might bring him along if he keeps being as stubborn as his mom ;)
+whq:where	So kidz, where r we going tomorrow night?
+rsvp:no	So Omar nonchalantly announced to me today that he is in call tomorrow night (despite the fact that I asked him to let me know his call schedule in advance....) he got an earful from me since I was really looking forward to going out with you, but that won't change the fact that I'll have to be home with the kiddos since it's probably too late to get a sitter :( Can we plan another outing soon? 
+s:na	First drink on me ;)
+pq:gen	Ok so he just printed his schedule for me and he is not on call next week or the week after, let me know what nights you're free for another night on the town...
+pq:gen	Are they talking??
+rsvp:no	Jc just said by the way I have a work dinner tomorrow ...
+rsvp:maybe	We r trying to talk a friend into babysitting @#%
+rsvp:yes	Ok we r set :) Good to go!
+whq:where	Sorry flippy :((( Carla Kathryn, where do we go?
+rsvp:yes	So I'm in for tomorrow but we should go out again soon also!
+s:na	Btw we have a standing Tuesday sitter but also open to other things if we can find someone.
+s:na	Hugs
+rsvp:yes	(I'd prefer to have a reason to leave, gotta work on the hw for stats too haha)
+s:na	What
+s:na	Were going at like 9 if you wanna go
+a:yes	Okey.
+s:na	Sorry about that.
