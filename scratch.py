@@ -33,21 +33,31 @@ def sentence_to_dict(input, output):
         
         
 if __name__ == '__main__':
+    #===========================================================================
+    # path = 'data/data_new.json'
+    # with open(path, 'r') as fo:
+    #     text = fo.read()
+    #     i = 0
+    #     while i < 990:
+    #         if len( re.findall('"'+str(i)+'": {', text) ) == 0:
+    #             print i
+    #             print re.findall('"'+str(i)+'": {', text)
+    #             i += 1
+    # 
+    #===========================================================================
     
-    path = 'data/data_new.json'
+    path = 'data/test.json'
     with open(path, 'r') as fo:
         data = json.load(fo)
-    #===========================================================================
-    #     new= {}
-    #     i = 0
-    #     for key in data.keys():
-    #         new[str(i)] = data[key]
-    #         i += 1
-    #     fo.close()
-    # json.dump(new, open(path, 'w'), indent=4, sort_keys=True)
-    #===========================================================================
-
-    
+        new= {}
+        i = 0
+        for key, value in data.iteritems():
+            new[i] = value
+            i += 1
+            print i
+    json.dump(new, open('data/test.json', 'w'), indent=4, sort_keys=True)
+ 
+     
 
 #===============================================================================
 #     identity = 'jamie+testb@pencil.ai'

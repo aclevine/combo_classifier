@@ -183,7 +183,7 @@ def run_full_crossfold(n, ofn=False):
 
 if __name__ == '__main__':
     #pull features from test data
-    build_features('../data/test_new.json', 'search_data.svm')
+    build_features('../data/test.json', 'search_data.svm')
     build_features('../data/search_results.json', 'test_data.svm')
 
 

@@ -135,6 +135,7 @@ def build_features(inpath, outpath):
     for key in test.keys():
         #load available data
         data = test[key]
+        #print key
         venue_name = data["venueName"]
         utterance = data["sent"]
         search_result = data["html"]
@@ -160,4 +161,4 @@ def build_features(inpath, outpath):
 
 if __name__ == "__main__":
     #test: feature extraction working?
-    build_features('data/test_new.json', 'search_testing.json')
+    build_features('../data/test.json', '../search_testing.json')

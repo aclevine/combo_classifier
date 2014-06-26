@@ -4,7 +4,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "1395ms"
+                    "request_complete": "367ms"
                 }
             }, 
             "response": {
@@ -12,8 +12,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531547, 
-                        "dateModified": 1403617531547, 
+                        "dateCreated": 1403805078171, 
+                        "dateModified": 1403805078171, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "283 Washington St", 
@@ -36,8 +36,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531550, 
-                        "dateModified": 1403617531550, 
+                        "dateCreated": 1403805078172, 
+                        "dateModified": 1403805078172, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "110 Mall Rd", 
@@ -60,8 +60,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531552, 
-                        "dateModified": 1403617531552, 
+                        "dateCreated": 1403805078173, 
+                        "dateModified": 1403805078173, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "598 Massachusetts Ave", 
@@ -84,8 +84,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531554, 
-                        "dateModified": 1403617531554, 
+                        "dateCreated": 1403805078174, 
+                        "dateModified": 1403805078174, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "485 Arsenal St", 
@@ -108,32 +108,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531561, 
-                        "dateModified": 1403617531561, 
-                        "kind": "Foursquare", 
-                        "location": {
-                            "address": "2 Cambridge Ctr", 
-                            "city": "Cambridge", 
-                            "country": "United States", 
-                            "crossStreet": "In Cambridge Center off of Main Street", 
-                            "lat": 42.362592329847686, 
-                            "lng": -71.08567908500221, 
-                            "postalCode": "02142", 
-                            "state": "MA"
-                        }, 
-                        "name": "Chipotle Mexican Grill", 
-                        "primaryCategory": {
-                            "icon": "https://ss1.4sqi.net/img/categories_v2/food/mexican_{icon_size}.png", 
-                            "id": "4bf58dd8d48988d1c1941735", 
-                            "name": "Mexican Restaurant"
-                        }, 
-                        "sourceId": "4f96a4dde4b024c1fd5dc8c3", 
-                        "url": ""
-                    }, 
-                    {
-                        "correct": false, 
-                        "dateCreated": 1403617531563, 
-                        "dateModified": 1403617531563, 
+                        "dateCreated": 1403805078176, 
+                        "dateModified": 1403805078176, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "101 Summer St", 
@@ -156,8 +132,32 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531566, 
-                        "dateModified": 1403617531566, 
+                        "dateCreated": 1403805078177, 
+                        "dateModified": 1403805078177, 
+                        "kind": "Foursquare", 
+                        "location": {
+                            "address": "2 Cambridge Ctr", 
+                            "city": "Cambridge", 
+                            "country": "United States", 
+                            "crossStreet": "In Cambridge Center off of Main Street", 
+                            "lat": 42.362592329847686, 
+                            "lng": -71.08567908500221, 
+                            "postalCode": "02142", 
+                            "state": "MA"
+                        }, 
+                        "name": "Chipotle Mexican Grill", 
+                        "primaryCategory": {
+                            "icon": "https://ss1.4sqi.net/img/categories_v2/food/mexican_{icon_size}.png", 
+                            "id": "4bf58dd8d48988d1c1941735", 
+                            "name": "Mexican Restaurant"
+                        }, 
+                        "sourceId": "4f96a4dde4b024c1fd5dc8c3", 
+                        "url": ""
+                    }, 
+                    {
+                        "correct": false, 
+                        "dateCreated": 1403805078178, 
+                        "dateModified": 1403805078178, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "112 Commerce Way", 
@@ -180,32 +180,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531568, 
-                        "dateModified": 1403617531568, 
-                        "kind": "Foursquare", 
-                        "location": {
-                            "address": "1 Worcester Rd", 
-                            "city": "Framingham", 
-                            "country": "United States", 
-                            "crossStreet": "Route 9 at Shoppers World", 
-                            "lat": 42.299881084007076, 
-                            "lng": -71.39392375946045, 
-                            "postalCode": "01701", 
-                            "state": "MA"
-                        }, 
-                        "name": "Chipotle Mexican Grill", 
-                        "primaryCategory": {
-                            "icon": "https://ss1.4sqi.net/img/categories_v2/food/mexican_{icon_size}.png", 
-                            "id": "4bf58dd8d48988d1c1941735", 
-                            "name": "Mexican Restaurant"
-                        }, 
-                        "sourceId": "4ada053ef964a5205e1d21e3", 
-                        "url": ""
-                    }, 
-                    {
-                        "correct": false, 
-                        "dateCreated": 1403617531570, 
-                        "dateModified": 1403617531570, 
+                        "dateCreated": 1403805078179, 
+                        "dateModified": 1403805078179, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "148 Brookline Ave", 
@@ -228,8 +204,32 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531572, 
-                        "dateModified": 1403617531572, 
+                        "dateCreated": 1403805078180, 
+                        "dateModified": 1403805078180, 
+                        "kind": "Foursquare", 
+                        "location": {
+                            "address": "1 Worcester Rd", 
+                            "city": "Framingham", 
+                            "country": "United States", 
+                            "crossStreet": "Route 9 at Shoppers World", 
+                            "lat": 42.299881084007076, 
+                            "lng": -71.39392375946045, 
+                            "postalCode": "01701", 
+                            "state": "MA"
+                        }, 
+                        "name": "Chipotle Mexican Grill", 
+                        "primaryCategory": {
+                            "icon": "https://ss1.4sqi.net/img/categories_v2/food/mexican_{icon_size}.png", 
+                            "id": "4bf58dd8d48988d1c1941735", 
+                            "name": "Mexican Restaurant"
+                        }, 
+                        "sourceId": "4ada053ef964a5205e1d21e3", 
+                        "url": ""
+                    }, 
+                    {
+                        "correct": false, 
+                        "dateCreated": 1403805078182, 
+                        "dateModified": 1403805078182, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "93 Turnpike Rd", 
@@ -252,8 +252,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531575, 
-                        "dateModified": 1403617531575, 
+                        "dateCreated": 1403805078183, 
+                        "dateModified": 1403805078183, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "300 Needham St", 
@@ -276,8 +276,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531577, 
-                        "dateModified": 1403617531577, 
+                        "dateCreated": 1403805078184, 
+                        "dateModified": 1403805078184, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "274-276 Elm St", 
@@ -300,8 +300,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531579, 
-                        "dateModified": 1403617531579, 
+                        "dateCreated": 1403805078185, 
+                        "dateModified": 1403805078185, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1030 Main St", 
@@ -324,8 +324,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531581, 
-                        "dateModified": 1403617531581, 
+                        "dateCreated": 1403805078186, 
+                        "dateModified": 1403805078186, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "55 Dodge St", 
@@ -348,8 +348,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531583, 
-                        "dateModified": 1403617531583, 
+                        "dateCreated": 1403805078188, 
+                        "dateModified": 1403805078188, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "92 Derby St", 
@@ -372,8 +372,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531585, 
-                        "dateModified": 1403617531585, 
+                        "dateCreated": 1403805078189, 
+                        "dateModified": 1403805078189, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "876 Commonwealth Ave", 
@@ -396,8 +396,32 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531588, 
-                        "dateModified": 1403617531588, 
+                        "dateCreated": 1403805078190, 
+                        "dateModified": 1403805078190, 
+                        "kind": "Foursquare", 
+                        "location": {
+                            "address": "210 Andover St", 
+                            "city": "Peabody", 
+                            "country": "United States", 
+                            "crossStreet": "The North Shore Mall", 
+                            "lat": 42.54220812374256, 
+                            "lng": -70.94491310675669, 
+                            "postalCode": "01960", 
+                            "state": "MA"
+                        }, 
+                        "name": "Chipotle Mexican Grill", 
+                        "primaryCategory": {
+                            "icon": "https://ss1.4sqi.net/img/categories_v2/food/mexican_{icon_size}.png", 
+                            "id": "4bf58dd8d48988d1c1941735", 
+                            "name": "Mexican Restaurant"
+                        }, 
+                        "sourceId": "4af6e3a6f964a520ec0322e3", 
+                        "url": ""
+                    }, 
+                    {
+                        "correct": false, 
+                        "dateCreated": 1403805078191, 
+                        "dateModified": 1403805078191, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "60 Newport Ave", 
@@ -420,32 +444,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531590, 
-                        "dateModified": 1403617531590, 
-                        "kind": "Foursquare", 
-                        "location": {
-                            "address": "1 Brattle Sq", 
-                            "city": "Cambridge", 
-                            "country": "United States", 
-                            "crossStreet": "One Brattle @ Harvard Square", 
-                            "lat": 42.37295, 
-                            "lng": -71.12115933, 
-                            "postalCode": "02138", 
-                            "state": "MA"
-                        }, 
-                        "name": "Chipotle Mexican Grill", 
-                        "primaryCategory": {
-                            "icon": "https://ss1.4sqi.net/img/categories_v2/food/mexican_{icon_size}.png", 
-                            "id": "4bf58dd8d48988d1c1941735", 
-                            "name": "Mexican Restaurant"
-                        }, 
-                        "sourceId": "49de296bf964a52029601fe3", 
-                        "url": ""
-                    }, 
-                    {
-                        "correct": false, 
-                        "dateCreated": 1403617531592, 
-                        "dateModified": 1403617531592, 
+                        "dateCreated": 1403805078193, 
+                        "dateModified": 1403805078193, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "450 Paradise Rd", 
@@ -468,8 +468,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617531594, 
-                        "dateModified": 1403617531594, 
+                        "dateCreated": 1403805078194, 
+                        "dateModified": 1403805078194, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1415 Boston Providence Tpke", 
@@ -501,7 +501,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "185ms"
+                    "request_complete": "123ms"
                 }
             }, 
             "response": {
@@ -509,8 +509,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532986, 
-                        "dateModified": 1403617532986, 
+                        "dateCreated": 1403805080072, 
+                        "dateModified": 1403805080072, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "855 Worcester Rd", 
@@ -533,8 +533,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617533002, 
-                        "dateModified": 1403617533002, 
+                        "dateCreated": 1403805080074, 
+                        "dateModified": 1403805080074, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "207 Cambridge St", 
@@ -566,7 +566,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "206ms"
+                    "request_complete": "257ms"
                 }
             }, 
             "response": {
@@ -574,8 +574,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533314, 
-                        "dateModified": 1403617533314, 
+                        "dateCreated": 1403805080397, 
+                        "dateModified": 1403805080397, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "149 P St", 
@@ -598,8 +598,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617533325, 
-                        "dateModified": 1403617533325, 
+                        "dateCreated": 1403805080398, 
+                        "dateModified": 1403805080398, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1391 Washington St", 
@@ -622,8 +622,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617533327, 
-                        "dateModified": 1403617533327, 
+                        "dateCreated": 1403805080399, 
+                        "dateModified": 1403805080399, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1391 Washington St", 
@@ -646,8 +646,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617533329, 
-                        "dateModified": 1403617533329, 
+                        "dateCreated": 1403805080400, 
+                        "dateModified": 1403805080400, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "400 Boston Post Rd", 
@@ -670,8 +670,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533332, 
-                        "dateModified": 1403617533332, 
+                        "dateCreated": 1403805080402, 
+                        "dateModified": 1403805080402, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "101 Arch St", 
@@ -694,8 +694,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533338, 
-                        "dateModified": 1403617533338, 
+                        "dateCreated": 1403805080403, 
+                        "dateModified": 1403805080403, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "251 Arlington St", 
@@ -718,8 +718,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533340, 
-                        "dateModified": 1403617533340, 
+                        "dateCreated": 1403805080404, 
+                        "dateModified": 1403805080404, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "352 Hanover St", 
@@ -742,8 +742,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533346, 
-                        "dateModified": 1403617533346, 
+                        "dateCreated": 1403805080405, 
+                        "dateModified": 1403805080405, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "156 Highland Ave", 
@@ -766,8 +766,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533352, 
-                        "dateModified": 1403617533352, 
+                        "dateCreated": 1403805080406, 
+                        "dateModified": 1403805080406, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "15 Walnut Rd", 
@@ -790,8 +790,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533354, 
-                        "dateModified": 1403617533354, 
+                        "dateCreated": 1403805080408, 
+                        "dateModified": 1403805080408, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "12 Lexington Ave", 
@@ -823,7 +823,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "129ms"
+                    "request_complete": "192ms"
                 }
             }, 
             "response": {
@@ -831,8 +831,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617532447, 
-                        "dateModified": 1403617532447, 
+                        "dateCreated": 1403805079419, 
+                        "dateModified": 1403805079419, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "12 Washington St", 
@@ -855,8 +855,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532454, 
-                        "dateModified": 1403617532454, 
+                        "dateCreated": 1403805079421, 
+                        "dateModified": 1403805079421, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1105 Massachusetts Ave", 
@@ -888,7 +888,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "144ms"
+                    "request_complete": "265ms"
                 }
             }, 
             "response": {
@@ -896,8 +896,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532668, 
-                        "dateModified": 1403617532668, 
+                        "dateCreated": 1403805079752, 
+                        "dateModified": 1403805079752, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "149 P St", 
@@ -920,8 +920,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617532678, 
-                        "dateModified": 1403617532678, 
+                        "dateCreated": 1403805079753, 
+                        "dateModified": 1403805079753, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1391 Washington St", 
@@ -944,8 +944,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617532680, 
-                        "dateModified": 1403617532680, 
+                        "dateCreated": 1403805079754, 
+                        "dateModified": 1403805079754, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1391 Washington St", 
@@ -968,8 +968,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617532686, 
-                        "dateModified": 1403617532686, 
+                        "dateCreated": 1403805079755, 
+                        "dateModified": 1403805079755, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "400 Boston Post Rd", 
@@ -992,8 +992,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532689, 
-                        "dateModified": 1403617532689, 
+                        "dateCreated": 1403805079757, 
+                        "dateModified": 1403805079757, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "101 Arch St", 
@@ -1016,8 +1016,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532691, 
-                        "dateModified": 1403617532691, 
+                        "dateCreated": 1403805079758, 
+                        "dateModified": 1403805079758, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "251 Arlington St", 
@@ -1040,8 +1040,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532697, 
-                        "dateModified": 1403617532697, 
+                        "dateCreated": 1403805079759, 
+                        "dateModified": 1403805079759, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "352 Hanover St", 
@@ -1064,8 +1064,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532699, 
-                        "dateModified": 1403617532699, 
+                        "dateCreated": 1403805079760, 
+                        "dateModified": 1403805079760, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "156 Highland Ave", 
@@ -1088,8 +1088,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532705, 
-                        "dateModified": 1403617532705, 
+                        "dateCreated": 1403805079762, 
+                        "dateModified": 1403805079762, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "15 Walnut Rd", 
@@ -1112,8 +1112,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532708, 
-                        "dateModified": 1403617532708, 
+                        "dateCreated": 1403805079763, 
+                        "dateModified": 1403805079763, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "12 Lexington Ave", 
@@ -1145,7 +1145,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "98ms"
+                    "request_complete": "354ms"
                 }
             }, 
             "response": {
@@ -1153,8 +1153,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617532219, 
-                        "dateModified": 1403617532219, 
+                        "dateCreated": 1403805079073, 
+                        "dateModified": 1403805079073, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "245 Massachusetts Ave", 
@@ -1177,8 +1177,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617532222, 
-                        "dateModified": 1403617532222, 
+                        "dateCreated": 1403805079074, 
+                        "dateModified": 1403805079074, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "Western Ave", 
@@ -1210,7 +1210,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "253ms"
+                    "request_complete": "239ms"
                 }
             }, 
             "response": {
@@ -1218,8 +1218,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533598, 
-                        "dateModified": 1403617533598, 
+                        "dateCreated": 1403805080791, 
+                        "dateModified": 1403805080791, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "213 Burlington Rd", 
@@ -1242,8 +1242,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533604, 
-                        "dateModified": 1403617533604, 
+                        "dateCreated": 1403805080793, 
+                        "dateModified": 1403805080793, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "45 Ariadne Rd", 
@@ -1266,8 +1266,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533622, 
-                        "dateModified": 1403617533622, 
+                        "dateCreated": 1403805080795, 
+                        "dateModified": 1403805080795, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1 Lan Dr", 
@@ -1290,8 +1290,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533645, 
-                        "dateModified": 1403617533645, 
+                        "dateCreated": 1403805080796, 
+                        "dateModified": 1403805080796, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1616 Commonwealth Ave", 
@@ -1314,8 +1314,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533659, 
-                        "dateModified": 1403617533659, 
+                        "dateCreated": 1403805080798, 
+                        "dateModified": 1403805080798, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "663 Washington St", 
@@ -1338,8 +1338,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533697, 
-                        "dateModified": 1403617533697, 
+                        "dateCreated": 1403805080800, 
+                        "dateModified": 1403805080800, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "14 Kearney Sq", 
@@ -1393,7 +1393,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "228ms"
+                    "request_complete": "154ms"
                 }
             }, 
             "response": {
@@ -1401,8 +1401,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617526106, 
-                        "dateModified": 1403617526106, 
+                        "dateCreated": 1403805075118, 
+                        "dateModified": 1403805075118, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "31 Beach St", 
@@ -1434,7 +1434,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "117ms"
+                    "request_complete": "133ms"
                 }
             }, 
             "response": {
@@ -1442,8 +1442,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617526705, 
-                        "dateModified": 1403617526705, 
+                        "dateCreated": 1403805075697, 
+                        "dateModified": 1403805075697, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "682 Washington St", 
@@ -1475,7 +1475,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "179ms"
+                    "request_complete": "223ms"
                 }
             }, 
             "response": {
@@ -1483,8 +1483,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617526475, 
-                        "dateModified": 1403617526475, 
+                        "dateCreated": 1403805075440, 
+                        "dateModified": 1403805075440, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "2 Northern Ave", 
@@ -1507,8 +1507,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617526477, 
-                        "dateModified": 1403617526477, 
+                        "dateCreated": 1403805075442, 
+                        "dateModified": 1403805075442, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "323 Hanover St", 
@@ -1531,8 +1531,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617526479, 
-                        "dateModified": 1403617526479, 
+                        "dateCreated": 1403805075443, 
+                        "dateModified": 1403805075443, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "441 Harvard St", 
@@ -1585,7 +1585,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "133ms"
+                    "request_complete": "114ms"
                 }
             }, 
             "response": {
@@ -1603,7 +1603,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "303ms"
+                    "request_complete": "134ms"
                 }
             }, 
             "response": {
@@ -1611,8 +1611,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617529158, 
-                        "dateModified": 1403617529158, 
+                        "dateCreated": 1403805077357, 
+                        "dateModified": 1403805077357, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "587 Bolton St", 
@@ -1644,7 +1644,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "281ms"
+                    "request_complete": "132ms"
                 }
             }, 
             "response": {
@@ -1652,8 +1652,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617529635, 
-                        "dateModified": 1403617529635, 
+                        "dateCreated": 1403805077564, 
+                        "dateModified": 1403805077564, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "12 Farnsworth St", 
@@ -1685,7 +1685,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "92ms"
+                    "request_complete": "162ms"
                 }
             }, 
             "response": {
@@ -1703,7 +1703,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "116ms"
+                    "request_complete": "152ms"
                 }
             }, 
             "response": {
@@ -1711,8 +1711,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617528767, 
-                        "dateModified": 1403617528767, 
+                        "dateCreated": 1403805077112, 
+                        "dateModified": 1403805077112, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "131 Clarendon St", 
@@ -1735,8 +1735,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617528770, 
-                        "dateModified": 1403617528770, 
+                        "dateCreated": 1403805077113, 
+                        "dateModified": 1403805077113, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "190 Massachusetts Ave.", 
@@ -1759,8 +1759,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617528772, 
-                        "dateModified": 1403617528772, 
+                        "dateCreated": 1403805077142, 
+                        "dateModified": 1403805077142, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "12 Farnsworth St, Fl 1", 
@@ -1783,8 +1783,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617528774, 
-                        "dateModified": 1403617528774, 
+                        "dateCreated": 1403805077144, 
+                        "dateModified": 1403805077144, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1595 Washington St", 
@@ -1807,8 +1807,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617528779, 
-                        "dateModified": 1403617528779, 
+                        "dateCreated": 1403805077145, 
+                        "dateModified": 1403805077145, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "178 Thorndike St", 
@@ -1840,7 +1840,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "241ms"
+                    "request_complete": "199ms"
                 }
             }, 
             "response": {
@@ -1848,8 +1848,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617527607, 
-                        "dateModified": 1403617527607, 
+                        "dateCreated": 1403805076389, 
+                        "dateModified": 1403805076389, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "12 Farnsworth St", 
@@ -1881,7 +1881,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "319ms"
+                    "request_complete": "119ms"
                 }
             }, 
             "response": {
@@ -1889,8 +1889,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617528137, 
-                        "dateModified": 1403617528137, 
+                        "dateCreated": 1403805076689, 
+                        "dateModified": 1403805076689, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "583 Washington St", 
@@ -1922,7 +1922,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "112ms"
+                    "request_complete": "146ms"
                 }
             }, 
             "response": {
@@ -1930,8 +1930,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617526945, 
-                        "dateModified": 1403617526945, 
+                        "dateCreated": 1403805075923, 
+                        "dateModified": 1403805075923, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1 Broadway", 
@@ -1963,7 +1963,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "181ms"
+                    "request_complete": "111ms"
                 }
             }, 
             "response": {
@@ -1971,8 +1971,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617527241, 
-                        "dateModified": 1403617527241, 
+                        "dateCreated": 1403805076117, 
+                        "dateModified": 1403805076117, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "757 Massachusetts Ave", 
@@ -1995,8 +1995,8 @@
                     }, 
                     {
                         "correct": true, 
-                        "dateCreated": 1403617527247, 
-                        "dateModified": 1403617527247, 
+                        "dateCreated": 1403805076118, 
+                        "dateModified": 1403805076118, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "1369 Cambridge St", 
@@ -2088,7 +2088,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "117ms"
+                    "request_complete": "231ms"
                 }
             }, 
             "response": {
@@ -2106,7 +2106,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "123ms"
+                    "request_complete": "243ms"
                 }
             }, 
             "response": {
@@ -2114,8 +2114,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617535289, 
-                        "dateModified": 1403617535289, 
+                        "dateCreated": 1403805082656, 
+                        "dateModified": 1403805082656, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "134 Hampshire St", 
@@ -2147,7 +2147,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "227ms"
+                    "request_complete": "382ms"
                 }
             }, 
             "response": {
@@ -2165,7 +2165,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "112ms"
+                    "request_complete": "291ms"
                 }
             }, 
             "response": {
@@ -2173,8 +2173,8 @@
                 "venues": [
                     {
                         "correct": true, 
-                        "dateCreated": 1403617534449, 
-                        "dateModified": 1403617534449, 
+                        "dateCreated": 1403805081750, 
+                        "dateModified": 1403805081750, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "350 3rd St", 
@@ -2206,7 +2206,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "128ms"
+                    "request_complete": "182ms"
                 }
             }, 
             "response": {
@@ -2214,8 +2214,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617534170, 
-                        "dateModified": 1403617534170, 
+                        "dateCreated": 1403805081377, 
+                        "dateModified": 1403805081377, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "130 Dorchester St", 
@@ -2238,8 +2238,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617534176, 
-                        "dateModified": 1403617534176, 
+                        "dateCreated": 1403805081379, 
+                        "dateModified": 1403805081379, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "571 Tremont St", 
@@ -2271,7 +2271,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "128ms"
+                    "request_complete": "149ms"
                 }
             }, 
             "response": {
@@ -2279,8 +2279,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533953, 
-                        "dateModified": 1403617533953, 
+                        "dateCreated": 1403805081122, 
+                        "dateModified": 1403805081122, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "130 Dorchester St", 
@@ -2303,8 +2303,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617533956, 
-                        "dateModified": 1403617533956, 
+                        "dateCreated": 1403805081123, 
+                        "dateModified": 1403805081123, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "571 Tremont St", 
@@ -2356,7 +2356,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "187ms"
+                    "request_complete": "247ms"
                 }
             }, 
             "response": {
@@ -2364,8 +2364,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617535736, 
-                        "dateModified": 1403617535736, 
+                        "dateCreated": 1403805083466, 
+                        "dateModified": 1403805083466, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "3710 Washington St", 
@@ -2388,8 +2388,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617535738, 
-                        "dateModified": 1403617535738, 
+                        "dateCreated": 1403805083467, 
+                        "dateModified": 1403805083467, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "3 Otis St", 
@@ -2412,8 +2412,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617535740, 
-                        "dateModified": 1403617535740, 
+                        "dateCreated": 1403805083468, 
+                        "dateModified": 1403805083468, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "205 Turnpike Rd", 
@@ -2436,8 +2436,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617535742, 
-                        "dateModified": 1403617535742, 
+                        "dateCreated": 1403805083470, 
+                        "dateModified": 1403805083470, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "100C Boston Post Rd", 
@@ -2460,8 +2460,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617535745, 
-                        "dateModified": 1403617535745, 
+                        "dateCreated": 1403805083471, 
+                        "dateModified": 1403805083471, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "20 Turnpike Road (Route 9 Eastbound)", 
@@ -2484,8 +2484,8 @@
                     }, 
                     {
                         "correct": false, 
-                        "dateCreated": 1403617535747, 
-                        "dateModified": 1403617535747, 
+                        "dateCreated": 1403805083472, 
+                        "dateModified": 1403805083472, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "Faneuil Hall", 
@@ -2517,7 +2517,7 @@
             "request": {
                 "status": "ok", 
                 "timing": {
-                    "request_complete": "183ms"
+                    "request_complete": "223ms"
                 }
             }, 
             "response": {
@@ -2525,8 +2525,8 @@
                 "venues": [
                     {
                         "correct": false, 
-                        "dateCreated": 1403617532005, 
-                        "dateModified": 1403617532005, 
+                        "dateCreated": 1403805078537, 
+                        "dateModified": 1403805078537, 
                         "kind": "Foursquare", 
                         "location": {
                             "address": "115 Stuart St", 
