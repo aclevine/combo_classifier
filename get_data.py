@@ -53,9 +53,9 @@ def extract_4sq_data(data_path, lat, long):
         json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
 
 def clean_venue(text):
-    clean_text = re.sub("'s", "", text) # 's not being parsed by 4square API 
+    clean_text = re.sub("'s", "s", text) # 's not being parsed by 4square API 
     clean_text = re.sub("and|&", "", clean_text) # and not being screened out by API
-    clean_text = re.sub("s$", "", clean_text)
+    #clean_text = re.sub("s$", "", clean_text)
 
     return clean_text
 

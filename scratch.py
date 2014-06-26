@@ -37,7 +37,16 @@ if __name__ == '__main__':
     path = 'data/data_new.json'
     with open(path, 'r') as fo:
         data = json.load(fo)
-    print re.sub("s$|-", "", "pants-pants")
+    #===========================================================================
+    #     new= {}
+    #     i = 0
+    #     for key in data.keys():
+    #         new[str(i)] = data[key]
+    #         i += 1
+    #     fo.close()
+    # json.dump(new, open(path, 'w'), indent=4, sort_keys=True)
+    #===========================================================================
+
     
 
 #===============================================================================
@@ -95,3 +104,9 @@ if __name__ == '__main__':
 # for key in data.keys():
 #     print type(json.loads(data[key]['html']))
 #===============================================================================
+
+
+
+
+
+
