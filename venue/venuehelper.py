@@ -100,7 +100,7 @@ def all_caps(tok, previous_tokens):
     return False
 
 def prep_in_last(tok, previous_tokens):
-    tags = set(tag for word, tag in pos_tag(previous_tokens)[-2:])
+    tags = set(tag for word, tag in pos_tag(previous_tokens)[-4:])
     if 'TO' in tags or 'IN' in tags:
         return True
     else:
@@ -119,19 +119,21 @@ def prop_noun_tag(tok, previous_tokens):
         return False
 
 def the_in_last(tok, previous_tokens):
-    words = set(word for word in previous_tokens[-3:])
+    words = set(word for word in previous_tokens[-2:])
     if 'the' in words:
         return True
     else:
         return False
-
-
-
-#Reduces recall ~9, increases precision ~13
+ 
 def prev_trigram(tok, previous_tokens):
+    #Reduces recall ~9, increases precision ~13
     prev = previous_tokens[-1].lower()
     if prev not in lf:
         return features[prev[-3:]]
+
+def test(tok, previous_tokens):
+    return
+
 
 def convert_to_svm(string, index):
     #These features will always fire
