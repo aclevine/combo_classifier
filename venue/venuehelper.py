@@ -106,6 +106,27 @@ def prep_in_last(tok, previous_tokens):
     else:
         return False
 
+def noun_tag(tok, previous_tokens):
+    if pos_tag([tok])[0][1].startswith('N'):
+        return True
+    else:
+        return False
+
+def prop_noun_tag(tok, previous_tokens):
+    if pos_tag([tok])[0][1] == 'NNP':
+        return True
+    else:
+        return False
+
+def the_in_last(tok, previous_tokens):
+    words = set(word for word in previous_tokens[-3:])
+    if 'the' in words:
+        return True
+    else:
+        return False
+
+
+
 #Reduces recall ~9, increases precision ~13
 def prev_trigram(tok, previous_tokens):
     prev = previous_tokens[-1].lower()
@@ -114,7 +135,7 @@ def prev_trigram(tok, previous_tokens):
 
 def convert_to_svm(string, index):
     #These features will always fire
-    always_fire_ff = [len_greater_2, go_to_at_in_3, places_in_sentence, all_caps, prep_in_last]
+    always_fire_ff = [prop_noun_tag, noun_tag, len_greater_2, go_to_at_in_3, places_in_sentence, all_caps, prep_in_last, prev_trigram]
     #These features will only fire if length of current token > 2
     len_cond_fire_ff = [in_stopwords, title_case, all_numbers, time_ex1, time_ex2]
     
@@ -198,6 +219,11 @@ def convert_to_svm(string, index):
 
 if __name__ == '__main__':
     #test
-    i_list = convert_to_svm('Staying at the kimpton|venue downtown for a conference.', 1)
+    d = {"lat": 42.3581, 
+    "long": -71.0636, 
+    "sent": "In the North End, try <v>La Summa</v>, <v>Cantina Italiana</v>, <v>Massimino's</v> or <v>Pizzeria Regina</v>.", 
+    "venueName": "Cantina Italiana"}
+    
+    i_list = convert_to_svm('Staying at the Kimpton|venue downtown for a conference.', 1)
     for i in i_list:
         print i

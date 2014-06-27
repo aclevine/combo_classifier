@@ -3,7 +3,7 @@ Created on May 17, 2014
 
 @author: aclevine
 '''
-
+import nltk
 import re
 import pprint
 import json
@@ -46,16 +46,22 @@ if __name__ == '__main__':
     # 
     #===========================================================================
     
-    path = 'data/test.json'
+    path = 'data/data_new.json'
     with open(path, 'r') as fo:
         data = json.load(fo)
-        new= {}
-        i = 0
-        for key, value in data.iteritems():
-            new[i] = value
-            i += 1
-            print i
-    json.dump(new, open('data/test.json', 'w'), indent=4, sort_keys=True)
+        for key in sorted(data.keys()):
+            print key
+            print data[key]['sent']
+    
+    #===========================================================================
+    #     new= {}
+    #     i = 0
+    #     for key, value in data.iteritems():
+    #         new[i] = value
+    #         i += 1
+    #         print i
+    # json.dump(new, open('data/test.json', 'w'), indent=4, sort_keys=True)
+    #===========================================================================
  
      
 
