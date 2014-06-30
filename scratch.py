@@ -49,14 +49,12 @@ if __name__ == '__main__':
     path = 'data/data_new.json'
     with open(path, 'r') as fo:
         data = json.load(fo)
-        #=======================================================================
-        # old = []
-        # for key in sorted(data.keys()):
-        #     if data[key]['sent'] not in old:
-        #         print data[key]['sent']
-        #         print
-        #         old.append(data[key]['sent'])
-        #=======================================================================
+        old = []
+        for key in sorted(data.keys()):
+            if data[key]['sent'] not in old:
+                print data[key]['sent']
+                print
+                old.append(data[key]['sent'])
             
     #===========================================================================
     # path = 'data/data_new.json'

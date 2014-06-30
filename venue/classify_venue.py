@@ -24,19 +24,25 @@ def new_to_old_tags(sent):
     
 def load_venues(inpath):
     data = json.load(open(inpath, 'r'))
-    instances = []
+    sents = []
     for key in data.keys():
-        #change data to one venue
         sent = data[key]['sent']
-        venues = re.findall('<v>.+?</v>', sent)
-        for v in venues:
-            if v != '<v>'+data[key]['venueName']+'</v>':
-                sent = re.sub(v,'VENUENAME',sent)
+        #=======================================================================
+        # #change data to one venue
+        # venues = re.findall('<v>.+?</v>', sent)
+        # for v in venues:
+        #     if v != '<v>'+data[key]['venueName']+'</v>':
+        #         sent = re.sub(v,'VENUENAME',sent)
+        #=======================================================================
         sent = new_to_old_tags(sent)
-        #load data
+        sents.append(sent)        
+    #load data
+    sents_set = set(sents)
+    instances = []
+    for sent in sents_set:
         feature_list = convert_to_svm(sent, key)
         instances.extend(feature_list)
-        
+
     with open('../data/venue_data.svm', 'w') as fw:
         fw.write('\n'.join(instances).encode('utf-8', 'ignore'))
 
@@ -51,8 +57,8 @@ def run_crossfold(n, ofn=False):
         for line in fo:
             lines.append(line.strip())
 
+    #build test and training sets
     tenth = len(lines) / n
-    #random.shuffle(lines)
     if ofn:
         ofile = open(ofn, 'w')
     for x in xrange(n):
@@ -73,6 +79,7 @@ def run_crossfold(n, ofn=False):
             fo.write('\n'.join(out_test))
             del out_test
 
+        #run classifier
         check_call(['../liblinear-1.94/train', '-s', '2', 'crstemptrain.txt', 'crstemp.model'])
         check_call(['../liblinear-1.94/predict', 'crstemptest.txt', 'crstemp.model', 'crstempout.txt'])
 

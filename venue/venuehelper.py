@@ -126,8 +126,14 @@ def the_in_last(tok, previous_tokens):
         return False
  
 def prev_trigram(tok, previous_tokens):
+    tok = ["<START_0>", "<START_1>"] + previous_tokens
+    
+    
+def prev_3_letters(tok, previous_tokens):
     #Reduces recall ~9, increases precision ~13
     prev = previous_tokens[-1].lower()
+    print prev
+    print prev[-3:]
     if prev not in lf:
         return features[prev[-3:]]
 
@@ -137,15 +143,15 @@ def test(tok, previous_tokens):
 
 def convert_to_svm(string, index):
     #These features will always fire
-    always_fire_ff = [prop_noun_tag, noun_tag, len_greater_2, go_to_at_in_3, places_in_sentence, all_caps, prep_in_last, prev_trigram]
+    always_fire_ff = [prop_noun_tag, noun_tag, len_greater_2, go_to_at_in_3, places_in_sentence, all_caps, prep_in_last, prev_3_letters]
     #These features will only fire if length of current token > 2
     len_cond_fire_ff = [in_stopwords, title_case, all_numbers, time_ex1, time_ex2]
     
     s = string
     #Store feature indices
     global features
-    features = {'<start>':1}
-    fic = 1
+    features = {'<start_0>':1, '<start_1>':2, '<start_2>':3}
+    fic = 3
     for item in always_fire_ff:
         if item.__name__ not in features:
             fic += 1
@@ -175,7 +181,7 @@ def convert_to_svm(string, index):
     instances = []
     previous_tokens = []
     toks = nltk.word_tokenize(s) #toks = s.split()
-    prev3 = ["<START>"]
+    prev3 = ["<START_0>", "<START_1>"]
     
     for tok in toks:
         label = 0
@@ -184,7 +190,7 @@ def convert_to_svm(string, index):
         tok = re.sub(r'\|venue', '', tok)
     
         # We only check for venues after first two tokens.
-        if len(prev3) > 2:
+        if len(prev3) >= 2:
             istring = str(label)
             f_id = set(features["<UNK>"] if i in lf else features[i.lower()] for i in prev3)
             
@@ -208,6 +214,8 @@ def convert_to_svm(string, index):
             instances.append(istring)
             
             prev3.pop(0)
+            
+            
             
         previous_tokens.append(tok)
         prev3.append(tok.lower())

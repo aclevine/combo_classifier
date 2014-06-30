@@ -1,266 +1,197 @@
 {
-    "150": [
-        "Westin", 
-        "Sea", 
-        "Copley Place"
-    ], 
-    "151": [
-        "Bondir"
-    ], 
-    "152": [
-        "Lenox"
-    ], 
-    "153": [
-        "Giacomo's Ristorante"
-    ], 
-    "154": [
-        "Park"
-    ], 
-    "157": [
-        "Mass"
-    ], 
-    "158": [
-        "Long Wharf", 
-        "Cruises"
-    ], 
-    "221": [
-        "Papagayo", 
-        "Mexican"
-    ], 
-    "223": [
-        "Bistro", 
-        "Midi"
-    ], 
-    "224": [
-        "Tex Mex", 
-        "North Market"
-    ], 
-    "225": [
+    "479": [
+        "Cafe", 
+        "Starbucks", 
+        "Levi Plaza", 
+        "Burlington", 
+        "Ben", 
+        "Jerry's", 
+        "Dente", 
+        "Salem. Small", 
+        "Italian", 
+        "Blue Line", 
+        "Wonderland", 
+        "Kelly's", 
+        "Brighton", 
+        "Pho Viet's", 
+        "The Hawthorne", 
+        "PF Chang's", 
+        "Rustic Kitchen", 
+        "Fish", 
+        "Boylston Street", 
+        "Emerald Lounge", 
+        "April", 
+        "Bella Luna", 
+        "Barracuda Tavern", 
+        "Restaurants", 
+        "Abe", 
+        "Louies", 
+        "ATO", 
+        "Sarma", 
         "Toro", 
-        "Saturday"
-    ], 
-    "226": [
-        "Area Four"
-    ], 
-    "227": [
-        "Boston Beer Works"
-    ], 
-    "228": [
-        "South End"
-    ], 
-    "390": [
-        "Eastern"
-    ], 
-    "391": [
-        "Sunday River"
-    ], 
-    "40": [
-        "Market"
-    ], 
-    "41": [
-        "Hub"
-    ], 
-    "43": [
-        "Starbucks"
-    ], 
-    "44": [
-        "Union Oyster House"
-    ], 
-    "45": [
-        "Grill", 
-        "Wharf"
-    ], 
-    "47": [
-        "Sea", 
-        "Harborside"
-    ], 
-    "472": [
-        "Sarma"
-    ], 
-    "473": [
-        "Bob", 
-        "Antonio's", 
-        "Cambridge St."
-    ], 
-    "474": [
-        "Pizzeria Regina"
-    ], 
-    "475": [
-        "Regina"
-    ], 
-    "476": [
-        "Modern. Big"
-    ], 
-    "478": [
-        "Huntington Avenue"
-    ], 
-    "48": [
-        "Toro"
-    ], 
-    "480": [
-        "Mamma Maria"
-    ], 
-    "481": [
-        "Hotel", 
-        "Oak Bar"
-    ], 
-    "482": [
-        "Boston Common Coffee"
-    ], 
-    "483": [
-        "Maybe Abigail's"
-    ], 
-    "486": [
-        "Catalyst. Maybe"
-    ], 
-    "487": [
-        "City Table", 
-        "Thursday"
-    ], 
-    "488": [
-        "Mulan"
-    ], 
-    "49": [
-        "Oyster Bar"
-    ], 
-    "5": [
-        "Sox", 
-        "Cask", 
-        "Flagon"
-    ], 
-    "560": [
-        "Teranga.", 
-        "Senagalese"
-    ], 
-    "561": [
-        "Neapolitan", 
-        "Gran"
-    ], 
-    "562": [
-        "Restaurants"
-    ], 
-    "563": [
-        "Mr. Bartley's"
-    ], 
-    "564": [
-        "Oak Bar"
-    ], 
-    "565": [
-        "Tapas"
-    ], 
-    "566": [
-        "Coppa"
-    ], 
-    "568": [
-        "Estragon", 
-        "Tapas"
-    ], 
-    "569": [
-        "Ice."
-    ], 
-    "608": [
-        "Hamersley's"
-    ], 
-    "634": [
-        "Todd", 
-        "Restaurant"
-    ], 
-    "635": [
-        "Yank Sing", 
-        "Rincon"
-    ], 
-    "638": [
-        "Louie's"
-    ], 
-    "639": [
-        "James Hook Lobster Company"
-    ], 
-    "722": [
-        "Neptune Oyster"
-    ], 
-    "723": [
-        "Mike's"
-    ], 
-    "724": [
-        "James Hook"
-    ], 
-    "726": [
-        "Pizzeria Regina"
-    ], 
-    "727": [
-        "Lunch", 
-        "Mothers Bistro"
-    ], 
-    "728": [
-        "Shabu Zen"
-    ], 
-    "737": [
-        "Science Bar", 
-        "Grill"
-    ], 
-    "739": [
-        "Brenner"
-    ], 
-    "749": [
-        "Mexican", 
-        "Casa"
-    ], 
-    "751": [
-        "Northern", 
-        "Mamma Maria"
-    ], 
-    "754": [
-        "Rustica"
-    ], 
-    "755": [
-        "Grotto"
-    ], 
-    "757": [
-        "Sligo"
-    ], 
-    "820": [
+        "Saturday", 
+        "Natural History", 
+        "ATO", 
+        "Bartleys", 
+        "Starbuck", 
+        "Tremont", 
+        "Santarpio's", 
+        "East Boston", 
+        "Woody's", 
+        "Mass Ave", 
+        "ATO", 
+        "Trina's", 
+        "Yankee Lobster", 
+        "James Hook", 
+        "Thursday", 
+        "ATO", 
+        "Tomas", 
+        "ATO", 
+        "ATO", 
+        "Monday", 
+        "Constitution", 
+        "Charlestown", 
+        "Paul", 
+        "House", 
+        "Flemings", 
+        "Park Plaza", 
         "Boston", 
-        "University Alumni Association", 
-        "Battery Park"
-    ], 
-    "821": [
-        "Fenway"
-    ], 
-    "822": [
-        "Coppa"
-    ], 
-    "826": [
-        "Rib"
-    ], 
-    "840": [
+        "Orange", 
+        "Sullivan Square", 
+        "Many", 
+        "Flemmings", 
+        "Mortons", 
+        "Abe", 
+        "Louies", 
+        "Explorer", 
+        "ATO", 
+        "Friday", 
+        "Rock Bottom", 
+        "Westminster", 
+        "South End", 
+        "Francesca's", 
+        "Summa", 
+        "ATO", 
+        "Creek Oyster Bar", 
+        "Mexican", 
+        "Papagayo", 
+        "Daily Catch", 
+        "North End", 
+        "Matta", 
+        "Teranga.", 
+        "Senagalese", 
+        "Nod", 
+        "Grafton Street Pub", 
+        "Grill", 
+        "Harvard Sq.", 
+        "Ruth's Chris Central Square", 
+        "Brick", 
+        "Mortar", 
+        "Green Street Grill", 
+        "Orleans", 
+        "Dan", 
+        "Ice", 
+        "Boston", 
+        "Peach Farm", 
+        "Gourmet", 
+        "House", 
+        "New Shanghai", 
+        "Asian Garden", 
+        "Best Little Restaurant", 
+        "Great Taste", 
+        "Xinh Xinh", 
+        "Pho Pasteur", 
+        "Shabu Shabu at Q", 
+        "Kaze", 
+        "Turner Fisheries", 
+        "Westin Copley", 
+        "Sea", 
+        "Beehive", 
+        "Legal Harborside", 
+        "Beer Garden", 
+        "South Station", 
+        "Les Zygomates", 
+        "South Station", 
+        "Chinatown", 
+        "Good Life", 
         "South Station", 
         "Downtown Crossing", 
+        "Kingston Station", 
+        "South Station", 
         "Downtown Crossing", 
         "Congress", 
-        "South Station"
-    ], 
-    "841": [
-        "Little India"
-    ], 
-    "842": [
-        "Mike's"
-    ], 
-    "843": [
-        "Xinh Xinh"
-    ], 
-    "849": [
-        "Papagayo"
-    ], 
-    "954": [
-        "Legal Seafood"
-    ], 
-    "955": [
-        "Center"
-    ], 
-    "958": [
-        "Lala Rokh."
-    ], 
-    "976": [
-        "Saccos"
+        "Cafe", 
+        "Cafe", 
+        "Papagayo", 
+        "Plus", 
+        "Trade", 
+        "South Station", 
+        "Papagayo", 
+        "South Station", 
+        "Empire", 
+        "Strega", 
+        "Waterfront", 
+        "Legal Harborside", 
+        "Trade", 
+        "Legal Test Kitchen", 
+        "Trade", 
+        "Freedom Trail", 
+        "Boston", 
+        "Grill", 
+        "Abe", 
+        "Mike's Pastry", 
+        "North End", 
+        "Falmouth", 
+        "Pickle Jar", 
+        "Kendall", 
+        "Petit Robert Central", 
+        "Trade", 
+        "South Station", 
+        "Hawthorne", 
+        "Friend", 
+        "Harpoon Night", 
+        "Rocco's Restaurant", 
+        "Wilmington", 
+        "Park", 
+        "Boston", 
+        "Foxboro", 
+        "Gillette Stadium", 
+        "Hall", 
+        "Cape", 
+        "Sesuit Cafe", 
+        "Dennis", 
+        "Standard", 
+        "Expensive", 
+        "Yes", 
+        "Anna's", 
+        "Harvard Square", 
+        "Harvest", 
+        "Oyster House", 
+        "Oceanaire", 
+        "Get", 
+        "Fenway", 
+        "See", 
+        "Belly", 
+        "Newton Center", 
+        "Tuesday Feb", 
+        "JM Curley", 
+        "North End", 
+        "Summa", 
+        "Sarma", 
+        "Worth", 
+        "Food", 
+        "Drink", 
+        "Boloco", 
+        "Aloft", 
+        "Element", 
+        "Lexington", 
+        "ATO Jumbo Seafood", 
+        "Hudson St.", 
+        "Grand Chau Chau", 
+        "Essex", 
+        "Parker House", 
+        "Parker House Roll", 
+        "Main", 
+        "Boston"
     ]
 }
