@@ -8,11 +8,10 @@ import urllib
 import json
 
 # MAIN FUNCTIONS
-def extract_venue_data(sent_path, data_path):
+def extract_venue_data(sent_path, data_path, i=0):
     '''grab venue names from venue_sentences, send venue and origin sentence 
     to json keyed on sentence number'''
     #setup json dict
-    i = 0
     data = {}
     with open(sent_path, 'r') as fo:
         #divide sentences
@@ -109,9 +108,9 @@ def add_new_data(old_path, additional_path, new_path):
 
 if __name__ == "__main__":
 
-    path = 'data/data_new.json'   
-    #extract_venue_data('data/venue_sentences.txt', path) 
-    #extract_4sq_data(path, '42.3581', '-71.0636')
+    path = 'data/tmp.json'   
+    extract_venue_data('data/venue_sentences.txt', path, 0) 
+    extract_4sq_data(path, '42.3581', '-71.0636')
 
     #add = json.load(open( path , 'r'))
     #json.dump(add, open( path, 'w'), indent=4, sort_keys=True)

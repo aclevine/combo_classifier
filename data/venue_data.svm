@@ -1130,17 +1130,17 @@
 1 2:1 3:1 4:1 8:1 9:1 11:1 23:1 25:1 26:1|	|Current: Pho	Tokens: I was also going to suggest VENUENAME and	Index:279
 1 2:1 3:1 4:1 9:1 11:1 25:1 26:1 27:1|	|Current: Basil	Tokens: I was also going to suggest VENUENAME and Pho	Index:279
 0 9:1 26:1 27:1 29:1|	|Current: .	Tokens: I was also going to suggest VENUENAME and Pho Basil	Index:279
-0 1:1 3:1 4:1 8:1 9:1 10:1 15:1 17:1|	|Current: area	Tokens: If Kendall	Index:738
-0 8:1 9:1 15:1 17:1 19:1|	|Current: is	Tokens: If Kendall area	Index:738
-0 3:1 4:1 8:1 9:1 17:1 19:1 20:1|	|Current: okay	Tokens: If Kendall area is	Index:738
-0 9:1 19:1 20:1 22:1|	|Current: ,	Tokens: If Kendall area is okay	Index:738
-0 4:1 9:1 10:1 20:1 22:1 23:1|	|Current: how	Tokens: If Kendall area is okay ,	Index:738
-0 4:1 9:1 22:1 23:1 24:1|	|Current: about	Tokens: If Kendall area is okay , how	Index:738
-1 2:1 3:1 4:1 9:1 11:1 23:1 24:1 26:1|	|Current: State	Tokens: If Kendall area is okay , how about	Index:738
-1 2:1 3:1 4:1 5:1 9:1 11:1 24:1 26:1 28:1|	|Current: Park	Tokens: If Kendall area is okay , how about State	Index:738
-0 5:1 9:1 26:1 28:1 30:1|	|Current: or	Tokens: If Kendall area is okay , how about State Park	Index:738
-0 2:1 3:1 4:1 5:1 7:1 9:1 28:1 30:1 31:1|	|Current: VENUENAME	Tokens: If Kendall area is okay , how about State Park or	Index:738
-0 9:1 30:1 31:1 33:1|	|Current: ?	Tokens: If Kendall area is okay , how about State Park or VENUENAME	Index:738
+0 1:1 3:1 4:1 8:1 9:1 10:1 15:1 17:1|	|Current: area	Tokens: If VENUENAME	Index:738
+0 8:1 9:1 15:1 17:1 19:1|	|Current: is	Tokens: If VENUENAME area	Index:738
+0 3:1 4:1 8:1 9:1 17:1 19:1 20:1|	|Current: okay	Tokens: If VENUENAME area is	Index:738
+0 9:1 19:1 20:1 22:1|	|Current: ,	Tokens: If VENUENAME area is okay	Index:738
+0 4:1 9:1 10:1 20:1 22:1 23:1|	|Current: how	Tokens: If VENUENAME area is okay ,	Index:738
+0 4:1 9:1 22:1 23:1 24:1|	|Current: about	Tokens: If VENUENAME area is okay , how	Index:738
+1 2:1 3:1 4:1 9:1 11:1 23:1 24:1 26:1|	|Current: State	Tokens: If VENUENAME area is okay , how about	Index:738
+1 2:1 3:1 4:1 5:1 9:1 11:1 24:1 26:1 28:1|	|Current: Park	Tokens: If VENUENAME area is okay , how about State	Index:738
+0 5:1 9:1 26:1 28:1 30:1|	|Current: or	Tokens: If VENUENAME area is okay , how about State Park	Index:738
+0 2:1 3:1 4:1 5:1 7:1 9:1 28:1 30:1 31:1|	|Current: VENUENAME	Tokens: If VENUENAME area is okay , how about State Park or	Index:738
+0 9:1 17:1 30:1 31:1|	|Current: ?	Tokens: If VENUENAME area is okay , how about State Park or VENUENAME	Index:738
 1 1:1 2:1 3:1 4:1 9:1 11:1 15:1 17:1|	|Current: Taranta	Tokens: I like	Index:524
 0 9:1 15:1 17:1 19:1|	|Current: in	Tokens: I like Taranta	Index:524
 0 4:1 8:1 9:1 10:1 17:1 19:1 20:1|	|Current: the	Tokens: I like Taranta in	Index:524
@@ -2060,8 +2060,7 @@
 0 1:1 4:1 8:1 9:1 10:1 15:1 17:1|	|Current: the	Tokens: How about	Index:338
 1 3:1 4:1 8:1 9:1 11:1 15:1 17:1 18:1|	|Current: Starbucks	Tokens: How about the	Index:338
 0 8:1 9:1 17:1 18:1 20:1|	|Current: at	Tokens: How about the Starbucks	Index:338
-0 2:1 3:1 4:1 5:1 8:1 9:1 11:1 18:1 20:1 21:1|	|Current: Levi	Tokens: How about the Starbucks at	Index:338
-0 2:1 3:1 4:1 5:1 8:1 9:1 11:1 20:1 21:1 23:1|	|Current: Plaza	Tokens: How about the Starbucks at Levi	Index:338
+0 2:1 3:1 4:1 5:1 7:1 8:1 9:1 18:1 20:1 21:1|	|Current: VENUENAME	Tokens: How about the Starbucks at	Index:338
 0 1:1 4:1 9:1 15:1 17:1|	|Current: also	Tokens: You could	Index:335
 0 9:1 15:1 17:1 19:1|	|Current: go	Tokens: You could also	Index:335
 0 3:1 4:1 9:1 17:1 19:1 20:1|	|Current: see	Tokens: You could also go	Index:335
@@ -3561,13 +3560,12 @@
 0 2:1 3:1 4:1 9:1 11:1 22:1 23:1 25:1|	|Current: St.	Tokens: Lunch : The Parish Cafe 361 Boylston	Index:944
 0 4:1 9:1 23:1 25:1 26:1|	|Current: near	Tokens: Lunch : The Parish Cafe 361 Boylston St.	Index:944
 0 4:1 8:1 9:1 10:1 25:1 26:1 28:1|	|Current: the	Tokens: Lunch : The Parish Cafe 361 Boylston St. near	Index:944
-0 4:1 8:1 9:1 11:1 18:1 26:1 28:1|	|Current: Public	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the	Index:944
-0 2:1 3:1 4:1 8:1 9:1 11:1 18:1 28:1 30:1|	|Current: Garden.	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the Public	Index:944
-0 2:1 3:1 4:1 8:1 9:1 11:1 18:1 30:1 32:1|	|Current: Funky	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the Public Garden.	Index:944
-0 9:1 30:1 32:1 34:1|	|Current: ,	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the Public Garden. Funky	Index:944
-0 3:1 4:1 9:1 32:1 34:1 35:1|	|Current: fun	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the Public Garden. Funky ,	Index:944
-0 3:1 4:1 9:1 34:1 35:1 36:1|	|Current: sandwiches	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the Public Garden. Funky , fun	Index:944
-0 9:1 35:1 36:1 38:1|	|Current: .	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the Public Garden. Funky , fun sandwiches	Index:944
+0 2:1 3:1 4:1 7:1 8:1 9:1 18:1 26:1 28:1|	|Current: VENUENAME.	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the	Index:944
+0 2:1 3:1 4:1 8:1 9:1 11:1 18:1 28:1 30:1|	|Current: Funky	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the VENUENAME.	Index:944
+0 8:1 9:1 18:1 30:1 32:1|	|Current: ,	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the VENUENAME. Funky	Index:944
+0 3:1 4:1 9:1 30:1 32:1 33:1|	|Current: fun	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the VENUENAME. Funky ,	Index:944
+0 3:1 4:1 9:1 32:1 33:1 34:1|	|Current: sandwiches	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the VENUENAME. Funky , fun	Index:944
+0 9:1 33:1 34:1 36:1|	|Current: .	Tokens: Lunch : The Parish Cafe 361 Boylston St. near the VENUENAME. Funky , fun sandwiches	Index:944
 0 1:1 3:1 4:1 9:1 15:1 17:1|	|Current: pizza	Tokens: my favorite	Index:945
 0 4:1 9:1 10:1 15:1 17:1 19:1|	|Current: and	Tokens: my favorite pizza	Index:945
 0 3:1 4:1 9:1 17:1 19:1 20:1|	|Current: pub	Tokens: my favorite pizza and	Index:945
@@ -3614,11 +3612,10 @@
 0 3:1 4:1 8:1 9:1 20:1 22:1 23:1|	|Current: head	Tokens: if you do end up in VENUENAME ,	Index:943
 0 4:1 8:1 9:1 22:1 23:1 25:1|	|Current: down	Tokens: if you do end up in VENUENAME , head	Index:943
 0 8:1 9:1 23:1 25:1 27:1|	|Current: to	Tokens: if you do end up in VENUENAME , head down	Index:943
-0 2:1 3:1 4:1 8:1 9:1 11:1 25:1 27:1 28:1|	|Current: Kendall	Tokens: if you do end up in VENUENAME , head down to	Index:943
-0 2:1 3:1 4:1 8:1 9:1 11:1 27:1 28:1 30:1|	|Current: Square	Tokens: if you do end up in VENUENAME , head down to Kendall	Index:943
-0 4:1 8:1 9:1 10:1 28:1 30:1 32:1|	|Current: for	Tokens: if you do end up in VENUENAME , head down to Kendall Square	Index:943
-1 2:1 3:1 4:1 8:1 9:1 11:1 30:1 32:1 33:1|	|Current: Meadhall	Tokens: if you do end up in VENUENAME , head down to Kendall Square for	Index:943
-0 8:1 9:1 32:1 33:1 34:1|	|Current: .	Tokens: if you do end up in VENUENAME , head down to Kendall Square for Meadhall	Index:943
+0 2:1 3:1 4:1 7:1 8:1 9:1 25:1 27:1 28:1|	|Current: VENUENAME	Tokens: if you do end up in VENUENAME , head down to	Index:943
+0 4:1 8:1 9:1 10:1 22:1 27:1 28:1|	|Current: for	Tokens: if you do end up in VENUENAME , head down to VENUENAME	Index:943
+1 2:1 3:1 4:1 8:1 9:1 11:1 22:1 28:1 29:1|	|Current: Meadhall	Tokens: if you do end up in VENUENAME , head down to VENUENAME for	Index:943
+0 8:1 9:1 22:1 29:1 31:1|	|Current: .	Tokens: if you do end up in VENUENAME , head down to VENUENAME for Meadhall	Index:943
 0 1:1 9:1 15:1 17:1|	|Current: go	Tokens: We could	Index:940
 0 9:1 15:1 17:1 18:1|	|Current: to	Tokens: We could go	Index:940
 1 2:1 3:1 4:1 5:1 8:1 9:1 11:1 17:1 18:1 19:1|	|Current: Silvertone	Tokens: We could go to	Index:940
@@ -3679,16 +3676,16 @@
 0 4:1 8:1 9:1 10:1 16:1 31:1 38:1|	|Current: and	Tokens: VENUENAME is fine , but very loud. VENUENAME has better atmosphere as do VENUENAME and Grill 23 , as well as VENUENAME	Index:768
 0 2:1 3:1 4:1 7:1 8:1 9:1 16:1 31:1 33:1|	|Current: VENUENAME	Tokens: VENUENAME is fine , but very loud. VENUENAME has better atmosphere as do VENUENAME and Grill 23 , as well as VENUENAME and	Index:768
 0 8:1 9:1 16:1 33:1|	|Current: .	Tokens: VENUENAME is fine , but very loud. VENUENAME has better atmosphere as do VENUENAME and Grill 23 , as well as VENUENAME and VENUENAME	Index:768
-0 1:1 3:1 4:1 8:1 9:1 10:1 15:1 17:1|	|Current: area	Tokens: If Kendall	Index:689
-0 8:1 9:1 15:1 17:1 19:1|	|Current: is	Tokens: If Kendall area	Index:689
-0 3:1 4:1 8:1 9:1 17:1 19:1 20:1|	|Current: okay	Tokens: If Kendall area is	Index:689
-0 9:1 19:1 20:1 22:1|	|Current: ,	Tokens: If Kendall area is okay	Index:689
-0 4:1 9:1 10:1 20:1 22:1 23:1|	|Current: how	Tokens: If Kendall area is okay ,	Index:689
-0 4:1 9:1 22:1 23:1 24:1|	|Current: about	Tokens: If Kendall area is okay , how	Index:689
-0 2:1 3:1 4:1 7:1 9:1 23:1 24:1 26:1|	|Current: VENUENAME	Tokens: If Kendall area is okay , how about	Index:689
-0 9:1 24:1 26:1 28:1|	|Current: or	Tokens: If Kendall area is okay , how about VENUENAME	Index:689
-1 4:1 9:1 11:1 26:1 28:1 29:1|	|Current: Belly	Tokens: If Kendall area is okay , how about VENUENAME or	Index:689
-0 9:1 28:1 29:1 31:1|	|Current: ?	Tokens: If Kendall area is okay , how about VENUENAME or Belly	Index:689
+0 1:1 3:1 4:1 8:1 9:1 10:1 15:1 17:1|	|Current: area	Tokens: If VENUENAME	Index:689
+0 8:1 9:1 15:1 17:1 19:1|	|Current: is	Tokens: If VENUENAME area	Index:689
+0 3:1 4:1 8:1 9:1 17:1 19:1 20:1|	|Current: okay	Tokens: If VENUENAME area is	Index:689
+0 9:1 19:1 20:1 22:1|	|Current: ,	Tokens: If VENUENAME area is okay	Index:689
+0 4:1 9:1 10:1 20:1 22:1 23:1|	|Current: how	Tokens: If VENUENAME area is okay ,	Index:689
+0 4:1 9:1 22:1 23:1 24:1|	|Current: about	Tokens: If VENUENAME area is okay , how	Index:689
+0 2:1 3:1 4:1 7:1 9:1 23:1 24:1 26:1|	|Current: VENUENAME	Tokens: If VENUENAME area is okay , how about	Index:689
+0 9:1 17:1 24:1 26:1|	|Current: or	Tokens: If VENUENAME area is okay , how about VENUENAME	Index:689
+1 4:1 9:1 11:1 17:1 26:1 27:1|	|Current: Belly	Tokens: If VENUENAME area is okay , how about VENUENAME or	Index:689
+0 9:1 17:1 27:1 29:1|	|Current: ?	Tokens: If VENUENAME area is okay , how about VENUENAME or Belly	Index:689
 1 1:1 2:1 3:1 4:1 9:1 11:1 16:1 17:1|	|Current: Sabur	Tokens: Plan is	Index:688
 0 9:1 16:1 17:1 19:1|	|Current: at	Tokens: Plan is Sabur	Index:688
 0 5:1 8:1 9:1 17:1 19:1 20:1|	|Current: 7	Tokens: Plan is Sabur at	Index:688
@@ -4653,18 +4650,18 @@
 1 1:1 3:1 4:1 8:1 9:1 15:1 17:1|	|Current: row	Tokens: How about	Index:377
 1 8:1 9:1 15:1 17:1 18:1|	|Current: 34	Tokens: How about row	Index:377
 0 8:1 9:1 17:1 18:1 19:1|	|Current: ?	Tokens: How about row 34	Index:377
-0 1:1 8:1 9:1 15:1 17:1|	|Current: ,	Tokens: In Kendall	Index:376
-0 7:1 8:1 9:1 15:1 17:1 18:1|	|Current: I	Tokens: In Kendall ,	Index:376
-0 4:1 8:1 9:1 17:1 18:1 19:1|	|Current: could	Tokens: In Kendall , I	Index:376
-0 9:1 18:1 19:1 21:1|	|Current: do	Tokens: In Kendall , I could	Index:376
-0 2:1 3:1 4:1 7:1 9:1 19:1 21:1 22:1|	|Current: VENUENAME	Tokens: In Kendall , I could do	Index:376
-0 9:1 21:1 22:1 24:1|	|Current: or	Tokens: In Kendall , I could do VENUENAME	Index:376
-0 4:1 9:1 22:1 24:1 25:1|	|Current: maybe	Tokens: In Kendall , I could do VENUENAME or	Index:376
-0 4:1 9:1 10:1 24:1 25:1 27:1|	|Current: the	Tokens: In Kendall , I could do VENUENAME or maybe	Index:376
-0 3:1 4:1 9:1 25:1 27:1 28:1|	|Current: bar	Tokens: In Kendall , I could do VENUENAME or maybe the	Index:376
-0 9:1 27:1 28:1 29:1|	|Current: at	Tokens: In Kendall , I could do VENUENAME or maybe the bar	Index:376
-1 2:1 3:1 4:1 5:1 8:1 9:1 11:1 28:1 29:1 30:1|	|Current: Evoo	Tokens: In Kendall , I could do VENUENAME or maybe the bar at	Index:376
-0 5:1 8:1 9:1 29:1 30:1 32:1|	|Current: .	Tokens: In Kendall , I could do VENUENAME or maybe the bar at Evoo	Index:376
+0 1:1 8:1 9:1 15:1 17:1|	|Current: ,	Tokens: In VENUENAME	Index:376
+0 7:1 8:1 9:1 15:1 17:1 18:1|	|Current: I	Tokens: In VENUENAME ,	Index:376
+0 4:1 8:1 9:1 17:1 18:1 19:1|	|Current: could	Tokens: In VENUENAME , I	Index:376
+0 9:1 18:1 19:1 21:1|	|Current: do	Tokens: In VENUENAME , I could	Index:376
+0 2:1 3:1 4:1 7:1 9:1 19:1 21:1 22:1|	|Current: VENUENAME	Tokens: In VENUENAME , I could do	Index:376
+0 9:1 17:1 21:1 22:1|	|Current: or	Tokens: In VENUENAME , I could do VENUENAME	Index:376
+0 4:1 9:1 17:1 22:1 23:1|	|Current: maybe	Tokens: In VENUENAME , I could do VENUENAME or	Index:376
+0 4:1 9:1 10:1 17:1 23:1 25:1|	|Current: the	Tokens: In VENUENAME , I could do VENUENAME or maybe	Index:376
+0 3:1 4:1 9:1 23:1 25:1 26:1|	|Current: bar	Tokens: In VENUENAME , I could do VENUENAME or maybe the	Index:376
+0 9:1 25:1 26:1 27:1|	|Current: at	Tokens: In VENUENAME , I could do VENUENAME or maybe the bar	Index:376
+1 2:1 3:1 4:1 5:1 8:1 9:1 11:1 26:1 27:1 28:1|	|Current: Evoo	Tokens: In VENUENAME , I could do VENUENAME or maybe the bar at	Index:376
+0 5:1 8:1 9:1 27:1 28:1 30:1|	|Current: .	Tokens: In VENUENAME , I could do VENUENAME or maybe the bar at Evoo	Index:376
 0 1:1 8:1 9:1 15:1 17:1|	|Current: -	Tokens: For casual	Index:708
 0 2:1 3:1 4:1 7:1 8:1 9:1 15:1 17:1 18:1|	|Current: VENUENAME	Tokens: For casual -	Index:708
 0 8:1 9:1 17:1 18:1 20:1|	|Current: or	Tokens: For casual - VENUENAME	Index:708
@@ -8173,28 +8170,28 @@
 0 3:1 4:1 9:1 19:1 21:1 23:1|	|Current: downtown	Tokens: Any chance you can meet somewhere	Index:203
 0 4:1 9:1 21:1 23:1 25:1|	|Current: instead	Tokens: Any chance you can meet somewhere downtown	Index:203
 0 9:1 23:1 25:1 27:1|	|Current: of	Tokens: Any chance you can meet somewhere downtown instead	Index:203
-0 2:1 3:1 4:1 8:1 9:1 11:1 25:1 27:1 28:1|	|Current: Kendall	Tokens: Any chance you can meet somewhere downtown instead of	Index:203
-0 8:1 9:1 27:1 28:1 30:1|	|Current: ,	Tokens: Any chance you can meet somewhere downtown instead of Kendall	Index:203
-0 4:1 8:1 9:1 28:1 30:1 31:1|	|Current: say	Tokens: Any chance you can meet somewhere downtown instead of Kendall ,	Index:203
-0 2:1 3:1 4:1 7:1 8:1 9:1 30:1 31:1 32:1|	|Current: VENUENAME	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say	Index:203
-0 3:1 9:1 31:1 32:1 34:1|	|Current: (	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME	Index:203
-0 4:1 9:1 32:1 34:1 35:1|	|Current: same	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME (	Index:203
-0 3:1 4:1 9:1 34:1 35:1 36:1|	|Current: building	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same	Index:203
-0 9:1 35:1 36:1 38:1|	|Current: as	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building	Index:203
-0 4:1 8:1 9:1 10:1 36:1 38:1 39:1|	|Current: the	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as	Index:203
-0 3:1 4:1 8:1 9:1 38:1 39:1 40:1|	|Current: downtown	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the	Index:203
-0 4:1 8:1 9:1 25:1 39:1 40:1|	|Current: crossing	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown	Index:203
-0 3:1 7:1 8:1 9:1 25:1 40:1 41:1|	|Current: T	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing	Index:203
-0 3:1 9:1 25:1 41:1 42:1|	|Current: )	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T	Index:203
-0 9:1 41:1 42:1 43:1|	|Current: or	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T )	Index:203
-0 2:1 3:1 4:1 7:1 9:1 42:1 43:1 44:1|	|Current: VENUENAME	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T ) or	Index:203
-0 3:1 9:1 34:1 43:1 44:1|	|Current: (	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME	Index:203
-0 4:1 9:1 34:1 35:1 44:1|	|Current: nearby	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME (	Index:203
-0 9:1 34:1 35:1 46:1|	|Current: to	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby	Index:203
-1 2:1 3:1 4:1 8:1 9:1 11:1 35:1 46:1 47:1|	|Current: South	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby to	Index:203
-1 3:1 4:1 8:1 9:1 11:1 46:1 47:1 49:1|	|Current: Station	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby to South	Index:203
-0 3:1 5:1 8:1 9:1 47:1 49:1 51:1|	|Current: )	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby to South Station	Index:203
-0 5:1 8:1 9:1 43:1 49:1 51:1|	|Current: ?	Tokens: Any chance you can meet somewhere downtown instead of Kendall , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby to South Station )	Index:203
+0 2:1 3:1 4:1 7:1 8:1 9:1 25:1 27:1 28:1|	|Current: VENUENAME	Tokens: Any chance you can meet somewhere downtown instead of	Index:203
+0 8:1 9:1 27:1 28:1 30:1|	|Current: ,	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME	Index:203
+0 4:1 8:1 9:1 28:1 30:1 31:1|	|Current: say	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME ,	Index:203
+0 2:1 3:1 4:1 7:1 8:1 9:1 30:1 31:1 32:1|	|Current: VENUENAME	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say	Index:203
+0 3:1 9:1 30:1 31:1 32:1|	|Current: (	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME	Index:203
+0 4:1 9:1 30:1 32:1 33:1|	|Current: same	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME (	Index:203
+0 3:1 4:1 9:1 30:1 33:1 34:1|	|Current: building	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same	Index:203
+0 9:1 33:1 34:1 36:1|	|Current: as	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building	Index:203
+0 4:1 8:1 9:1 10:1 34:1 36:1 37:1|	|Current: the	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as	Index:203
+0 3:1 4:1 8:1 9:1 36:1 37:1 38:1|	|Current: downtown	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the	Index:203
+0 4:1 8:1 9:1 25:1 37:1 38:1|	|Current: crossing	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown	Index:203
+0 3:1 7:1 8:1 9:1 25:1 38:1 39:1|	|Current: T	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing	Index:203
+0 3:1 9:1 25:1 39:1 40:1|	|Current: )	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T	Index:203
+0 9:1 39:1 40:1 41:1|	|Current: or	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T )	Index:203
+0 2:1 3:1 4:1 7:1 9:1 40:1 41:1 42:1|	|Current: VENUENAME	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T ) or	Index:203
+0 3:1 9:1 30:1 41:1 42:1|	|Current: (	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME	Index:203
+0 4:1 9:1 30:1 33:1 42:1|	|Current: nearby	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME (	Index:203
+0 9:1 30:1 33:1 44:1|	|Current: to	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby	Index:203
+1 2:1 3:1 4:1 8:1 9:1 11:1 33:1 44:1 45:1|	|Current: South	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby to	Index:203
+1 3:1 4:1 8:1 9:1 11:1 44:1 45:1 47:1|	|Current: Station	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby to South	Index:203
+0 3:1 5:1 8:1 9:1 45:1 47:1 49:1|	|Current: )	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby to South Station	Index:203
+0 5:1 8:1 9:1 41:1 47:1 49:1|	|Current: ?	Tokens: Any chance you can meet somewhere downtown instead of VENUENAME , say VENUENAME ( same building as the downtown crossing T ) or VENUENAME ( nearby to South Station )	Index:203
 0 1:1 3:1 4:1 9:1 15:1 16:1|	|Current: standby	Tokens: An old	Index:202
 0 9:1 15:1 16:1 18:1|	|Current: in	Tokens: An old standby	Index:202
 0 4:1 8:1 9:1 10:1 16:1 18:1 19:1|	|Current: the	Tokens: An old standby in	Index:202
@@ -8506,12 +8503,11 @@
 0 3:1 4:1 8:1 9:1 20:1 22:1 23:1|	|Current: head	Tokens: if you do end up in VENUENAME ,	Index:669
 0 4:1 8:1 9:1 22:1 23:1 25:1|	|Current: down	Tokens: if you do end up in VENUENAME , head	Index:669
 0 8:1 9:1 23:1 25:1 27:1|	|Current: to	Tokens: if you do end up in VENUENAME , head down	Index:669
-0 2:1 3:1 4:1 8:1 9:1 11:1 25:1 27:1 28:1|	|Current: Kendall	Tokens: if you do end up in VENUENAME , head down to	Index:669
-0 2:1 3:1 4:1 8:1 9:1 11:1 27:1 28:1 30:1|	|Current: Square	Tokens: if you do end up in VENUENAME , head down to Kendall	Index:669
-0 4:1 8:1 9:1 10:1 28:1 30:1 32:1|	|Current: for	Tokens: if you do end up in VENUENAME , head down to Kendall Square	Index:669
-1 2:1 3:1 4:1 8:1 9:1 11:1 30:1 32:1 33:1|	|Current: Lord	Tokens: if you do end up in VENUENAME , head down to Kendall Square for	Index:669
-1 2:1 3:1 4:1 8:1 9:1 11:1 32:1 33:1 35:1|	|Current: Hobo	Tokens: if you do end up in VENUENAME , head down to Kendall Square for Lord	Index:669
-0 8:1 9:1 33:1 35:1 37:1|	|Current: .	Tokens: if you do end up in VENUENAME , head down to Kendall Square for Lord Hobo	Index:669
+0 2:1 3:1 4:1 7:1 8:1 9:1 25:1 27:1 28:1|	|Current: VENUENAME	Tokens: if you do end up in VENUENAME , head down to	Index:669
+0 4:1 8:1 9:1 10:1 22:1 27:1 28:1|	|Current: for	Tokens: if you do end up in VENUENAME , head down to VENUENAME	Index:669
+1 2:1 3:1 4:1 8:1 9:1 11:1 22:1 28:1 29:1|	|Current: Lord	Tokens: if you do end up in VENUENAME , head down to VENUENAME for	Index:669
+1 2:1 3:1 4:1 8:1 9:1 11:1 22:1 29:1 31:1|	|Current: Hobo	Tokens: if you do end up in VENUENAME , head down to VENUENAME for Lord	Index:669
+0 8:1 9:1 29:1 31:1 33:1|	|Current: .	Tokens: if you do end up in VENUENAME , head down to VENUENAME for Lord Hobo	Index:669
 0 1:1 4:1 8:1 9:1 15:1 16:1|	|Current: exciting	Tokens: Not as	Index:668
 0 8:1 9:1 15:1 16:1 18:1|	|Current: as	Tokens: Not as exciting	Index:668
 0 4:1 8:1 9:1 10:1 16:1 18:1|	|Current: the	Tokens: Not as exciting as	Index:668
@@ -9101,12 +9097,12 @@
 0 3:1 5:1 9:1 25:1 26:1 28:1|	|Current: )	Tokens: Cottage Park - Up to 28 people ( 14 boats	Index:991
 0 3:1 4:1 5:1 9:1 26:1 28:1 29:1|	|Current: meet	Tokens: Cottage Park - Up to 28 people ( 14 boats )	Index:991
 0 5:1 9:1 28:1 29:1 31:1|	|Current: at	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet	Index:991
-0 2:1 3:1 4:1 5:1 7:1 8:1 9:1 29:1 31:1 32:1|	|Current: ATO	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at	Index:991
-0 5:1 8:1 9:1 31:1 32:1 33:1|	|Current: at	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at ATO	Index:991
-0 4:1 5:1 8:1 9:1 12:1 13:1 32:1 33:1|	|Current: 9:15	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at ATO at	Index:991
-0 4:1 5:1 8:1 9:1 10:1 32:1 33:1 35:1|	|Current: for	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at ATO at 9:15	Index:991
-0 3:1 4:1 5:1 8:1 9:1 32:1 35:1 36:1|	|Current: breakfast	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at ATO at 9:15 for	Index:991
-0 8:1 9:1 35:1 36:1 38:1|	|Current: .	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at ATO at 9:15 for breakfast	Index:991
+0 2:1 3:1 4:1 5:1 7:1 8:1 9:1 29:1 31:1 32:1|	|Current: VENUENAME	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at	Index:991
+0 5:1 8:1 9:1 31:1 32:1 34:1|	|Current: at	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at VENUENAME	Index:991
+0 4:1 5:1 8:1 9:1 12:1 13:1 32:1 34:1|	|Current: 9:15	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at VENUENAME at	Index:991
+0 4:1 5:1 8:1 9:1 10:1 32:1 34:1 36:1|	|Current: for	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at VENUENAME at 9:15	Index:991
+0 3:1 4:1 5:1 8:1 9:1 32:1 36:1 37:1|	|Current: breakfast	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at VENUENAME at 9:15 for	Index:991
+0 8:1 9:1 36:1 37:1 39:1|	|Current: .	Tokens: Cottage Park - Up to 28 people ( 14 boats ) meet at VENUENAME at 9:15 for breakfast	Index:991
 0 1:1 9:1 15:1 16:1|	|Current: at	Tokens: See you	Index:990
 0 5:1 8:1 9:1 15:1 16:1 17:1|	|Current: 7p	Tokens: See you at	Index:990
 0 5:1 8:1 9:1 16:1 17:1 18:1|	|Current: at	Tokens: See you at 7p	Index:990
@@ -12169,13 +12165,12 @@
 0 3:1 4:1 8:1 9:1 20:1 22:1 23:1|	|Current: head	Tokens: if you do end up in VENUENAME ,	Index:964
 0 4:1 8:1 9:1 22:1 23:1 25:1|	|Current: down	Tokens: if you do end up in VENUENAME , head	Index:964
 0 8:1 9:1 23:1 25:1 27:1|	|Current: to	Tokens: if you do end up in VENUENAME , head down	Index:964
-0 2:1 3:1 4:1 8:1 9:1 11:1 25:1 27:1 28:1|	|Current: Kendall	Tokens: if you do end up in VENUENAME , head down to	Index:964
-0 2:1 3:1 4:1 8:1 9:1 11:1 27:1 28:1 30:1|	|Current: Square	Tokens: if you do end up in VENUENAME , head down to Kendall	Index:964
-0 4:1 8:1 9:1 10:1 28:1 30:1 32:1|	|Current: for	Tokens: if you do end up in VENUENAME , head down to Kendall Square	Index:964
-1 2:1 3:1 4:1 8:1 9:1 11:1 30:1 32:1 33:1|	|Current: Cambridge	Tokens: if you do end up in VENUENAME , head down to Kendall Square for	Index:964
-1 4:1 8:1 9:1 11:1 32:1 33:1 35:1|	|Current: Brewing	Tokens: if you do end up in VENUENAME , head down to Kendall Square for Cambridge	Index:964
-1 3:1 4:1 8:1 9:1 11:1 33:1 35:1 37:1|	|Current: Company	Tokens: if you do end up in VENUENAME , head down to Kendall Square for Cambridge Brewing	Index:964
-0 8:1 9:1 35:1 37:1 39:1|	|Current: .	Tokens: if you do end up in VENUENAME , head down to Kendall Square for Cambridge Brewing Company	Index:964
+0 2:1 3:1 4:1 7:1 8:1 9:1 25:1 27:1 28:1|	|Current: VENUENAME	Tokens: if you do end up in VENUENAME , head down to	Index:964
+0 4:1 8:1 9:1 10:1 22:1 27:1 28:1|	|Current: for	Tokens: if you do end up in VENUENAME , head down to VENUENAME	Index:964
+1 2:1 3:1 4:1 8:1 9:1 11:1 22:1 28:1 29:1|	|Current: Cambridge	Tokens: if you do end up in VENUENAME , head down to VENUENAME for	Index:964
+1 4:1 8:1 9:1 11:1 22:1 29:1 31:1|	|Current: Brewing	Tokens: if you do end up in VENUENAME , head down to VENUENAME for Cambridge	Index:964
+1 3:1 4:1 8:1 9:1 11:1 29:1 31:1 33:1|	|Current: Company	Tokens: if you do end up in VENUENAME , head down to VENUENAME for Cambridge Brewing	Index:964
+0 8:1 9:1 31:1 33:1 35:1|	|Current: .	Tokens: if you do end up in VENUENAME , head down to VENUENAME for Cambridge Brewing Company	Index:964
 0 1:1 3:1 4:1 8:1 9:1 15:1 16:1|	|Current: want	Tokens: If you	Index:965
 0 4:1 8:1 9:1 10:1 15:1 16:1 18:1|	|Current: you	Tokens: If you want	Index:965
 0 4:1 8:1 9:1 10:1 16:1 18:1|	|Current: can	Tokens: If you want you	Index:965
@@ -13973,9 +13968,8 @@
 0 2:1 3:1 4:1 7:1 8:1 9:1 26:1 28:1|	|Current: VENUENAME	Tokens: The Bar at the Taj Hotel is nice , too , as well as	Index:987
 0 8:1 9:1 26:1 28:1 30:1|	|Current: at	Tokens: The Bar at the Taj Hotel is nice , too , as well as VENUENAME	Index:987
 0 4:1 5:1 8:1 9:1 10:1 17:1 26:1 30:1|	|Current: the	Tokens: The Bar at the Taj Hotel is nice , too , as well as VENUENAME at	Index:987
-0 2:1 3:1 4:1 5:1 8:1 9:1 11:1 15:1 17:1 30:1|	|Current: Copley	Tokens: The Bar at the Taj Hotel is nice , too , as well as VENUENAME at the	Index:987
-0 2:1 3:1 4:1 5:1 8:1 9:1 11:1 15:1 17:1 32:1|	|Current: Plaza	Tokens: The Bar at the Taj Hotel is nice , too , as well as VENUENAME at the Copley	Index:987
-0 8:1 9:1 15:1 32:1 34:1|	|Current: .	Tokens: The Bar at the Taj Hotel is nice , too , as well as VENUENAME at the Copley Plaza	Index:987
+0 2:1 3:1 4:1 5:1 7:1 8:1 9:1 15:1 17:1 30:1|	|Current: VENUENAME	Tokens: The Bar at the Taj Hotel is nice , too , as well as VENUENAME at the	Index:987
+0 5:1 8:1 9:1 15:1 17:1 30:1|	|Current: .	Tokens: The Bar at the Taj Hotel is nice , too , as well as VENUENAME at the VENUENAME	Index:987
 0 1:1 2:1 3:1 5:1 7:1 9:1 16:1 17:1|	|Current: RW	Tokens: Must Eat	Index:775
 0 3:1 5:1 9:1 16:1 17:1 18:1|	|Current: (	Tokens: Must Eat RW	Index:775
 0 4:1 5:1 9:1 17:1 18:1 19:1|	|Current: although	Tokens: Must Eat RW (	Index:775
@@ -14096,8 +14090,8 @@
 0 2:1 3:1 4:1 5:1 8:1 9:1 11:1 20:1 21:1 23:1|	|Current: St.	Tokens: Sorry , Regina is on Thatcher	Index:986
 0 5:1 8:1 9:1 21:1 23:1 24:1|	|Current: ,	Tokens: Sorry , Regina is on Thatcher St.	Index:986
 0 4:1 5:1 8:1 9:1 17:1 23:1 24:1|	|Current: near	Tokens: Sorry , Regina is on Thatcher St. ,	Index:986
-0 2:1 3:1 4:1 8:1 9:1 11:1 17:1 24:1 26:1|	|Current: Endicott	Tokens: Sorry , Regina is on Thatcher St. , near	Index:986
-0 8:1 9:1 17:1 26:1 28:1|	|Current: .	Tokens: Sorry , Regina is on Thatcher St. , near Endicott	Index:986
+0 2:1 3:1 4:1 7:1 8:1 9:1 17:1 24:1 26:1|	|Current: VENUENAME	Tokens: Sorry , Regina is on Thatcher St. , near	Index:986
+0 8:1 9:1 17:1 26:1 28:1|	|Current: .	Tokens: Sorry , Regina is on Thatcher St. , near VENUENAME	Index:986
 0 1:1 4:1 9:1 15:1 16:1|	|Current: still	Tokens: Are we	Index:777
 0 9:1 15:1 16:1 18:1|	|Current: on	Tokens: Are we still	Index:777
 0 4:1 8:1 9:1 10:1 16:1 18:1 19:1|	|Current: for	Tokens: Are we still on	Index:777
@@ -14426,19 +14420,19 @@
 0 5:1 9:1 25:1 27:1 29:1|	|Current: ,	Tokens: And Toro is amazing ... but no reservations. Awesome food	Index:919
 0 4:1 9:1 27:1 29:1 30:1|	|Current: though	Tokens: And Toro is amazing ... but no reservations. Awesome food ,	Index:919
 0 3:1 9:1 29:1 30:1 32:1|	|Current: !	Tokens: And Toro is amazing ... but no reservations. Awesome food , though	Index:919
-0 1:1 8:1 9:1 15:1 17:1|	|Current: ,	Tokens: In Kendall	Index:918
-0 7:1 8:1 9:1 15:1 17:1 18:1|	|Current: I	Tokens: In Kendall ,	Index:918
-0 4:1 8:1 9:1 17:1 18:1 19:1|	|Current: could	Tokens: In Kendall , I	Index:918
-0 9:1 18:1 19:1 21:1|	|Current: do	Tokens: In Kendall , I could	Index:918
-1 2:1 3:1 4:1 9:1 11:1 19:1 21:1 22:1|	|Current: Firebrand	Tokens: In Kendall , I could do	Index:918
-1 3:1 4:1 9:1 11:1 21:1 22:1 24:1|	|Current: Saints	Tokens: In Kendall , I could do Firebrand	Index:918
-0 9:1 22:1 24:1 26:1|	|Current: or	Tokens: In Kendall , I could do Firebrand Saints	Index:918
-0 4:1 9:1 24:1 26:1 27:1|	|Current: maybe	Tokens: In Kendall , I could do Firebrand Saints or	Index:918
-0 4:1 9:1 10:1 26:1 27:1 29:1|	|Current: the	Tokens: In Kendall , I could do Firebrand Saints or maybe	Index:918
-0 3:1 4:1 9:1 27:1 29:1 30:1|	|Current: bar	Tokens: In Kendall , I could do Firebrand Saints or maybe the	Index:918
-0 9:1 29:1 30:1 31:1|	|Current: at	Tokens: In Kendall , I could do Firebrand Saints or maybe the bar	Index:918
-0 2:1 3:1 4:1 5:1 7:1 8:1 9:1 30:1 31:1 32:1|	|Current: VENUENAME	Tokens: In Kendall , I could do Firebrand Saints or maybe the bar at	Index:918
-0 5:1 8:1 9:1 31:1 32:1 34:1|	|Current: .	Tokens: In Kendall , I could do Firebrand Saints or maybe the bar at VENUENAME	Index:918
+0 1:1 8:1 9:1 15:1 17:1|	|Current: ,	Tokens: In VENUENAME	Index:918
+0 7:1 8:1 9:1 15:1 17:1 18:1|	|Current: I	Tokens: In VENUENAME ,	Index:918
+0 4:1 8:1 9:1 17:1 18:1 19:1|	|Current: could	Tokens: In VENUENAME , I	Index:918
+0 9:1 18:1 19:1 21:1|	|Current: do	Tokens: In VENUENAME , I could	Index:918
+1 2:1 3:1 4:1 9:1 11:1 19:1 21:1 22:1|	|Current: Firebrand	Tokens: In VENUENAME , I could do	Index:918
+1 3:1 4:1 9:1 11:1 21:1 22:1 24:1|	|Current: Saints	Tokens: In VENUENAME , I could do Firebrand	Index:918
+0 9:1 22:1 24:1 26:1|	|Current: or	Tokens: In VENUENAME , I could do Firebrand Saints	Index:918
+0 4:1 9:1 24:1 26:1 27:1|	|Current: maybe	Tokens: In VENUENAME , I could do Firebrand Saints or	Index:918
+0 4:1 9:1 10:1 26:1 27:1 29:1|	|Current: the	Tokens: In VENUENAME , I could do Firebrand Saints or maybe	Index:918
+0 3:1 4:1 9:1 27:1 29:1 30:1|	|Current: bar	Tokens: In VENUENAME , I could do Firebrand Saints or maybe the	Index:918
+0 9:1 29:1 30:1 31:1|	|Current: at	Tokens: In VENUENAME , I could do Firebrand Saints or maybe the bar	Index:918
+0 2:1 3:1 4:1 5:1 7:1 8:1 9:1 30:1 31:1 32:1|	|Current: VENUENAME	Tokens: In VENUENAME , I could do Firebrand Saints or maybe the bar at	Index:918
+0 5:1 8:1 9:1 17:1 31:1 32:1|	|Current: .	Tokens: In VENUENAME , I could do Firebrand Saints or maybe the bar at VENUENAME	Index:918
 1 1:1 2:1 3:1 4:1 9:1 11:1 16:1 17:1|	|Current: Wollensky	Tokens: Smith and	Index:421
 0 3:1 9:1 16:1 17:1 19:1|	|Current: !	Tokens: Smith and Wollensky	Index:421
 0 3:1 9:1 17:1 19:1 20:1|	|Current: !	Tokens: Smith and Wollensky !	Index:421
