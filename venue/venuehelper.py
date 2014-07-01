@@ -126,8 +126,8 @@ def the_in_last(tok, previous_tokens):
         return False
  
 def prev_trigram(tok, previous_tokens):
-    tok = ["<START_0>", "<START_1>"] + previous_tokens
-    
+    return
+        
     
 def prev_3_letters(tok, previous_tokens):
     #Reduces recall ~9, increases precision ~13
@@ -143,7 +143,7 @@ def test(tok, previous_tokens):
 
 def convert_to_svm(string, index):
     #These features will always fire
-    always_fire_ff = [prop_noun_tag, noun_tag, len_greater_2, go_to_at_in_3, places_in_sentence, all_caps, prep_in_last, prev_3_letters]
+    always_fire_ff = [prev_3_letters, prop_noun_tag, noun_tag, len_greater_2, go_to_at_in_3, places_in_sentence, all_caps, prep_in_last]
     #These features will only fire if length of current token > 2
     len_cond_fire_ff = [in_stopwords, title_case, all_numbers, time_ex1, time_ex2]
     
