@@ -82,7 +82,8 @@ def get_timestamp():
     now = datetime.today()
     return now.strftime("%y%m%d")
 
-def main():
+def word_classify():
+    
     parser = argparse.ArgumentParser()
     parser.add_argument('--corpus', required=True, 
                         help="Corpus where files for testing and/or training can be found.")
@@ -101,14 +102,7 @@ def main():
 
     parser.add_argument('--precision-boost', type=float, default=0, 
                         help="number between 0 and 1. 0 has lowest precision/highest recall,\
-                                1 has highest precision/lowest recall")
-    
-    #===========================================================================
-    # if not os.getcwd().strip('/').endswith(('handdata', 'meetingdata')):
-    #     print "Please run this in handdata/ or meetingdata/!"
-    #     sys.exit()
-    #===========================================================================
-    
+                                1 has highest precision/lowest recall")        
     args = parser.parse_args()
 
     ## BUILD CLASSIFIER
@@ -117,24 +111,26 @@ def main():
         features = [
                     last_bigram_stem,
                     last_trigram_stem,
-                    noun_tag,
-                    prop_noun_tag,
                     title_case,
                     bigram_feats_stem,
-                    sentence_feats,
                     token_feat,
                     len_greater_2,
                     go_to_at_in_3,
+                    sentence_feats,
                     sentence_feats_stem,
-                    in_stopwords,
                     stem_feat,
-                    last_4gram_stem
+                    last_4gram_stem,
+                    in_stopwords,
+                    last_tag,
+                    tag_feat,
+                    last_bigram,
+                    first_word,
+                    len_greater_3
                     ]
     else:
         features = read_template(args.template)
     clf = SKClassifier(LogisticRegression(), features)
 
-    #set_of_words_feats    
     print "# Reading corpus at %s..." % args.corpus
     c = Corpus(args.corpus) ## LOAD INSTANCES
     labels = ['yes', 'no']
@@ -154,11 +150,27 @@ def main():
     print "# Training on %d instances..." % len(train_data),
     ## TRAIN
     clf.train(train_data)
-
     # TEST
     pred = clf.classify(test_data)
     clf.evaluate(pred, [label(x) for x in test_data])
+
+
+def four_sq_classify():
+    # 1) take venue string
+            # use provided lat-long 
+
+    # 2) get results
     
+    # 3) use results + venue data to make instance
+    
+    # 4) train and then test on instances
+       
+        
+    return
+    
+    
+def combo_classify():
+    return
 
 def label(inst):
     return inst[0]
@@ -180,7 +192,6 @@ def featurize_test():
         body = prev_tokens(inst) + [token(inst)]
         print get_fsets(feat_extractors, body, label(inst))
 
-
 if __name__ == '__main__':
-    main()
+    word_classify()
     

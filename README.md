@@ -14,26 +14,25 @@ run typeDetector/run_classifier.py on data dictionary to produce:
 #### Results
 #####  Venue Prediction
 ###### 2014-06-1 : 15989 test bits (pieces of ~1000 sentences, stopping at candidate word)
+
     yes   no     
-yes 416.0 92.0   
-no  95.0  2595.0 
+yes 428.0 77.0   
+no  83.0  2610.0 
 
 ========= Yes =========
-Precision: 0.818898 
-Recall: 0.814090
-F-measure 0.816487
+Precision: 0.847525 
+Recall: 0.837573
+F-measure 0.842520
 ========= No =========
-Precision: 0.964684 
-Recall: 0.965761
-F-measure 0.965222
+Precision: 0.969179 
+Recall: 0.971344
+F-measure 0.970260
 
-Accuracy: 94.152595%
+Accuracy: 94.996873%
 
 features:
                     last_bigram_stem,
                     last_trigram_stem,
-                    noun_tag,
-                    prop_noun_tag,
                     title_case,
                     bigram_feats_stem,
                     sentence_feats,
@@ -41,9 +40,13 @@ features:
                     len_greater_2,
                     go_to_at_in_3,
                     sentence_feats_stem,
-                    in_stopwords,
                     stem_feat,
-                    last_4gram
+                    last_4gram_stem,
+                    in_stopwords,
+                    last_tag,
+                    tag_feat,
+                    last_bigram,
+                    first_word
 
 
 #### SEARCH 

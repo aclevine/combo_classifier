@@ -53,15 +53,15 @@ def last_4gram(words):
 
 def last_bigram_stem(words):
     stems = [stemmer.stem(w) for w in words]
-    return {'__prev2__'+str(stems[-2:]): 1}
+    return {'__prev2_stem__'+str(stems[-2:]): 1}
 
 def last_trigram_stem(words):
     stems = [stemmer.stem(w) for w in words]
-    return {'__prev3__'+str(stems[-3:]): 1}
+    return {'__prev3_stem__'+str(stems[-3:]): 1}
 
 def last_4gram_stem(words):
     stems = [stemmer.stem(w) for w in words]
-    return {'__prev4__'+str(stems[-4:]): 1}
+    return {'__prev4_stem__'+str(stems[-4:]): 1}
 
 def last_bigram_tags(words):
     bigram = words[-2:]
@@ -73,8 +73,18 @@ def token_feat(words):
     return {'__token__'+str(lower_tok): 1}
 
 def stem_feat(words):
-    lower_tok = stemmer.stem(words[-1].lower())
-    return {'__token__'+str(lower_tok): 1}
+    stem = stemmer.stem(words[-1]).lower()
+    return {'__stem__'+str(stem): 1}
+
+def tag_feat(words):
+    tok = words[-1]
+    tag = nltk.pos_tag([tok])[0][1]
+    return {'__tag__'+str(tag): 1}
+
+def tag_feat_stem(words):
+    tok = words[-1]
+    tag = nltk.pos_tag([tok])[0][1]
+    return {'__tag_stem__'+str(tag[0]): 1}
 
 def in_stopwords(words):
     lower_tok = words[-1].lower()
@@ -97,6 +107,10 @@ def first_word(words):
     else:
         return {'__firstword__': 0}
 
+def word_position(words):
+    return {'__word_position__': len(words) - 1}
+
+
 def all_numbers(words):
     tok = words[-1]
     if re.match(r'[0-9]+', tok):
@@ -110,6 +124,20 @@ def len_greater_2(words):
         return {'__len_>_2__': 1}
     else:
         return {'__len_>_2__': 0}
+
+def len_greater_2_last(words):
+    tok = words[-2]
+    if len(tok) > 2:
+        return {'__len_>_2_last__': 1}
+    else:
+        return {'__len_>_2_last__': 0}
+
+def len_greater_3(words):
+    tok = words[-1]
+    if len(tok) > 3:
+        return {'__len_>_3__': 1}
+    else:
+        return {'__len_>_3__': 0}
 
 def go_to_at_in_3(words):
     prev = words[:-1]
@@ -141,6 +169,11 @@ def prop_noun_tag(words):
         return {'__NNP__': 1}
     else:
         return {'__NNP__': 0}
+
+def last_tag(words):
+    prev_tok = words[-2]
+    pos_tag = nltk.pos_tag([prev_tok])[0][1]
+    return {'__PREV__'+pos_tag: 1}
 
 def last_prep_tag(words):
     prev_tok = words[-2]
