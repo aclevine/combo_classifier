@@ -93,6 +93,13 @@ def in_stopwords(words):
     else:
         return {'__stopword__':0}
 
+def in_stopwords_last(words):
+    lower_tok = words[-2].lower()
+    if lower_tok in stopwords:
+        return {'__stopword_last__':1}
+    else:
+        return {'__stopword_last__':0}
+    
 def title_case(words):
     tok = words[-1]
     if tok.istitle() and tok != 'I':

@@ -83,7 +83,6 @@ def get_timestamp():
     return now.strftime("%y%m%d")
 
 def word_classify():
-    
     parser = argparse.ArgumentParser()
     parser.add_argument('--corpus', required=True, 
                         help="Corpus where files for testing and/or training can be found.")
@@ -102,7 +101,10 @@ def word_classify():
 
     parser.add_argument('--precision-boost', type=float, default=0, 
                         help="number between 0 and 1. 0 has lowest precision/highest recall,\
-                                1 has highest precision/lowest recall")        
+                                1 has highest precision/lowest recall")
+    parser.add_argument('--randomize', action='store_true', 
+                        help="If true, randomly select test and training set. Otherwise, just take in order (novel data)")        
+   
     args = parser.parse_args()
 
     ## BUILD CLASSIFIER
@@ -125,7 +127,8 @@ def word_classify():
                     tag_feat,
                     last_bigram,
                     first_word,
-                    len_greater_3
+                    len_greater_3,
+                    in_stopwords_last
                     ]
     else:
         features = read_template(args.template)
@@ -142,7 +145,8 @@ def word_classify():
         
     if train_data == []:
         instances = c.instances
-        #random.shuffle(instances)
+        if args.randomize:
+            random.shuffle(instances)
         split = int(len(instances) * args.split)
         train_data = instances[:split]
         test_data = instances[split:]
@@ -164,8 +168,7 @@ def four_sq_classify():
     # 3) use results + venue data to make instance
     
     # 4) train and then test on instances
-       
-        
+    
     return
     
     
