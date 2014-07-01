@@ -114,7 +114,22 @@ def main():
     ## BUILD CLASSIFIER
     features = []
     if args.template is None:
-        features = [set_of_words_feats, sentence_feats, bigram_feats_stem]
+        features = [
+                    last_bigram_stem,
+                    last_trigram_stem,
+                    noun_tag,
+                    prop_noun_tag,
+                    title_case,
+                    bigram_feats_stem,
+                    sentence_feats,
+                    token_feat,
+                    len_greater_2,
+                    go_to_at_in_3,
+                    sentence_feats_stem,
+                    in_stopwords,
+                    stem_feat,
+                    last_4gram_stem
+                    ]
     else:
         features = read_template(args.template)
     clf = SKClassifier(LogisticRegression(), features)
@@ -128,16 +143,10 @@ def main():
     clf.add_labels(labels)
     train_data = []
     test_data = []
-    
-    #===========================================================================
-    # for inst in c.instances:
-    #     body = prev_tokens(inst) + [token(inst)]
-    #     print get_fsets(features, body, label(inst))
-    #===========================================================================
-    
+        
     if train_data == []:
         instances = c.instances
-        random.shuffle(instances)
+        #random.shuffle(instances)
         split = int(len(instances) * args.split)
         train_data = instances[:split]
         test_data = instances[split:]

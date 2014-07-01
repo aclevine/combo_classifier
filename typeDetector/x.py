@@ -148,7 +148,7 @@ if __name__ == '__main__':
     #     print first_word(inst)
     #===========================================================================
     
-    
     words = ['I','am','the','night']
     
-    print {'__prev2__'+str(words[:-1]): 1}
+    toks = words[-2:]
+    print toks

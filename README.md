@@ -1,36 +1,49 @@
 ### README
 
-
-Requires compiled copy of liblinear-1.94 in comboclassifier directory
-
-#### VENUE
+#### WORD TAGGING
 Given utterance, select words that are venues
 
-run classify_venue.py on data to produce:
+run typeDetector/run_classifier.py on data dictionary to produce:
 - venue classification metrics
-- data to test on 4square search classification under venueresults.json
+- data to test on 4square search classification.
+
+	python typeDetector/run_classifier.py --corpus <path to json> 
+		i.e.: python ./typeDetector/run_classifier.py --corpus ./data/data_new.json
 
 
 #### Results
 #####  Venue Prediction
-###### 2014-05-19
--Precision: 0.875000
--Recall: 0.870892
--F1: 0.872941
+###### 2014-06-1 : 15989 test bits (pieces of ~1000 sentences, stopping at candidate word)
+    yes   no     
+yes 416.0 92.0   
+no  95.0  2595.0 
 
-- Features:
-	- Ignore first two tokens in each sentence 
-	- Previous 3 tokens ~ 63.19
-	- Length of target token > 2 ~ 69.94
-	- Shape of first 3 chars of target token (fire only if length>2) ~ 73.01
-		- Title case, all numbers, time formats
-	- First 3 chars of target token in stopword list ~ 75.46
-	- 'go(ing|ne)? to' or 'at' occurs in previous 3 tokens ~ 77.91
-	- 'how about' occurs in previous 5 tokens ~ 78.53
-	- 'place(s)?' occurs anywhere in previous tokens ~ 79.14
-	- 'down for' occurs in previous 5 tokens ~ 79.75
-	- Target token all caps ~ 80.37
+========= Yes =========
+Precision: 0.818898 
+Recall: 0.814090
+F-measure 0.816487
+========= No =========
+Precision: 0.964684 
+Recall: 0.965761
+F-measure 0.965222
 
+Accuracy: 94.152595%
+
+features:
+                    last_bigram_stem,
+                    last_trigram_stem,
+                    noun_tag,
+                    prop_noun_tag,
+                    title_case,
+                    bigram_feats_stem,
+                    sentence_feats,
+                    token_feat,
+                    len_greater_2,
+                    go_to_at_in_3,
+                    sentence_feats_stem,
+                    in_stopwords,
+                    stem_feat,
+                    last_4gram
 
 
 #### SEARCH 

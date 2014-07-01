@@ -40,64 +40,119 @@ stemmer = PorterStemmer()
 #===============================================================================
 
 # FEATURE EXTRACTION
+
+
 def last_bigram(words):
     return {'__prev2__'+str(words[-2:]): 1}
 
 def last_trigram(words):
-    return {'__prev2__'+str(words[-3:]): 1}
+    return {'__prev3__'+str(words[-3:]): 1}
+
+def last_4gram(words):
+    return {'__prev4__'+str(words[-4:]): 1}
+
+def last_bigram_stem(words):
+    stems = [stemmer.stem(w) for w in words]
+    return {'__prev2__'+str(stems[-2:]): 1}
+
+def last_trigram_stem(words):
+    stems = [stemmer.stem(w) for w in words]
+    return {'__prev3__'+str(stems[-3:]): 1}
+
+def last_4gram_stem(words):
+    stems = [stemmer.stem(w) for w in words]
+    return {'__prev4__'+str(stems[-4:]): 1}
+
+def last_bigram_tags(words):
+    bigram = words[-2:]
+    pos_tags = [tag for (word, tag) in nltk.pos_tag(bigram)]
+    return {str(pos_tags): 0}
 
 def token_feat(words):
     lower_tok = words[-1].lower()
+    return {'__token__'+str(lower_tok): 1}
+
+def stem_feat(words):
+    lower_tok = stemmer.stem(words[-1].lower())
     return {'__token__'+str(lower_tok): 1}
 
 def in_stopwords(words):
     lower_tok = words[-1].lower()
     if lower_tok in stopwords:
         return {'__stopword__':1}
+    else:
+        return {'__stopword__':0}
 
 def title_case(words):
     tok = words[-1]
     if tok.istitle() and tok != 'I':
         return {'__titlecase__': 1}
+    else:
+        return {'__titlecase__': 0}
 
 def first_word(words):
     prev = words[:-1]
     if prev == ['<START>']:
         return {'__firstword__': 1}
+    else:
+        return {'__firstword__': 0}
 
 def all_numbers(words):
     tok = words[-1]
     if re.match(r'[0-9]+', tok):
         return {'__number__': 1}
+    else:
+        return {'__number__': 0}
 
 def len_greater_2(words):
     tok = words[-1]
     if len(tok) > 2:
         return {'__len_>_2__': 1}
+    else:
+        return {'__len_>_2__': 0}
 
 def go_to_at_in_3(words):
     prev = words[:-1]
     if re.search(r'(go(ing|ne)? +to)|at', ' '.join(prev[-3:]), re.I):
         return {'__go_to__': 1}
+    else:
+        return {'__go_to__': 0}
+
 
 def how_about_in_5(words):
     prev = words[:-1]
     if re.search(r'how about', ' '.join(prev[-5:]), re.I):
         return {'__how_about__': 1}
+    else:
+        return {'__how_about__': 1}
 
 def noun_tag(words):
     tok = words[-1]
-    pos_tag = nltk.pos_tag(tok)
+    pos_tag = nltk.pos_tag([tok])[0][1]
     if pos_tag.startswith('N'):
         return {'__NOUN__': 1}
+    else:
+        return {'__NOUN__': 0}
 
 def prop_noun_tag(words):
     tok = words[-1]
-    pos_tag = nltk.pos_tag(tok)
+    pos_tag = nltk.pos_tag([tok])[0][1]
     if pos_tag == 'NNP':
         return {'__NNP__': 1}
+    else:
+        return {'__NNP__': 0}
 
+def last_prep_tag(words):
+    prev_tok = words[-2]
+    pos_tag = nltk.pos_tag([prev_tok])[0][1]
+    if pos_tag.startswith('P'):
+        return {'__PREV_PREP__': 1}
+    else:
+        return {'__PREV_PREP__': 0}
 
+def sent_tags(words):
+    tags = [tag for (word, tag) in nltk.pos_tag(words)]
+    return {str(tags): 1}
 
 #FEATURE EXTRACTORS
 def sounds_good(words):
@@ -131,6 +186,7 @@ def set_of_words_feats(words):
     words = set(words)
     return dict([(w, 1) for w in words])
 
+
 def bag_tf(words):
     fdist = {}
     for word in words:
@@ -163,6 +219,10 @@ def trigram_feats(words, score_fn=TrigramAssocMeasures.chi_sq, n=200):
     trigram_finder = TrigramCollocationFinder.from_words(words)
     trigrams = trigram_finder.nbest(score_fn, n)
     return dict([(ngram, True) for ngram in itertools.chain(words, trigrams)])
+
+def trigram_feats_stem(words, score_fn=TrigramAssocMeasures.chi_sq, n=200):
+    stems = [stemmer.stem(w) for w in words]
+    return trigram_feats(stems, score_fn, n)
 
 def bigram_time_terms(words):
     dict = {}
