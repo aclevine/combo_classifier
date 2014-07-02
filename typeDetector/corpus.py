@@ -58,7 +58,7 @@ class Corpus(object):
             for idx, v in enumerate(fsq_results):
                 # format data
                 body = {'sent':sent_data, 'result_rank':idx+1, 'result': v, 
-                        'count': d['html']['response']['count'], 'venueName': venueName,
+                        'count': d['html']['response']['count'], 'request': venueName,
                         'lat':d['lat'],'long':d['long']}
                 if v['correct']:
                     label = 'yes'

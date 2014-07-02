@@ -7,6 +7,7 @@ Created on May 19, 2014
 from nltk.corpus.util import LazyCorpusLoader
 from nltk.corpus.reader import CategorizedPlaintextCorpusReader
 import nltk
+import math
 from nltk.collocations import BigramCollocationFinder, BigramAssocMeasures, TrigramCollocationFinder, TrigramAssocMeasures
 import itertools
 import random
@@ -367,11 +368,12 @@ def get_model_info(instances, n_bigrams=100, n_unigrams=5000):
 # 4-SQUARE FEATURE EXTRACTORS
 def result_count(body):
     '''how many results did we get back from 4square?'''
-    return {"__result_count__": body["count"]}
+    return {"__rslt_cnt__": body["count"]}
     
 def name_exact_match(body):
-    venue_name = body['result']['name']
-    if venue_name ==  body['request']:
+    venue_name = re.sub("'", "", body['result']['name'])
+    request = re.sub("'", "", body['request'])
+    if venue_name ==  request:
         return {'__name_match__': 1}
     else:
         return {'__name_match__': 0}
@@ -393,13 +395,12 @@ def location_token_match(body):
     '''how many tokens in utterance are also in venue location?
     not weighting this by length right now, but may be worth a look'''
     #clean location data
-    loc_data = [v for v in body['results']['location'].values() if type(v) == 'unicode']
-    loc_string = ' '.join(loc_data)
-    loc_tokens = set([t for t in nltk.word_tokenize(loc_string) if t not in stopwords])
-    #clean sent
-    sent_tokens = set([t for t in nltk.word_tokenize(body['sent']) if t not in stopwords])
+    loc_data = body['result']['location'].values()
+    loc_string = ' '.join([str(x) for x in loc_data])
+    loc_tokens = [w for w in nltk.word_tokenize(loc_string) if w not in stopwords]
 
-    return {'__loc_ovlp__': len([t for t in sent_tokens if t in loc_tokens])}
+    sent_tokens = [w for w in nltk.word_tokenize(body['sent']) if w not in stopwords]
+    return {'__loc_ovlp__': len([w for w in sent_tokens if w in loc_tokens])}
 
 
 def lat_long_dist(body):
@@ -418,6 +419,10 @@ def is_first_result(body):
         return {'__top_rslt__': 1}
     else:
         return {'__top_rslt__': 0}
+
+
+def result_rank(body):
+    return {'__rslt_rnk__': body['result_rank']}
 
 #===============================================================================
 

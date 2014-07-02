@@ -143,7 +143,13 @@ def fsq_classify(args):
     ## BUILD CLASSIFIER
     features = []
     if args.template is None:
-        features = [result_count]
+        features = [
+                    result_count,
+                    is_first_result,
+                    location_token_match,
+                    name_token_match,
+                    name_exact_match
+                    ]
     else:
         features = read_template(args.template)
     clf = SKClassifier(LogisticRegression(), features)
@@ -166,16 +172,17 @@ def fsq_classify(args):
         test_data = instances[split:]
     
     print "# Training on %d instances..." % len(train_data),
-
     ## TRAIN
     clf.train(train_data)
-        
     # TEST
     if test_data != []:
         pred = clf.classify(test_data)
         clf.evaluate(pred, [label(x) for x in test_data])
 
+
 def classify_from_console():
+    ''' parse arguements from console, 
+    send arguments off to word_classify, fsq_classify or combo_classify as needed'''
     parser = argparse.ArgumentParser()
     parser.add_argument('--corpus', required=True, 
                         help="Corpus where files for testing and/or training can be found.")
@@ -200,7 +207,6 @@ def classify_from_console():
     parser.add_argument('--type', default='word', 
                         help="word = test classifying words as venues\
                             fsq = test classifying 4-square search results as matches or not")        
-   
     args = parser.parse_args()
     
     if args.type == 'word':
