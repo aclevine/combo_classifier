@@ -410,7 +410,7 @@ def lat_long_dist(body):
     location = body['result']['location']
     x = my_lat - location['lat']
     y = my_lng - location['lng']
-    return {'__ll_dist__': round( math.sqrt( x * x + y * y), 3) } #euclidean distance between provided location and venue
+    return {'__ll_dist__': math.sqrt( x * x + y * y) } #euclidean distance between provided location and venue
 
 
 def is_first_result(body):

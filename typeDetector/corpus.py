@@ -26,8 +26,11 @@ class Corpus(object):
         # convert data for specific word / four square classification testing
         self.word_instances = []
         self.fsq_instances = []
+        self.combo_instances = []
+
         self.load_word_test_data()
         self.load_fsq_test_data()
+        self.load_combo_test_data()
 
     def load_word_test_data(self):
         '''convert sentences into basic token features for additional feature extraction and testing'''        
@@ -61,12 +64,45 @@ class Corpus(object):
                         'count': d['html']['response']['count'], 'request': venueName,
                         'lat':d['lat'],'long':d['long']}
                 if v['correct']:
-                    label = 'yes'
+                    tag = 'yes'
                 else:
-                    label = 'no'
+                    tag = 'no'
                 # load instance into object
-                inst = (label, venueName, body) #inst =  (tag, tok, body)
+                inst = (tag, venueName, body) #inst =  (tag, tok, body)
                 self.fsq_instances.append(inst)
+
+
+    def load_combo_test_data(self):
+        for key in self.dict_data.keys():
+            d = self.dict_data[key]
+            # LOAD SENT
+            sent = d['sent'].encode('utf-8')
+            old_sent = new_to_old_tags(sent)
+            tokens = nltk.word_tokenize(old_sent) 
+            previous = ['<START>']            
+            for tok in tokens:
+                word_tag = 'no'
+                sent = previous + [tok]
+                if tok.endswith('|venue'):
+                    tok = re.sub(r'\|venue', '', tok)      
+                    word_tag = 'yes'
+                    fsq_results = d['html']['response']['venues']
+                    for idx, v in enumerate(fsq_results):
+                        # format data
+                        body = {'sent':sent, 'result_rank':idx+1, 'result': v, 
+                                'count': d['html']['response']['count'], 'request': d['venueName'],
+                                'lat':d['lat'],'long':d['long']}
+                        if v['correct']:
+                            venue_tag = 'yes'
+                        self.combo_instances.append( (word_tag, tok, sent, venue_tag, body) )
+                else:
+                    body = {'sent':'', 'result_rank':21, 'count':0, 'request': d['venueName'],
+                            'lat':d['lat'],'long':d['long'],
+                            'result':{'name':'','location':{'lat':0, 'lng':0} }}
+                    venue_tag = 'no'
+
+                    self.combo_instances.append( (word_tag, tok, sent, venue_tag, body) )
+                previous = sent
 
 
 if __name__ == '__main__':

@@ -129,10 +129,8 @@ def word_classify(args):
         test_data = instances[split:]
     
     print "# Training on %d instances..." % len(train_data),
-
     ## TRAIN
     clf.train(train_data)
-        
     # TEST
     if test_data != []:
         pred = clf.classify(test_data)
@@ -180,6 +178,72 @@ def fsq_classify(args):
         clf.evaluate(pred, [label(x) for x in test_data])
 
 
+def combo_classify(args):
+    ## BUILD CLASSIFIER
+    features = []
+    if args.template is None:
+        features = [
+                    last_bigram_stem,
+                    last_trigram_stem,
+                    title_case,
+                    bigram_feats_stem,
+                    token_feat,
+                    len_greater_2,
+                    go_to_at_in_3,
+                    sentence_feats,
+                    sentence_feats_stem,
+                    stem_feat,
+                    last_4gram_stem,
+                    in_stopwords,
+                    last_tag,
+                    tag_feat,
+                    last_bigram,
+                    first_word,
+                    len_greater_3,
+                    in_stopwords_last
+                    ]
+    else:
+        features = read_template(args.template)
+    clf = SKClassifier(LogisticRegression(), features)
+    print "# Reading corpus at %s..." % args.corpus
+    c = Corpus(args.corpus) ## LOAD INSTANCES
+    labels = ['yes', 'no']
+    print "# Found %d labels: " % len(labels)
+    print "#\t" + str(labels)
+    clf.add_labels(labels)
+    
+    
+    train_data = []
+    test_data = []
+
+    if train_data == []:
+        instances = c.combo_instances
+        if args.randomize:
+            random.shuffle(instances)
+        split = int(len(instances) * args.split)
+        train_data = instances[:split]
+        test_data = instances[split:]
+    
+    print "# Training on %d instances..." % len(train_data),
+    ## TRAIN
+    clf.train(train_data)
+    # TEST
+    if test_data != []:
+        # classify words
+        word_preds = clf.classify(test_data)
+        #clf.evaluate(word_preds, [label(x) for x in test_data])
+     
+        test_data_fsq = [(venue_tag, tok, body) for  (word_tag, tok, sent, venue_tag, body) in test_data]
+        fsq_preds = clf.classify(test_data)
+
+        final_preds = []
+        for i in range(len(word_preds)):
+            if word_preds[i] == 'yes': # yes
+                final_preds.append(fsq_preds[i])
+            else: # no
+                final_preds.append('no')
+        clf.evaluate(final_preds, [label(x) for x in test_data_fsq])
+
 def classify_from_console():
     ''' parse arguements from console, 
     send arguments off to word_classify, fsq_classify or combo_classify as needed'''
@@ -213,9 +277,9 @@ def classify_from_console():
         word_classify(args)
     if args.type == 'fsq':
         fsq_classify(args)
+    if args.type == 'combo':
+        combo_classify(args)
     
-def combo_classify():
-    return
 
 def label(inst):
     return inst[0]
