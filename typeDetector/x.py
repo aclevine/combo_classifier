@@ -142,13 +142,143 @@ def prop_noun_tag(inst):
 
 if __name__ == '__main__':
     # TEST
+    d = {
+        "html": {
+            "request": {
+                "status": "ok", 
+                "timing": {
+                    "request_complete": "132ms"
+                }
+            }, 
+            "response": {
+                "count": 4, 
+                "venues": [
+                    {
+                        "correct": True, 
+                        "dateCreated": 1403706707832, 
+                        "dateModified": 1403706707832, 
+                        "kind": "Foursquare", 
+                        "location": {
+                            "address": "135 Richmond St", 
+                            "city": "Boston", 
+                            "country": "United States", 
+                            "crossStreet": "at North St.", 
+                            "lat": 42.36314198849343, 
+                            "lng": -71.05414152145386, 
+                            "postalCode": "02109", 
+                            "state": "MA"
+                        }, 
+                        "name": "Mare Oyster Bar", 
+                        "primaryCategory": {
+                            "icon": "https://ss1.4sqi.net/img/categories_v2/food/seafood_{icon_size}.png", 
+                            "id": "4bf58dd8d48988d1ce941735", 
+                            "name": "Seafood Restaurant"
+                        }, 
+                        "sourceId": "4a1b3a1cf964a520d97a1fe3", 
+                        "url": ""
+                    }, 
+                    {
+                        "correct": False, 
+                        "dateCreated": 1403706707833, 
+                        "dateModified": 1403706707833, 
+                        "kind": "Foursquare", 
+                        "location": {
+                            "address": "7 Blue Hill River Rd", 
+                            "city": "Canton", 
+                            "country": "United States", 
+                            "crossStreet": "", 
+                            "lat": 42.20581132381635, 
+                            "lng": -71.11915564231984, 
+                            "postalCode": "02021", 
+                            "state": "MA"
+                        }, 
+                        "name": "Maresfield Farm", 
+                        "primaryCategory": {
+                            "icon": "https://ss1.4sqi.net/img/categories_v2/building/default_{icon_size}.png", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "name": "Office"
+                        }, 
+                        "sourceId": "4b4b298bf964a520739326e3", 
+                        "url": ""
+                    }, 
+                    {
+                        "correct": False, 
+                        "dateCreated": 1403706707835, 
+                        "dateModified": 1403706707835, 
+                        "kind": "Foursquare", 
+                        "location": {
+                            "address": "99 Salem St", 
+                            "city": "Boston", 
+                            "country": "United States", 
+                            "crossStreet": "btwn Cross & Parmenter", 
+                            "lat": 42.36396642595342, 
+                            "lng": -71.05566447147389, 
+                            "postalCode": "02113", 
+                            "state": "MA"
+                        }, 
+                        "name": "Mercato del Mare (North End Fish Market)", 
+                        "primaryCategory": {
+                            "icon": "https://ss1.4sqi.net/img/categories_v2/shops/food_fishmarket_{icon_size}.png", 
+                            "id": "4bf58dd8d48988d10e951735", 
+                            "name": "Fish Market"
+                        }, 
+                        "sourceId": "4b95883df964a520dba734e3", 
+                        "url": ""
+                    }, 
+                    {
+                        "correct": False, 
+                        "dateCreated": 1403706707836, 
+                        "dateModified": 1403706707836, 
+                        "kind": "Foursquare", 
+                        "location": {
+                            "address": "265 Nantasket Ave", 
+                            "city": "Hull", 
+                            "country": "United States", 
+                            "crossStreet": "at Hull Shore Dr.", 
+                            "lat": 42.27217015277616, 
+                            "lng": -70.85888554511303, 
+                            "postalCode": "02045", 
+                            "state": "MA"
+                        }, 
+                        "name": "Mezzo Mare", 
+                        "primaryCategory": {
+                            "icon": "https://ss1.4sqi.net/img/categories_v2/food/italian_{icon_size}.png", 
+                            "id": "4bf58dd8d48988d110941735", 
+                            "name": "Italian Restaurant"
+                        }, 
+                        "sourceId": "4b642965f964a520e6a12ae3", 
+                        "url": ""
+                    }
+                ]
+            }
+        }, 
+        "lat": 42.3581, 
+        "long": -71.0636, 
+        "sent": "Italian Seafood ... <v>Daily Catch</v>. <v>Mare</v>.", 
+        "venueName": "Mare"
+    }
+    
+    venues = d['html']['response']['venues']
+    
+    request = d['venueName']
+    fsq_results = d['html']['response']['venues']
+    sent_data = d['sent'].split('<v>'+request+'</v>')[0] + request    
+    sent_data = re.sub('</?v>', '', sent_data)
+    
+    print sent_data
+        
+    
+    
+    
     #===========================================================================
     # c = Corpus('../data/data_new.json')
     # for inst in c.test_data:
     #     print first_word(inst)
     #===========================================================================
     
-    words = ['I','am','the','night']
-    
-    toks = words[-2:]
-    print toks
+    #===========================================================================
+    # words = ['I','am','the','night']
+    # 
+    # toks = words[:len(words)]
+    # print toks
+    #===========================================================================

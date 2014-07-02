@@ -40,8 +40,6 @@ stemmer = PorterStemmer()
 #===============================================================================
 
 # FEATURE EXTRACTION
-
-
 def last_bigram(words):
     return {'__prev2__'+str(words[-2:]): 1}
 
@@ -152,7 +150,6 @@ def go_to_at_in_3(words):
         return {'__go_to__': 1}
     else:
         return {'__go_to__': 0}
-
 
 def how_about_in_5(words):
     prev = words[:-1]

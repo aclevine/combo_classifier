@@ -133,18 +133,19 @@ def word_classify():
     else:
         features = read_template(args.template)
     clf = SKClassifier(LogisticRegression(), features)
-
     print "# Reading corpus at %s..." % args.corpus
     c = Corpus(args.corpus) ## LOAD INSTANCES
     labels = ['yes', 'no']
     print "# Found %d labels: " % len(labels)
     print "#\t" + str(labels)
     clf.add_labels(labels)
+    
+    
     train_data = []
     test_data = []
-        
+
     if train_data == []:
-        instances = c.instances
+        instances = c.word_instances
         if args.randomize:
             random.shuffle(instances)
         split = int(len(instances) * args.split)
@@ -152,17 +153,20 @@ def word_classify():
         test_data = instances[split:]
     
     print "# Training on %d instances..." % len(train_data),
+
     ## TRAIN
     clf.train(train_data)
+        
     # TEST
-    pred = clf.classify(test_data)
-    clf.evaluate(pred, [label(x) for x in test_data])
-
+    if test_data != []:
+        pred = clf.classify(test_data)
+        clf.evaluate(pred, [label(x) for x in test_data])
+    
 
 def four_sq_classify():
     # 1) take venue string
             # use provided lat-long 
-
+    
     # 2) get results
     
     # 3) use results + venue data to make instance
@@ -191,7 +195,7 @@ def featurize_test():
     args = parser.parse_args()
     c = Corpus(args.corpus)
     feat_extractors = [utterance_length]
-    for inst in c.instances:
+    for inst in c.word_instances:
         body = prev_tokens(inst) + [token(inst)]
         print get_fsets(feat_extractors, body, label(inst))
 
