@@ -364,6 +364,63 @@ def get_model_info(instances, n_bigrams=100, n_unigrams=5000):
     return bigrams, top_words    
 #===============================================================================
 
+# 4-SQUARE FEATURE EXTRACTORS
+def result_count(body):
+    '''how many results did we get back from 4square?'''
+    return {"__result_count__": body["count"]}
+    
+def name_exact_match(body):
+    venue_name = body['result']['name']
+    if venue_name ==  body['request']:
+        return {'__name_match__': 1}
+    else:
+        return {'__name_match__': 0}
+
+
+def name_token_match(body):
+    '''how many tokens in venue name are also in result?
+    not weighting this by length right now, but may be worth a look'''    
+    # load tokens
+    request_tokens = [v for v in body['request'].split() if v not in stopwords]
+    venue_name_tokens = [v for v in body['result']['name'].split() if v not in stopwords]
+    # get token overlap counts
+    overlap_count = len([t for t in request_tokens if t in venue_name_tokens])
+
+    return {'__name_ovlp__': overlap_count}
+
+
+def location_token_match(body):
+    '''how many tokens in utterance are also in venue location?
+    not weighting this by length right now, but may be worth a look'''
+    #clean location data
+    loc_data = [v for v in body['results']['location'].values() if type(v) == 'unicode']
+    loc_string = ' '.join(loc_data)
+    loc_tokens = set([t for t in nltk.word_tokenize(loc_string) if t not in stopwords])
+    #clean sent
+    sent_tokens = set([t for t in nltk.word_tokenize(body['sent']) if t not in stopwords])
+
+    return {'__loc_ovlp__': len([t for t in sent_tokens if t in loc_tokens])}
+
+
+def lat_long_dist(body):
+    '''4square provides specific gps location data for each venue'''
+    my_lat = body['lat']
+    my_lng = body['long']
+    location = body['result']['location']
+    x = my_lat - location['lat']
+    y = my_lng - location['lng']
+    return {'__ll_dist__': round( math.sqrt( x * x + y * y), 3) } #euclidean distance between provided location and venue
+
+
+def is_first_result(body):
+    '''is returned item top result?'''
+    if body['result_rank'] == 1:
+        return {'__top_rslt__': 1}
+    else:
+        return {'__top_rslt__': 0}
+
+#===============================================================================
+
 #DISCARDED
 def utterance_length(words):
     '''precision down'''

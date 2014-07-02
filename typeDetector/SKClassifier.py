@@ -12,13 +12,14 @@ from util.alphabet import Alphabet
 from util.evaluator import ConfusionMatrix
 from gensim import corpora, models, similarities
 
+#inst =  (tag, tok, body)
 def label(inst):
     return inst[0]
 
 def token(inst):
     return inst[1]
 
-def prev_tokens(inst):
+def body(inst):
     return inst[2]
 
 class SKClassifier():
@@ -43,8 +44,7 @@ class SKClassifier():
             except KeyError:
                 if not test:
                     print "Couldn't find %s in set of labels. ^C if this is a problem." % label(inst)
-            body = prev_tokens(inst) + [token(inst)]
-            feats = get_fsets(self.feature_funcs, body, 'prev', self.model_info)
+            feats = get_fsets(self.feature_funcs, body(inst), '', self.model_info)
             #feats.update(get_fsets(self.feature_funcs, [token(instance)], 'word', self.model_info))
             X.append(feats)
         if test:

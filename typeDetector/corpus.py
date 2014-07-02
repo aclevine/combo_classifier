@@ -43,35 +43,32 @@ class Corpus(object):
                 if tok.endswith('|venue'):
                     tag = 'yes'
                     tok = re.sub(r'\|venue', '', tok)            
-                self.word_instances.append( (tag, tok, previous) )
+                self.word_instances.append( (tag, tok, previous + [tok]) )
                 previous = previous + [tok]
                 
     def load_fsq_test_data(self):
         for key in self.dict_data.keys():
             # PARSE DATA
             d = self.dict_data[key]
-            request = d['venueName']
+            venueName = d['venueName']
             fsq_results = d['html']['response']['venues']
-            sent_data = d['sent'].split('<v>'+request+'</v>')[0] + request #limit sentence to tokens before search was performed
+            sent_data = d['sent'].split('<v>'+venueName+'</v>')[0] + venueName #limit sentence to tokens before search was performed
             sent_data = re.sub('</?v>', '', sent_data)
             # BUILD TEST INSTANCES
             for idx, v in enumerate(fsq_results):
-                print v
-                inst = (v['correct'],
-                        request,
-                        {'sent':sent_data, 'result_rank':idx, 'result': v, 'other_results': d['html']['response']['count']})
+                # format data
+                body = {'sent':sent_data, 'result_rank':idx+1, 'result': v, 
+                        'count': d['html']['response']['count'], 'venueName': venueName,
+                        'lat':d['lat'],'long':d['long']}
+                if v['correct']:
+                    label = 'yes'
+                else:
+                    label = 'no'
+                # load instance into object
+                inst = (label, venueName, body) #inst =  (tag, tok, body)
                 self.fsq_instances.append(inst)
-                
-    #inst =  (tag, tok, previous) 
-    def label(self, inst):
-        return inst[0]
-    
-    def token(self, inst):
-        return inst[1]
-    
-    def pre_toks(self, inst):
-        return inst[2]
-    
+
+
 if __name__ == '__main__':
     #TESTING
     c = Corpus('../data/data_new.json')

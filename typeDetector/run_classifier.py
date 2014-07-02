@@ -82,31 +82,7 @@ def get_timestamp():
     now = datetime.today()
     return now.strftime("%y%m%d")
 
-def word_classify():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--corpus', required=True, 
-                        help="Corpus where files for testing and/or training can be found.")
-    parser.add_argument('--template', help="Path to template file specifying features.")
-    parser.add_argument('--model', help="Where to save/find the model. If file already exists, model will be loaded.\
-                                        If no path is given, no model will be saved.")
-    parser.add_argument('--train-file', help="Path to file with testing paths")
-    parser.add_argument('--test-file', help="Path to file with testing paths")
-    parser.add_argument('--split', type=float, default=0.8, help="Float indicating how much to use for training.\
-                                                            Default is 0.8. Set to 0 to only test, and 1 to only train.")
-    parser.add_argument('--hyp-file', default='hypSKClf.txt', help="Where to save hypothesis file.")
-
-    parser.add_argument('--recall-boost', type=float, default=0, 
-                        help="number between 0 and 1. 0 has lowest recall/highest precision,\
-                                1 has highest recall/lowest precision")
-
-    parser.add_argument('--precision-boost', type=float, default=0, 
-                        help="number between 0 and 1. 0 has lowest precision/highest recall,\
-                                1 has highest precision/lowest recall")
-    parser.add_argument('--randomize', action='store_true', 
-                        help="If true, randomly select test and training set. Otherwise, just take in order (novel data)")        
-   
-    args = parser.parse_args()
-
+def word_classify(args):
     ## BUILD CLASSIFIER
     features = []
     if args.template is None:
@@ -161,20 +137,76 @@ def word_classify():
     if test_data != []:
         pred = clf.classify(test_data)
         clf.evaluate(pred, [label(x) for x in test_data])
-    
 
-def four_sq_classify():
-    # 1) take venue string
-            # use provided lat-long 
+
+def fsq_classify(args):
+    ## BUILD CLASSIFIER
+    features = []
+    if args.template is None:
+        features = [result_count]
+    else:
+        features = read_template(args.template)
+    clf = SKClassifier(LogisticRegression(), features)
+    print "# Reading corpus at %s..." % args.corpus
+    c = Corpus(args.corpus) ## LOAD INSTANCES
+    labels = ['yes', 'no']
+    print "# Found %d labels: " % len(labels)
+    print "#\t" + str(labels)
+    clf.add_labels(labels)
     
-    # 2) get results
+    train_data = []
+    test_data = []
+
+    if train_data == []:
+        instances = c.fsq_instances
+        if args.randomize:
+            random.shuffle(instances)
+        split = int(len(instances) * args.split)
+        train_data = instances[:split]
+        test_data = instances[split:]
     
-    # 3) use results + venue data to make instance
+    print "# Training on %d instances..." % len(train_data),
+
+    ## TRAIN
+    clf.train(train_data)
+        
+    # TEST
+    if test_data != []:
+        pred = clf.classify(test_data)
+        clf.evaluate(pred, [label(x) for x in test_data])
+
+def classify_from_console():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--corpus', required=True, 
+                        help="Corpus where files for testing and/or training can be found.")
+    parser.add_argument('--template', help="Path to template file specifying features.")
+    parser.add_argument('--model', help="Where to save/find the model. If file already exists, model will be loaded.\
+                                        If no path is given, no model will be saved.")
+    parser.add_argument('--train-file', help="Path to file with testing paths")
+    parser.add_argument('--test-file', help="Path to file with testing paths")
+    parser.add_argument('--split', type=float, default=0.8, help="Float indicating how much to use for training.\
+                                                            Default is 0.8. Set to 0 to only test, and 1 to only train.")
+    parser.add_argument('--hyp-file', default='hypSKClf.txt', help="Where to save hypothesis file.")
+
+    parser.add_argument('--recall-boost', type=float, default=0, 
+                        help="number between 0 and 1. 0 has lowest recall/highest precision,\
+                                1 has highest recall/lowest precision")
+
+    parser.add_argument('--precision-boost', type=float, default=0, 
+                        help="number between 0 and 1. 0 has lowest precision/highest recall,\
+                                1 has highest precision/lowest recall")
+    parser.add_argument('--randomize', action='store_true', 
+                        help="If true, randomly select test and training set. Otherwise, just take in order (novel data)")        
+    parser.add_argument('--type', default='word', 
+                        help="word = test classifying words as venues\
+                            fsq = test classifying 4-square search results as matches or not")        
+   
+    args = parser.parse_args()
     
-    # 4) train and then test on instances
-    
-    return
-    
+    if args.type == 'word':
+        word_classify(args)
+    if args.type == 'fsq':
+        fsq_classify(args)
     
 def combo_classify():
     return
@@ -200,5 +232,5 @@ def featurize_test():
         print get_fsets(feat_extractors, body, label(inst))
 
 if __name__ == '__main__':
-    word_classify()
+    classify_from_console()
     
