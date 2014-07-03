@@ -224,7 +224,6 @@ def set_of_words_feats(words):
     words = set(words)
     return dict([(w, 1) for w in words])
 
-
 def bag_tf(words):
     fdist = {}
     for word in words:
@@ -378,7 +377,6 @@ def name_exact_match(body):
     else:
         return {'__name_match__': 0}
 
-
 def name_token_match(body):
     '''how many tokens in venue name are also in result?
     not weighting this by length right now, but may be worth a look'''    
@@ -390,18 +388,36 @@ def name_token_match(body):
 
     return {'__name_ovlp__': overlap_count}
 
-
 def location_token_match(body):
     '''how many tokens in utterance are also in venue location?
     not weighting this by length right now, but may be worth a look'''
     #clean location data
     loc_data = body['result']['location'].values()
     loc_string = ' '.join([str(x) for x in loc_data])
-    loc_tokens = [w for w in nltk.word_tokenize(loc_string) if w not in stopwords]
+    loc_tokens = [w for w in nltk.word_tokenize(loc_string.lower()) if w not in stopwords]
 
-    sent_tokens = [w for w in nltk.word_tokenize(body['sent']) if w not in stopwords]
+    sent_tokens = [w for w in nltk.word_tokenize(body['sent'].lower()) if w not in stopwords]
     return {'__loc_ovlp__': len([w for w in sent_tokens if w in loc_tokens])}
 
+def name_edit_dist(body):
+    '''how many tokens in venue name are also in result?
+    not weighting this by length right now, but may be worth a look'''    
+    # load names
+    request = body['request'].lower()
+    venue_name = body['result'].get('name', '').lower()
+    # get token overlap counts
+    dist = nltk.metrics.distance.edit_distance(request, venue_name)
+    return {'__name_edit_dist__': dist}
+
+def name_word_1_edit_dist(body):
+    '''how many tokens in venue name are also in result?
+    not weighting this by length right now, but may be worth a look'''    
+    # load names
+    request = body['request'].lower().split()[0]
+    venue_name = body['result'].get('name', '').lower().split()[0]
+    # get token overlap counts
+    dist = nltk.metrics.distance.edit_distance(request, venue_name)
+    return {'__word_1_edit_dist__': dist}
 
 def lat_long_dist(body):
     '''4square provides specific gps location data for each venue'''
@@ -412,7 +428,6 @@ def lat_long_dist(body):
     y = my_lng - location['lng']
     return {'__ll_dist__': math.sqrt( x * x + y * y) } #euclidean distance between provided location and venue
 
-
 def is_first_result(body):
     '''is returned item top result?'''
     if body['result_rank'] == 1:
@@ -420,9 +435,19 @@ def is_first_result(body):
     else:
         return {'__top_rslt__': 0}
 
-
 def result_rank(body):
     return {'__rslt_rnk__': body['result_rank']}
+
+def is_restaurant(body):
+    d = body['result']
+    if d.has_key('primaryCategory'):
+        venue_type = d['primaryCategory']['name']
+    else:
+        venue_type = ''
+    if re.findall('restaurant', venue_type, re.I):
+        return {'__restaurant__':1}
+    else:
+        return {'__restaurant__':0}
 
 #===============================================================================
 

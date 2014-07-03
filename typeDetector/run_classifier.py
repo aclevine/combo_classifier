@@ -142,11 +142,12 @@ def fsq_classify(args):
     features = []
     if args.template is None:
         features = [
-                    result_count,
                     is_first_result,
-                    location_token_match,
-                    name_token_match,
-                    name_exact_match
+                    result_count,
+                    result_rank,
+                    lat_long_dist,
+                    name_edit_dist,
+                    is_restaurant
                     ]
     else:
         features = read_template(args.template)
@@ -179,7 +180,6 @@ def fsq_classify(args):
 
 
 def combo_classify(args, verbose=False):
-
     ## WORD STAGE
     features = []
     if args.template is None:
@@ -238,10 +238,14 @@ def combo_classify(args, verbose=False):
     features = []
     if args.template is None:
         feat_fsq = [
-                    result_count,
                     is_first_result,
+                    result_count,
+                    result_rank,
+                    #location_token_match,
+                    is_first_result,
+                    lat_long_dist,
                     location_token_match,
-                    name_token_match,
+                    name_edit_dist,
                     name_exact_match
                     ]
     else:
@@ -280,7 +284,7 @@ def combo_classify(args, verbose=False):
     
 
 def classify_from_console():
-    ''' parse arguements from console, 
+    ''' parse arguments from console, 
     send arguments off to word_classify, fsq_classify or combo_classify as needed'''
     parser = argparse.ArgumentParser()
     parser.add_argument('--corpus', required=True, 
@@ -307,7 +311,9 @@ def classify_from_console():
                         help="If included, display results of word and 4-square steps of combo classification")        
     parser.add_argument('--type', default='word', 
                         help="word = test classifying words as venues\
-                            fsq = test classifying 4-square search results as matches or not")        
+                            fsq = test classifying 4-square search results as matches or not\
+                            combo = classify word, than classify search results from word")
+            
     args = parser.parse_args()
     
     if args.type == 'word':
