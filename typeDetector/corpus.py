@@ -82,32 +82,33 @@ class Corpus(object):
             previous = ['<START>']            
             for tok in tokens:
                 word_tag = 'no'
-                sent = previous + [tok]
                 if tok.endswith('|venue'):
                     tok = re.sub(r'\|venue', '', tok)      
                     word_tag = 'yes'
                     fsq_results = d['html']['response']['venues']
                     for idx, v in enumerate(fsq_results):
                         # format data
+                        sent = ' '.join(previous + [tok])
                         body = {'sent':sent, 'result_rank':idx+1, 'result': v, 
                                 'count': d['html']['response']['count'], 'request': d['venueName'],
                                 'lat':d['lat'],'long':d['long']}
                         if v['correct']:
                             venue_tag = 'yes'
-                        self.combo_instances.append( (word_tag, tok, sent, venue_tag, body) )
+                        inst =  (word_tag, tok, sent, venue_tag, body)
+                        self.combo_instances.append(inst)
                 else:
                     body = {'sent':'', 'result_rank':21, 'count':0, 'request': d['venueName'],
                             'lat':d['lat'],'long':d['long'],
-                            'result':{'name':'','location':{'lat':0, 'lng':0} }}
+                            'result':{'name':'','location':{'lat':0, 'lng':0 }}}
                     venue_tag = 'no'
-
-                    self.combo_instances.append( (word_tag, tok, sent, venue_tag, body) )
-                previous = sent
+                    inst =  (word_tag, tok, sent, venue_tag, body)
+                    self.combo_instances.append(inst)
+                previous = previous + [tok]
 
 
 if __name__ == '__main__':
     #TESTING
     c = Corpus('../data/data_new.json')
     print len(c.fsq_instances)
-    for inst in c.fsq_instances:
+    for inst in c.combo_instances:
         print inst

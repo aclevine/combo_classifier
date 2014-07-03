@@ -178,8 +178,9 @@ def fsq_classify(args):
         clf.evaluate(pred, [label(x) for x in test_data])
 
 
-def combo_classify(args):
-    ## BUILD CLASSIFIER
+def combo_classify(args, verbose=False):
+
+    ## WORD STAGE
     features = []
     if args.template is None:
         features = [
@@ -212,10 +213,8 @@ def combo_classify(args):
     print "#\t" + str(labels)
     clf.add_labels(labels)
     
-    
     train_data = []
     test_data = []
-
     if train_data == []:
         instances = c.combo_instances
         if args.randomize:
@@ -229,20 +228,56 @@ def combo_classify(args):
     clf.train(train_data)
     # TEST
     if test_data != []:
-        # classify words
-        word_preds = clf.classify(test_data)
-        #clf.evaluate(word_preds, [label(x) for x in test_data])
-     
-        test_data_fsq = [(venue_tag, tok, body) for  (word_tag, tok, sent, venue_tag, body) in test_data]
-        fsq_preds = clf.classify(test_data)
+        pred = clf.classify(test_data)
+        if verbose:
+            print "## word -> venue tagging"
+            clf.evaluate(pred, [label(x) for x in test_data])
 
-        final_preds = []
-        for i in range(len(word_preds)):
-            if word_preds[i] == 'yes': # yes
-                final_preds.append(fsq_preds[i])
-            else: # no
-                final_preds.append('no')
-        clf.evaluate(final_preds, [label(x) for x in test_data_fsq])
+
+    ## FSQ STAGE
+    features = []
+    if args.template is None:
+        feat_fsq = [
+                    result_count,
+                    is_first_result,
+                    location_token_match,
+                    name_token_match,
+                    name_exact_match
+                    ]
+    else:
+        feat_fsq = read_template(args.template)
+    clf_fsq = SKClassifier(LogisticRegression(), feat_fsq)
+    print "# Reading corpus at %s..." % args.corpus
+    c = Corpus(args.corpus) ## LOAD INSTANCES
+    labels = ['yes', 'no']
+    print "# Found %d labels: " % len(labels)
+    print "#\t" + str(labels)
+    clf_fsq.add_labels(labels)
+    
+    train_data_fsq = [(inst[3], inst[1], inst[4]) for inst in train_data]
+    test_data_fsq = [(inst[3], inst[1], inst[4]) for inst in test_data]
+     
+    print "# Training on %d instances..." % len(train_data),
+    ## TRAIN
+    clf_fsq.train(train_data_fsq)
+    # TEST
+    pred_fsq = clf_fsq.classify(test_data_fsq)     
+    if verbose:
+        print "## search result -> correct tagging"
+        clf_fsq.evaluate(pred, [label(x) for x in test_data_fsq])
+
+    # COMBO STAGE
+    pred_final = []
+    for i in range(len(pred)):
+        if pred[i] == 'yes':
+            pred_final.append(pred_fsq[i])
+        else:
+            pred_final.append(pred[i])           
+    
+    print "## combo tagging"
+    clf_fsq.evaluate(pred_final, [label(x) for x in test_data_fsq])
+         
+    
 
 def classify_from_console():
     ''' parse arguements from console, 
@@ -267,7 +302,9 @@ def classify_from_console():
                         help="number between 0 and 1. 0 has lowest precision/highest recall,\
                                 1 has highest precision/lowest recall")
     parser.add_argument('--randomize', action='store_true', 
-                        help="If true, randomly select test and training set. Otherwise, just take in order (novel data)")        
+                        help="If included, randomly select test and training set. Otherwise, just take in order (novel data)")        
+    parser.add_argument('--verbose', action='store_true', 
+                        help="If included, display results of word and 4-square steps of combo classification")        
     parser.add_argument('--type', default='word', 
                         help="word = test classifying words as venues\
                             fsq = test classifying 4-square search results as matches or not")        
@@ -278,7 +315,7 @@ def classify_from_console():
     if args.type == 'fsq':
         fsq_classify(args)
     if args.type == 'combo':
-        combo_classify(args)
+        combo_classify(args, args.verbose)
     
 
 def label(inst):
