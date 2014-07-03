@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+'''
+Created on May 19, 2014
+
+@author: aclevine
+'''
 import argparse
 from datetime import datetime
 import os
@@ -179,7 +184,7 @@ def fsq_classify(args):
         clf.evaluate(pred, [label(x) for x in test_data])
 
 
-def combo_classify(args, verbose=False):
+def combo_classify(args):
     ## WORD STAGE
     features = []
     if args.template is None:
@@ -229,7 +234,7 @@ def combo_classify(args, verbose=False):
     # TEST
     if test_data != []:
         pred = clf.classify(test_data)
-        if verbose:
+        if args.verbose:
             print "## word -> venue tagging"
             clf.evaluate(pred, [label(x) for x in test_data])
 
@@ -241,14 +246,16 @@ def combo_classify(args, verbose=False):
                     is_first_result,
                     result_count,
                     result_rank,
-                    lat_long_dist,
-                    name_edit_dist,
-                    name_exact_match,
-                    any_token_match,
-                    is_restaurant,
-                    is_coffee,
-                    any_token_match,
-                    location_token_match
+                    lat_long_dist
+                    #===========================================================
+                    # name_edit_dist,
+                    # name_exact_match,
+                    # any_token_match,
+                    # is_restaurant,
+                    # is_coffee,
+                    # any_token_match,
+                    # location_token_match
+                    #===========================================================
                     ]
     else:
         feat_fsq = read_template(args.template)
@@ -268,9 +275,9 @@ def combo_classify(args, verbose=False):
     clf_fsq.train(train_data_fsq)
     # TEST
     pred_fsq = clf_fsq.classify(test_data_fsq)     
-    if verbose:
+    if args.verbose:
         print "## search result -> correct tagging"
-        clf_fsq.evaluate(pred, [label(x) for x in test_data_fsq])
+        clf_fsq.evaluate(pred_fsq, [label(x) for x in test_data_fsq])
 
     # COMBO STAGE
     pred_final = []
@@ -323,7 +330,7 @@ def classify_from_console():
     if args.type == 'fsq':
         fsq_classify(args)
     if args.type == 'combo':
-        combo_classify(args, args.verbose)
+        combo_classify(args)
     
 
 def label(inst):

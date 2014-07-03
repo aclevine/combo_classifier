@@ -79,7 +79,7 @@ class Corpus(object):
             sent = d['sent'].encode('utf-8')
             old_sent = new_to_old_tags(sent)
             tokens = nltk.word_tokenize(old_sent) 
-            previous = ['<START>']            
+            previous = ['<START_1>','<START_2>']            
             for tok in tokens:
                 word_tag = 'no'
                 if tok.endswith('|venue'):
