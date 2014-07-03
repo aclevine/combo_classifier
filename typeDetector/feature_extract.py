@@ -392,12 +392,29 @@ def location_token_match(body):
     '''how many tokens in utterance are also in venue location?
     not weighting this by length right now, but may be worth a look'''
     #clean location data
-    loc_data = body['result']['location'].values()
+    loc_feats = ["address","city", "crossStreet", "postalCode"]
+
+    location = body['result']['location']
+    loc_data = [location.get(f, '') for f in loc_feats]
     loc_string = ' '.join([str(x) for x in loc_data])
     loc_tokens = [w for w in nltk.word_tokenize(loc_string.lower()) if w not in stopwords]
 
     sent_tokens = [w for w in nltk.word_tokenize(body['sent'].lower()) if w not in stopwords]
     return {'__loc_ovlp__': len([w for w in sent_tokens if w in loc_tokens])}
+
+def any_token_match(body):
+    sent_tokens = [w for w in nltk.word_tokenize(body['sent'].lower()) if w not in stopwords]
+    
+    loc = body['result'].get('location', {})
+    loc_data =  ' '.join([str(x) for x in loc.values()])
+    name = body['result']['name']
+
+    cat = body['result'].get('primaryCategory', {'name':''})
+    cat_type = cat['name']
+    all_string = ' '.join([loc_data, name, cat_type]).lower()
+    all_tokens = [w for w in nltk.word_tokenize(all_string.lower()) if w not in stopwords]
+
+    return {'__any_ovlp__': len([w for w in sent_tokens if w in all_tokens])}
 
 def name_edit_dist(body):
     '''how many tokens in venue name are also in result?
@@ -448,6 +465,18 @@ def is_restaurant(body):
         return {'__restaurant__':1}
     else:
         return {'__restaurant__':0}
+    
+def is_coffee(body):
+    d = body['result']
+    if d.has_key('primaryCategory'):
+        venue_type = d['primaryCategory']['name']
+    else:
+        venue_type = ''
+    if re.findall('coffee', venue_type, re.I):
+        return {'__coffee__':1}
+    else:
+        return {'__coffee__':0}
+
 
 #===============================================================================
 

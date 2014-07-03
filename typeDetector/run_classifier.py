@@ -241,12 +241,14 @@ def combo_classify(args, verbose=False):
                     is_first_result,
                     result_count,
                     result_rank,
-                    #location_token_match,
-                    is_first_result,
                     lat_long_dist,
-                    location_token_match,
                     name_edit_dist,
-                    name_exact_match
+                    name_exact_match,
+                    any_token_match,
+                    is_restaurant,
+                    is_coffee,
+                    any_token_match,
+                    location_token_match
                     ]
     else:
         feat_fsq = read_template(args.template)
