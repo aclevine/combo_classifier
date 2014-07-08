@@ -30,9 +30,25 @@ def sentence_to_dict(input, output):
                 i += 1
         pp.pprint(t_dict) 
         
-        
-        
+def all_false_check(path):
+    with open(path, 'r') as fo:
+        d = json.load(fo)        
+        for key in sorted(d.keys()):
+            venues = d[key]['html']['response']['venues']
+            true = 0
+            for v in venues:
+                if v['correct'] == True:
+                    true = 1
+                    
+            if true != 1:
+                print key
+                
+                
 if __name__ == '__main__':
+    
+    path = 'data/data_new.json'
+    all_false_check(path)
+                
     #===========================================================================
     # path = 'data/data_new.json'
     # with open(path, 'r') as fo:
@@ -46,15 +62,17 @@ if __name__ == '__main__':
     # 
     #===========================================================================
     
-    path = 'data/data_new.json'
-    with open(path, 'r') as fo:
-        data = json.load(fo)
-        old = []
-        for key in sorted(data.keys()):
-            if data[key]['sent'] not in old:
-                print data[key]['sent']
-                print
-                old.append(data[key]['sent'])
+    #===========================================================================
+    # path = 'data/data_new.json'
+    # with open(path, 'r') as fo:
+    #     data = json.load(fo)
+    #     old = []
+    #     for key in sorted(data.keys()):
+    #         if data[key]['sent'] not in old:
+    #             print data[key]['sent']
+    #             print
+    #             old.append(data[key]['sent'])
+    #===========================================================================
             
     #===========================================================================
     # path = 'data/data_new.json'
