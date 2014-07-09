@@ -104,11 +104,6 @@ def add_new_data(old_path, additional_path, new_path):
         i += 1
     json.dump(new, open( new_path, 'w'), indent=4, sort_keys=True)
 
-def tag_false(data_path):
-
-    d = json.load(open(data_path,'w'))
-    
-    #d['html']['']
 
 if __name__ == "__main__":
 
