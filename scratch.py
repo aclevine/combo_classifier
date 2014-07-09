@@ -49,21 +49,49 @@ def multiple_true_check(path, yes_threshold):
         for key in sorted(d.keys()):
             venues = d[key]['html']['response']['venues']
             trigger = 0
+            #print key
             for v in venues:
                 if v['correct'] == True:
                     trigger += 1
                     
             if trigger > yes_threshold:
                 print key
+                
+                
+def add_data(old_path, new_path):
+    '''load data from new_path json file into old_path json file'''
+    final_data = {}
+    i = 0
+    with open(old_path, 'r') as old:
+        old_data = json.load(old)
+        for key in sorted(old_data.keys()):
+            final_data[i] = old_data[key]
+            i += 1
+        old.close()
+    with open(new_path, 'r') as new:
+        new_data = json.load(new)
+        new.close()
+        for key in sorted(new_data.keys()):
+            final_data[i] = new_data[key]
+            i += 1
+        new.close()    
+    with open(old_path, 'w') as fw:
+        json.dump(final_data, fw, indent=4, sort_keys=True)
+
 
 if __name__ == '__main__':
     
-    path = 'data/tmp.json'
+    path = 'data/data_new.json'  
+    with open(path, 'r') as old:
+        old_data = json.load(old)
+        for k in sorted(old_data.keys()):
+            print k
+            x = old_data[k]['lat']
+    #add_data('data/data_new.json', 'data/tmp.json')
+
     #all_false_check(path)
     #multiple_true_check(path, 2)
-    
-    data = json.load
-    json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
+    #data = json.load(open(path, 'r'))
 
     #===========================================================================
     # path = 'data/data_new.json'
