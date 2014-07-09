@@ -35,20 +35,36 @@ def all_false_check(path):
         d = json.load(fo)        
         for key in sorted(d.keys()):
             venues = d[key]['html']['response']['venues']
-            true = 0
+            trigger = 0
             for v in venues:
                 if v['correct'] == True:
-                    true = 1
+                    trigger = 1
                     
-            if true != 1:
+            if trigger != 1:
                 print key
                 
-                
+def multiple_true_check(path, yes_threshold):
+    with open(path, 'r') as fo:
+        d = json.load(fo)        
+        for key in sorted(d.keys()):
+            venues = d[key]['html']['response']['venues']
+            trigger = 0
+            for v in venues:
+                if v['correct'] == True:
+                    trigger += 1
+                    
+            if trigger > yes_threshold:
+                print key
+
 if __name__ == '__main__':
     
-    path = 'data/data_new.json'
-    all_false_check(path)
-                
+    path = 'data/tmp.json'
+    #all_false_check(path)
+    #multiple_true_check(path, 2)
+    
+    data = json.load
+    json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
+
     #===========================================================================
     # path = 'data/data_new.json'
     # with open(path, 'r') as fo:
