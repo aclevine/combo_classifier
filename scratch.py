@@ -80,18 +80,24 @@ def add_data(old_path, new_path):
 
 
 if __name__ == '__main__':
+
+    path = 'data/test_140710.json'
+    data = json.load(open(path, 'r'))
+    json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
+
     
-    path = 'data/data_new.json'  
-    with open(path, 'r') as old:
-        old_data = json.load(old)
-        for k in sorted(old_data.keys()):
-            print k
-            x = old_data[k]['lat']
+    #===========================================================================
+    # path = 'data/data_new.json'  
+    # with open(path, 'r') as old:
+    #     old_data = json.load(old)
+    #     for k in sorted(old_data.keys()):
+    #         print k
+    #         x = old_data[k]['lat']
+    #===========================================================================
     #add_data('data/data_new.json', 'data/tmp.json')
 
     #all_false_check(path)
     #multiple_true_check(path, 2)
-    #data = json.load(open(path, 'r'))
 
     #===========================================================================
     # path = 'data/data_new.json'

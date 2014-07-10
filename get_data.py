@@ -45,8 +45,16 @@ def extract_4sq_data(data_path, lat, long):
                 response = urllib.urlopen(query)            
                 html_text = response.read()
                 html_dict = json.loads(html_text) 
+                #tag venues
+                new_venues = []
+                for v in html_dict["response"]["venues"]:
+                    v["correct"] = False
+                    new_venues.append(v)
+                html_dict["response"]["venues"] = new_venues
                 #move to json
                 data[key]['html'] = html_dict
+                data[key]['lat'] = lat
+                data[key]['long'] = long
             except:
                 continue
         json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
@@ -107,9 +115,12 @@ def add_new_data(old_path, additional_path, new_path):
 
 if __name__ == "__main__":
 
-    path = 'data/tmp.json'   
-    extract_venue_data('data/tmp.txt', path, 0) 
-    extract_4sq_data(path, '42.3581', '-71.0636')
+    path = 'data/test_140710.json'   
+    extract_venue_data('data/venue_san_fran.txt', path, 0) 
+    extract_4sq_data(path, '37.7833', '-122.4167') 
+    #san francisco, ca = '37.7833', '-122.4167'
+    #boston, ma = '42.3581', '-71.0636'
+
 
     #add = json.load(open( path , 'r'))
     #json.dump(add, open( path, 'w'), indent=4, sort_keys=True)
