@@ -121,17 +121,21 @@ def word_classify(args):
     print "#\t" + str(labels)
     clf.add_labels(labels)
     
-    
     train_data = []
     test_data = []
-
-    if train_data == []:
+    if args.test_file:
+        test_c = Corpus(args.test_file)
+        test_data = test_c.word_instances
+        
+    if test_data == []:
         instances = c.word_instances
         if args.randomize:
             random.shuffle(instances)
         split = int(len(instances) * args.split)
         train_data = instances[:split]
         test_data = instances[split:]
+    else:
+        train_data = c.word_instances
     
     print "# Training on %d instances..." % len(train_data),
     ## TRAIN
@@ -167,14 +171,19 @@ def fsq_classify(args):
     
     train_data = []
     test_data = []
-
-    if train_data == []:
+    if args.test_file:
+        test_c = Corpus(args.test_file)
+        test_data = test_c.fsq_instances
+        
+    if test_data == []:
         instances = c.fsq_instances
         if args.randomize:
             random.shuffle(instances)
         split = int(len(instances) * args.split)
         train_data = instances[:split]
         test_data = instances[split:]
+    else:
+        train_data = c.fsq_instances
     
     print "# Training on %d instances..." % len(train_data),
     ## TRAIN
@@ -221,13 +230,19 @@ def combo_classify(args):
     
     train_data = []
     test_data = []
-    if train_data == []:
+    if args.test_file:
+        test_c = Corpus(args.test_file)
+        test_data = test_c.combo_instances
+        
+    if test_data == []:
         instances = c.combo_instances
         if args.randomize:
             random.shuffle(instances)
         split = int(len(instances) * args.split)
         train_data = instances[:split]
         test_data = instances[split:]
+    else:
+        train_data = c.combo_instances
     
     print "# Training on %d instances..." % len(train_data),
     ## TRAIN
@@ -238,7 +253,6 @@ def combo_classify(args):
         if args.verbose:
             print "## word -> venue tagging"
             clf.evaluate(pred, [label(x) for x in test_data])
-
 
     ## FSQ STAGE
     features = []
