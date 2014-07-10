@@ -404,6 +404,7 @@ def location_token_match(body):
     return {'__loc_ovlp__': len([w for w in sent_tokens if w in loc_tokens])}
 
 def any_token_match(body):
+    #print body['sent']
     sent_tokens = [w for w in nltk.word_tokenize(body['sent'].lower()) if w not in stopwords]
     
     loc = body['result'].get('location', {})

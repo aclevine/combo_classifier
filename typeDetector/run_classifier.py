@@ -152,7 +152,8 @@ def fsq_classify(args):
                     result_rank,
                     lat_long_dist,
                     name_edit_dist,
-                    is_restaurant
+                    is_restaurant,
+                    any_token_match
                     ]
     else:
         features = read_template(args.template)

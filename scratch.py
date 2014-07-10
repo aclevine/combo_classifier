@@ -8,6 +8,7 @@ import re
 import pprint
 import json
 import urllib
+import codecs
 
 def venue_count():
     with open('data/venue_sentences.txt', 'r') as fo:
@@ -83,7 +84,10 @@ if __name__ == '__main__':
 
     path = 'data/test_140710.json'
     data = json.load(open(path, 'r'))
-    json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
+    
+    text = open(path, 'r').read()    
+    #json.dumps(text, open(path, 'w'), indent=4, sort_keys=True)
+    #json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
 
     
     #===========================================================================
