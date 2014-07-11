@@ -101,16 +101,18 @@ def word_classify(args):
                     sentence_feats,
                     sentence_feats_stem,
                     stem_feat,
-                    #last_4gram_stem,
-                    #in_stopwords,
-                    #last_tag,
-                    #tag_feat,
-                    #last_bigram,
-                    #first_word,
+                    last_4gram_stem,
+                    in_stopwords,
+                    last_tag,
+                    tag_feat,
+                    first_word,
+                    in_stopwords_last,
+                    go_to_at_in_3,
+                    last_bigram,
+                    last_4gram,
+                    last_trigram,
                     #len_greater_3,
-                    #in_stopwords_last
-                    
-                    #go_to_at_in_3,
+
                     ]
     else:
         features = read_template(args.template)
@@ -208,7 +210,6 @@ def combo_classify(args):
                     bigram_feats_stem,
                     token_feat,
                     len_greater_2,
-                    go_to_at_in_3,
                     sentence_feats,
                     sentence_feats_stem,
                     stem_feat,
@@ -216,10 +217,12 @@ def combo_classify(args):
                     in_stopwords,
                     last_tag,
                     tag_feat,
-                    last_bigram,
                     first_word,
-                    len_greater_3,
-                    in_stopwords_last
+                    in_stopwords_last,
+                    go_to_at_in_3,
+                    last_bigram,
+                    last_4gram,
+                    last_trigram
                     ]
     else:
         features = read_template(args.template)
@@ -265,15 +268,13 @@ def combo_classify(args):
                     result_count,
                     result_rank,
                     lat_long_dist,
-                    name_edit_dist#,
-                    #===========================================================
-                    # name_exact_match,
-                    # any_token_match,
-                    # is_restaurant,
-                    # is_coffee,
-                    # any_token_match,
-                    # location_token_match
-                    #===========================================================
+                    name_edit_dist,
+                    name_exact_match,
+                    any_token_match,
+                    is_restaurant,
+                    is_coffee,
+                    any_token_match,
+                    location_token_match
                     ]
     else:
         feat_fsq = read_template(args.template)

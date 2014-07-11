@@ -42,6 +42,12 @@ stemmer = PorterStemmer()
 #===============================================================================
 
 # FEATURE EXTRACTION
+def last_the(words):
+    if words[-1].lower == 'the':
+        return {'__last_the__': 1}
+    else:
+        return {'__last_the__': 0}
+
 def last_bigram(words):
     return {'__prev2__'+str(words[-2:]): 1}
 
