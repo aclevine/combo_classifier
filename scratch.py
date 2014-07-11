@@ -82,12 +82,20 @@ def add_data(old_path, new_path):
 
 if __name__ == '__main__':
 
-    path = 'data/test_140710.json'
-    data = json.load(open(path, 'r'))
-    
-    text = open(path, 'r').read()    
-    #json.dumps(text, open(path, 'w'), indent=4, sort_keys=True)
-    #json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
+    #if word = venue
+        #1) add to "previous list"
+        #2) search on word
+        #3) 
+
+
+    #===========================================================================
+    # path = 'data/test_140710.json'
+    # data = json.load(open(path, 'r'))
+    # 
+    # text = open(path, 'r').read()    
+    # #json.dumps(text, open(path, 'w'), indent=4, sort_keys=True)
+    # #json.dump(data, open(path, 'w'), indent=4, sort_keys=True)
+    #===========================================================================
 
     
     #===========================================================================
