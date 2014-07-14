@@ -124,7 +124,7 @@ class Corpus(object):
                     fsq_results = d['html']['response']['venues']
                     for idx, v in enumerate(fsq_results):
                         # format data
-                        sent = ' '.join(tokens + previous + [tok])
+                        sent = ' '.join(tokens + ['BREAK'] + previous + [tok])
                         body = {'sent':sent, 'result_rank':idx+1, 'result': v, 
                                 'count': d['html']['response']['count'], 'request': d['venueName'],
                                 'lat':d['lat'],'long':d['long']}
