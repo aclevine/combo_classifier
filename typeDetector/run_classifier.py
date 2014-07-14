@@ -238,17 +238,26 @@ def combo_classify(args):
     test_data = []
     if args.test_file:
         test_c = Corpus(args.test_file)
-        test_data = test_c.combo_instances
-        
+        if not args.alt:
+            test_data = test_c.combo_instances
+        else:
+            test_data = test_c.alt_instances
+
     if test_data == []:
-        instances = c.combo_instances
+        if not args.alt:
+            instances = c.combo_instances
+        else:
+            instances = c.alt_instances
         if args.randomize:
             random.shuffle(instances)
         split = int(len(instances) * args.split)
         train_data = instances[:split]
         test_data = instances[split:]
     else:
-        train_data = c.combo_instances
+        if not args.alt:
+            train_data = c.combo_instances
+        else:
+            train_data = c.alt_instances
     
     print "# Training on %d instances..." % len(train_data),
     ## TRAIN
@@ -308,69 +317,7 @@ def combo_classify(args):
     
     print "## combo tagging"
     clf_fsq.evaluate(pred_final, [label(x) for x in test_data_fsq])
-         
-    
-def alt_combo_classify(args):
-    ## WORD STAGE
-    features = []
-    if args.template is None:
-        features = [
-                    last_bigram_stem,
-                    last_trigram_stem,
-                    title_case,
-                    bigram_feats_stem,
-                    token_feat,
-                    len_greater_2,
-                    sentence_feats,
-                    sentence_feats_stem,
-                    stem_feat,
-                    last_4gram_stem,
-                    in_stopwords,
-                    last_tag,
-                    tag_feat,
-                    first_word,
-                    in_stopwords_last,
-                    go_to_at_in_3,
-                    last_bigram,
-                    last_4gram,
-                    last_trigram
-                    ]
-    else:
-        features = read_template(args.template)
-    clf = SKClassifier(LogisticRegression(), features)
-    print "# Reading corpus at %s..." % args.corpus
-    c = Corpus(args.corpus) ## LOAD INSTANCES
-    labels = ['yes', 'no']
-    print "# Found %d labels: " % len(labels)
-    print "#\t" + str(labels)
-    clf.add_labels(labels)
-    
-    train_data = []
-    test_data = []
-    if args.test_file:
-        test_c = Corpus(args.test_file)
-        test_data = test_c.combo_instances
-        
-    if test_data == []:
-        instances = c.combo_instances
-        if args.randomize:
-            random.shuffle(instances)
-        split = int(len(instances) * args.split)
-        train_data = instances[:split]
-        test_data = instances[split:]
-    else:
-        train_data = c.combo_instances
-    
-    print "# Training on %d instances..." % len(train_data),
-    ## TRAIN
-    clf.train(train_data)
-    # TEST
-    if test_data != []:
-        pred = clf.classify(test_data)
-        if args.verbose:
-            print "## word -> venue tagging"
-            clf.evaluate(pred, [label(x) for x in test_data])
-    return
+
 
 def classify_from_console():
     ''' parse arguments from console, 
@@ -402,7 +349,9 @@ def classify_from_console():
                         help="word = test classifying words as venues\
                             fsq = test classifying 4-square search results as matches or not\
                             combo = classify word, than classify search results from word")
-            
+    parser.add_argument('--alt', action='store_true', 
+                        help="If included, give classifier access to full sentence (model constant checking of new tokens)")        
+
     args = parser.parse_args()
     
     if args.type == 'word':

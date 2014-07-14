@@ -27,10 +27,12 @@ class Corpus(object):
         self.word_instances = []
         self.fsq_instances = []
         self.combo_instances = []
+        self.alt_instances = []
 
         self.load_word_test_data()
         self.load_fsq_test_data()
         self.load_combo_test_data()
+        self.load_alt_combo_test_data()
 
     def load_word_test_data(self):
         '''convert sentences into basic token features for additional feature extraction and testing'''        
@@ -103,6 +105,40 @@ class Corpus(object):
                     venue_tag = 'no'
                     inst =  (word_tag, tok, sent, venue_tag, body)
                     self.combo_instances.append(inst)
+                previous = previous + [tok]
+
+
+    def load_alt_combo_test_data(self):
+        for key in self.dict_data.keys():
+            d = self.dict_data[key]
+            # LOAD SENT
+            sent = d['sent'].encode('utf-8')
+            old_sent = new_to_old_tags(sent)
+            tokens = nltk.word_tokenize(old_sent) 
+            previous = ['<START_1>','<START_2>']            
+            for tok in tokens:
+                word_tag = 'no'
+                if tok.endswith('|venue'):
+                    tok = re.sub(r'\|venue', '', tok)      
+                    word_tag = 'yes'
+                    fsq_results = d['html']['response']['venues']
+                    for idx, v in enumerate(fsq_results):
+                        # format data
+                        sent = ' '.join(tokens + previous + [tok])
+                        body = {'sent':sent, 'result_rank':idx+1, 'result': v, 
+                                'count': d['html']['response']['count'], 'request': d['venueName'],
+                                'lat':d['lat'],'long':d['long']}
+                        if v['correct']:
+                            venue_tag = 'yes'
+                        inst =  (word_tag, tok, sent, venue_tag, body)
+                        self.alt_instances.append(inst)
+                else:
+                    body = {'sent':'', 'result_rank':21, 'count':0, 'request': d['venueName'],
+                            'lat':d['lat'],'long':d['long'],
+                            'result':{'name':'','location':{'lat':0, 'lng':0 }}}
+                    venue_tag = 'no'
+                    inst =  (word_tag, tok, sent, venue_tag, body)
+                    self.alt_instances.append(inst)
                 previous = previous + [tok]
 
 
