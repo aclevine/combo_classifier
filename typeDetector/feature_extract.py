@@ -48,6 +48,7 @@ def last_the(words):
     else:
         return {'__last_the__': 0}
 
+
 def last_bigram(words):
     return {'__prev2__'+str(words[-2:]): 1}
 
